@@ -84,6 +84,76 @@
     Scrap: 75
     Wood: 25
 
+
+- type: latheRecipe
+  id: N14BPLegionWeaponShotgunSawedOff
+  result: N14WeaponShotgunSawedOff
+  category: N14BlueprintLegionWeaponsT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    N14Iron: 150
+    Scrap: 125
+    Wood: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponShotgunLever
+  result: N14WeaponShotgunLever
+  category: N14BlueprintLegionWeaponsT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 125
+    N14Iron: 100
+    Wood: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponSMG9mm
+  result: N14WeaponSMG9mm
+  category: N14BlueprintLegionWeaponsT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 150
+    N14Iron: 100
+    Scrap: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponSMG12mmPipe
+  result: N14WeaponSMG12mmPipe
+  category: N14BlueprintLegionWeaponsT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Scrap: 150
+    ScrapSteel: 100
+    Wood: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponGladius
+  result: N14Gladius
+  category: N14BlueprintLegionWeaponsT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    N14Iron: 125
+    Steel: 75
+    Leather: 75
+
 # --- Legion Tier 2 Weapons (Legionnaire grade) ---
 
 - type: latheRecipe
@@ -145,7 +215,7 @@
 - type: latheRecipe
   id: N14BPLegionWeaponRevolver44TribalUpgraded
   result: N14WeaponRevolver44TribalUpgraded
-  category: N14BlueprintLegionWeaponsT2
+  category: N14BlueprintLegionWeaponsT1
   completetime: 7
   requiresBlueprint: true
   availableFaction:
@@ -196,6 +266,78 @@
     Wood: 125
     N14Iron: 100
     Leather: 25
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponSniper308Ross
+  result: N14WeaponSniper308Ross
+  category: N14BlueprintLegionWeaponsT2
+  completetime: 9
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 300
+    N14Iron: 200
+    Wood: 100
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponSniper308Tribal
+  result: N14WeaponSniper308Tribal
+  category: N14BlueprintLegionWeaponsT2
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Wood: 150
+    N14Iron: 150
+    Leather: 75
+    Scrap: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponSMG10mm
+  result: N14WeaponSMG10mm
+  category: N14BlueprintLegionWeaponsT2
+  completetime: 7
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 250
+    N14Iron: 125
+    Scrap: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponBlowback
+  result: N14WeaponBlowback
+  category: N14BlueprintLegionWeaponsT2
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 250
+    N14Iron: 150
+    Wood: 75
+    Scrap: 100
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponMacheteGladius
+  result: N14MacheteGladius
+  category: N14BlueprintLegionWeaponsT2
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 250
+    N14Iron: 175
+    Leather: 100
 
 # --- Legion Tier 3 Weapons (Veteran grade) ---
 
@@ -259,7 +401,7 @@
 - type: latheRecipe
   id: N14BPLegionWeaponRevolver44TribalExtra
   result: N14WeaponRevolver44TribalUpgradedExtra
-  category: N14BlueprintLegionWeaponsT3
+  category: N14BlueprintLegionWeaponsT2
   completetime: 10
   requiresBlueprint: true
   availableFaction:
@@ -302,7 +444,7 @@
 - type: latheRecipe
   id: N14BPLegionWeaponBaseballBat
   result: N14BaseBallBat
-  category: N14BlueprintLegionWeaponsT3
+  category: N14BlueprintLegionWeaponsT2
   completetime: 5
   requiresBlueprint: true
   availableFaction:
@@ -310,6 +452,65 @@
   materials:
     Wood: 200
     Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponShotgunCanadian
+  result: N14WeaponShotgunCanadian
+  category: N14BlueprintLegionWeaponsT3
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 375
+    N14Iron: 225
+    Wood: 125
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponSMG12mm
+  result: N14WeaponSMG12mm
+  category: N14BlueprintLegionWeaponsT3
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 350
+    N14Iron: 175
+    Scrap: 100
+    N14Brass: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponSniper308TribalUpgraded
+  result: N14WeaponSniper308TribalUpgraded
+  category: N14BlueprintLegionWeaponsT3
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 275
+    N14Iron: 200
+    Wood: 100
+    Leather: 100
+
+
+- type: latheRecipe
+  id: N14BPLegionWeaponKebab
+  result: N14WeaponKebab
+  category: N14BlueprintLegionWeaponsT3
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 300
+    N14Iron: 225
+    Leather: 125
+    N14Gold: 25
 
 # --- Legion Tier 4 Weapons (Legate's elite) ---
 
@@ -346,7 +547,7 @@
 - type: latheRecipe
   id: N14BPLegionWeaponHandcannonUpgraded
   result: N14WeaponRevolver45-70HandcannonUpgraded
-  category: N14BlueprintLegionWeaponsT4
+  category: N14BlueprintLegionWeaponsT3
   completetime: 14
   requiresBlueprint: true
   availableFaction:
@@ -402,6 +603,22 @@
     Circuitry: 150
     ScrapElectronic: 100
 
+
+- type: latheRecipe
+  id: N14BPLegionWeaponThermospear
+  result: N14WeaponThermospear
+  category: N14BlueprintLegionWeaponsT4
+  completetime: 16
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 500
+    N14Iron: 300
+    N14Brass: 150
+    Leather: 100
+    N14Gold: 50
+
 # =====================================================================
 # CAESAR'S LEGION ARMOR RECIPES
 # =====================================================================
@@ -435,12 +652,10 @@
 #     Cloth: 75
 #     Thread: 50
 
-# --- Legion Tier 2 Armor ---
-
 - type: latheRecipe
   id: N14BPLegionArmorBaseArmor
   result: N14ClothingOuterLegionnaireBaseArmor
-  category: N14BlueprintLegionArmorT2
+  category: N14BlueprintLegionArmorT1
   completetime: 8
   requiresBlueprint: true
   availableFaction:
@@ -451,6 +666,266 @@
     Thread: 100
     N14Iron: 75
 
+
+- type: latheRecipe
+  id: N14BPLegionArmorShoesKaligi
+  result: N14ClothingShoesKaligi
+  category: N14BlueprintLegionArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 75
+    Cloth: 50
+    Thread: 25
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorShoesTribal
+  result: N14ClothingShoesTribal
+  category: N14BlueprintLegionArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 75
+    Cloth: 50
+    Thread: 25
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHandsGlovesTribal
+  result: N14ClothingHandsGlovesTribal
+  category: N14BlueprintLegionArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 75
+    Cloth: 50
+    Thread: 25
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorLegionnaireBuckler
+  result: N14LegionnaireBuckler
+  category: N14BlueprintLegionArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Wood: 125
+    N14Iron: 75
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorLegionnaireShield
+  result: N14LegionnaireShield
+  category: N14BlueprintLegionArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Wood: 150
+    N14Iron: 100
+    Leather: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorUniformJumpsuitLegionnaire
+  result: N14ClothingUniformJumpsuitLegionnaire
+  category: N14BlueprintLegionArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Cloth: 125
+    Thread: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorUniformJumpsuitLegionnaireOther
+  result: N14ClothingUniformJumpsuitLegionnaireOther
+  category: N14BlueprintLegionArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Cloth: 125
+    Thread: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatVenator
+  result: N14ClothingHeadHatVenator
+  category: N14BlueprintLegionArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 125
+    Thread: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorTriariumArmor
+  result: N14ClothingOuterLegionnaireTriariumArmor
+  category: N14BlueprintLegionArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 175
+    Cloth: 125
+    Thread: 75
+    N14Iron: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorNeckLegionMantle
+  result: M14ClothingNeckLegionMantle
+  category: N14BlueprintLegionArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Cloth: 100
+    Thread: 75
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorNeckCapeLegion
+  result: N14ClothingNeckCapeLegion
+  category: N14BlueprintLegionArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Cloth: 125
+    Thread: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorNeckCapeLegionSagum
+  result: N14ClothingNeckCapeLegionSagum
+  category: N14BlueprintLegionArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Cloth: 125
+    Thread: 100
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorBeltQuiverSpear
+  result: ClothingBeltQuiverSpear
+  category: N14BlueprintLegionArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 75
+    N14Iron: 50
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorBeltRope
+  result: ClothingBeltRope
+  category: N14BlueprintLegionArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Thread: 100
+    Cloth: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatAnimal
+  result: N14ClothingHeadHatAnimal
+  category: N14BlueprintLegionArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 125
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatNightstalker
+  result: N14ClothingHeadHatNightstalker
+  category: N14BlueprintLegionArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 150
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatLightBaseballHelmet
+  result: N14ClothingHeadHatLightBaseballHelmet
+  category: N14BlueprintLegionArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    N14Iron: 75
+    Leather: 100
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatDog
+  result: N14ClothingHeadHatDog
+  category: N14BlueprintLegionArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 125
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatTriarium
+  result: N14ClothingHeadHatTriarium
+  category: N14BlueprintLegionArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 125
+    Cloth: 75
+    Thread: 50
+
+# --- Legion Tier 2 Armor ---
 
 - type: latheRecipe
   id: N14BPLegionArmorVexillariusArmor
@@ -465,6 +940,140 @@
     Cloth: 175
     Thread: 125
     N14Iron: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorArmorGastat
+  result: N14ClothingOuterLegionnaireArmorGastat
+  category: N14BlueprintLegionArmorT2
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 250
+    Cloth: 175
+    Thread: 125
+    N14Iron: 100
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorArmorPrimeGastat
+  result: N14ClothingOuterLegionnaireArmorPrimeGastat
+  category: N14BlueprintLegionArmorT2
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 250
+    Cloth: 175
+    Thread: 125
+    N14Iron: 100
+    N14Gold: 25
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorVeteranArmorVeteranGastat
+  result: N14ClothingOuterLegionnaireVeteranArmorVeteranGastat
+  category: N14BlueprintLegionArmorT2
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 150
+    Leather: 275
+    Cloth: 200
+    Thread: 150
+    N14Iron: 100
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatBaseballHelmet
+  result: N14ClothingHeadHatBaseballHelmet
+  category: N14BlueprintLegionArmorT2
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 100
+    N14Iron: 75
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatGastatVeteran
+  result: N14ClothingHeadHatGastatVeteran
+  category: N14BlueprintLegionArmorT2
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 175
+    N14Iron: 100
+    Leather: 100
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatGastat
+  result: N14ClothingHeadHatGastat
+  category: N14BlueprintLegionArmorT2
+  completetime: 7
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 150
+    N14Iron: 100
+    Leather: 100
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatPrinceps
+  result: N14ClothingHeadHatPrinceps
+  category: N14BlueprintLegionArmorT2
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 175
+    N14Iron: 125
+    Leather: 75
+    N14Gold: 25
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatPrincepsPrime
+  result: N14ClothingHeadHatPrincepsPrime
+  category: N14BlueprintLegionArmorT2
+  completetime: 9
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 200
+    N14Iron: 125
+    Leather: 75
+    N14Gold: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatPrimeAssasin
+  result: N14ClothingHeadHatPrimeAssasin
+  category: N14BlueprintLegionArmorT2
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 175
+    Cloth: 125
+    Thread: 50
+    Steel: 100
 
 # Reference N14ClothingLegionReconArmor does not exist locally; disabled.
 # - type: latheRecipe
@@ -530,18 +1139,111 @@
 
 
 - type: latheRecipe
-  id: N14BPLegionArmorReconnaissanceArmor
-  result: N14ClothingOuterLegionnaireReconnaissanceArmor
+  id: N14BPLegionArmorDeanVeteranArmor
+  result: N14ClothingOuterDeanLegionnaireVeteranArmor
+  category: N14BlueprintLegionArmorT3
+  completetime: 18
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 500
+    Leather: 350
+    Cloth: 300
+    Thread: 200
+    N14Iron: 200
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatDeanVeteranHelmet
+  result: N14ClothingHeadHatDeanVeteranHelmet
+  category: N14BlueprintLegionArmorT3
+  completetime: 12
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 300
+    Leather: 200
+    Cloth: 150
+    Thread: 100
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatDeanPrimeHelmet
+  result: N14ClothingHeadHatDeanPrimeHelmet
+  category: N14BlueprintLegionArmorT3
+  completetime: 13
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 350
+    N14Iron: 150
+    Leather: 200
+    Cloth: 150
+    N14Gold: 25
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorHeadHatDeanRecruitHelmet
+  result: N14ClothingHeadHatDeanRecruitHelmet
   category: N14BlueprintLegionArmorT3
   completetime: 11
   requiresBlueprint: true
   availableFaction:
   - CaesarLegion
   materials:
-    Leather: 275
-    Cloth: 200
+    Steel: 250
+    Leather: 200
+    Cloth: 150
+    Thread: 100
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorPrincepsPrimeArmor
+  result: N14ClothingOuterLegionnairePrincepsPrimeArmor
+  category: N14BlueprintLegionArmorT3
+  completetime: 15
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 400
+    N14Gold: 50
+    Leather: 300
+    Cloth: 225
     Thread: 150
-    N14Iron: 75
+    N14Iron: 150
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorDuster
+  result: N14ClothingOuterLegionnaireDuster
+  category: N14BlueprintLegionArmorT3
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 300
+    Cloth: 200
+    Thread: 125
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorLightReconnaissanceArmor
+  result: N14ClothingOuterLegionnaireLightReconnaissanceArmor
+  category: N14BlueprintLegionArmorT3
+  completetime: 12
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 275
+    Cloth: 225
+    Thread: 150
+    N14Iron: 100
 
 # --- Legion Tier 4 Armor ---
 
@@ -562,19 +1264,145 @@
 
 
 - type: latheRecipe
-  id: N14BPLegionArmorDeanVeteranArmor
-  result: N14ClothingOuterDeanLegionnaireVeteranArmor
+  id: N14BPLegionArmorReconnaissanceArmor
+  result: N14ClothingOuterLegionnaireReconnaissanceArmor
+  category: N14BlueprintLegionArmorT4
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Leather: 275
+    Cloth: 200
+    Thread: 150
+    N14Iron: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorAssassinPrimeArmor
+  result: N14ClothingOuterLegionnaireAssassinPrimeArmor
+  category: N14BlueprintLegionArmorT4
+  completetime: 20
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 700
+    N14Iron: 250
+    Leather: 350
+    Cloth: 225
+    Thread: 150
+    N14Gold: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorAssassinArmor
+  result: N14ClothingOuterLegionnaireAssassinArmor
   category: N14BlueprintLegionArmorT4
   completetime: 18
   requiresBlueprint: true
   availableFaction:
   - CaesarLegion
   materials:
-    Steel: 500
-    Leather: 350
-    Cloth: 300
-    Thread: 200
+    Steel: 600
     N14Iron: 200
+    Leather: 300
+    Cloth: 200
+    Thread: 150
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorCenturionHelmet
+  result: N14ClothingHeadHatCenturionHelmet
+  category: N14BlueprintLegionArmorT4
+  completetime: 14
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 500
+    N14Iron: 250
+    Leather: 200
+    N14Gold: 25
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorGlovesCenturion
+  result: N14ClothingHandsGlovesCenturion
+  category: N14BlueprintLegionArmorT4
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 250
+    Leather: 150
+    Cloth: 100
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorConquerorCenturionArmor
+  result: N14ClothingOuterConquerorCenturionArmor
+  category: N14BlueprintLegionArmorT4
+  completetime: 25
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 850
+    N14Iron: 300
+    Leather: 400
+    Cloth: 250
+    Thread: 200
+    N14Gold: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorCinderCenturionArmor
+  result: N14ClothingOuterCinderCenturionArmor
+  category: N14BlueprintLegionArmorT4
+  completetime: 25
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 850
+    N14Iron: 300
+    Leather: 400
+    Cloth: 250
+    Thread: 200
+    N14Gold: 75
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorCenturionConquerorHelmet
+  result: N14ClothingHeadHatCenturionConquerorHelmet
+  category: N14BlueprintLegionArmorT4
+  completetime: 16
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 550
+    N14Iron: 275
+    Leather: 200
+    N14Gold: 50
+
+
+- type: latheRecipe
+  id: N14BPLegionArmorCenturionCinderHelmet
+  result: N14ClothingHeadHatCenturionCinderHelmet
+  category: N14BlueprintLegionArmorT4
+  completetime: 16
+  requiresBlueprint: true
+  availableFaction:
+  - CaesarLegion
+  materials:
+    Steel: 550
+    N14Iron: 275
+    Leather: 200
+    N14Gold: 50
 
 
 - type: latheRecipe

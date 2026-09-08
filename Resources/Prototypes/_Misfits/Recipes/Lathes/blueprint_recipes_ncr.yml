@@ -137,6 +137,19 @@
 # --- NCR Tier 2 Weapons (Standard military issue) ---
 
 - type: latheRecipe
+  id: N14BPNCRWeaponSniper44LeverCarbine
+  result: N14WeaponSniper44LeverCarbine
+  category: N14BlueprintNCRWeaponsT2
+  completetime: 9
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 200
+    Wood: 150
+    N14Iron: 75
+
+- type: latheRecipe
   id: N14BPNCRWeaponPistol45Colt
   result: N14WeaponPistol45Colt
   category: N14BlueprintNCRWeaponsT2
@@ -654,7 +667,7 @@
 - type: latheRecipe
   id: N14BPNCRArmorCombatArmor
   result: N14ClothingOuterNCRCombatArmor
-  category: N14BlueprintNCRArmorT3
+  category: N14BlueprintNCRArmorT2
   completetime: 15
   requiresBlueprint: true
   availableFaction:
@@ -669,7 +682,7 @@
 - type: latheRecipe
   id: N14BPNCRArmorRangerVest
   result: N14ClothingOuterRangerVest
-  category: N14BlueprintNCRArmorT3
+  category: N14BlueprintNCRArmorT2
   completetime: 12
   requiresBlueprint: true
   availableFaction:
@@ -685,7 +698,7 @@
 - type: latheRecipe
   id: N14BPNCRArmorRangerCoat
   result: N14ClothingOuterRangerCoat
-  category: N14BlueprintNCRArmorT3
+  category: N14BlueprintNCRArmorT2
   completetime: 14
   requiresBlueprint: true
   availableFaction:
@@ -717,7 +730,7 @@
 - type: latheRecipe
   id: N14BPNCRArmorCombatArmorMK2
   result: N14ClothingOuterNCRCombatArmorMK2
-  category: N14BlueprintNCRArmorT4
+  category: N14BlueprintNCRArmorT3
   completetime: 20
   requiresBlueprint: true
   availableFaction:
@@ -778,6 +791,929 @@
     Circuitry: 200
     ScrapElectronic: 150
     N14Brass: 100
+
+# --- NCR Tier 1 Armor (expanded: uniforms, cloaks, belts, helmets) ---
+
+- type: latheRecipe
+  id: N14BPNCRArmorNeckNCRMPCoat
+  result: N14ClothingNeckNCRMPCoat
+  category: N14BlueprintNCRArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 200
+    Thread: 150
+    Leather: 75
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCloakNCRWoods
+  result: N14ClothingNeckCloakNCRWoods
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 120
+    Thread: 80
+    Leather: 60
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCloakNCR
+  result: N14ClothingNeckCloakNCR
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 120
+    Thread: 80
+    Leather: 60
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCloakNCRSnow
+  result: N14ClothingNeckCloakNCRSnow
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 120
+    Thread: 80
+    Leather: 60
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorShoulderPadNCR
+  result: N14ClothingNeckNCRShoulderPad
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 100
+    Thread: 60
+    Leather: 40
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorMantleNCR
+  result: N14ClothingNeckMantleNCR
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 120
+    Thread: 80
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorShoulderPadFlagNCR
+  result: N14ClothingNeckNCRShoulderPadFlag
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 100
+    Thread: 60
+    Leather: 40
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBeltHarnessNCR
+  result: ClothingBeltNCRHarness
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 100
+    Thread: 50
+    N14Iron: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBeltBandolierNCR
+  result: ClothingBeltNCRBandolier
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 120
+    Cloth: 60
+    Thread: 40
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBeltPouchesNCR
+  result: ClothingBeltNCRPouches
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 100
+    Thread: 60
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBeltNCR
+  result: ClothingBeltNCR
+  category: N14BlueprintNCRArmorT1
+  completetime: 2
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 80
+    Thread: 40
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCloakTentHoodNCR
+  result: N14ClothingNeckCloakTentHoodNCR
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 120
+    Thread: 80
+    Leather: 40
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorVestpaddedWeb
+  result: N14ClothingOuterNCRVestpaddedWeb
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+    Leather: 75
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorVestpaddedWebSnow
+  result: N14ClothingOuterNCRVestpaddedWebSnow
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+    Leather: 75
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorVestNCR
+  result: N14ClothingOuterNCRVest
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+    Leather: 75
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHelmetNCR
+  result: N14ClothingHeadHatNCRHelmet
+  category: N14BlueprintNCRArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 100
+    Thread: 80
+    Steel: 75
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHelmetNCRSnow
+  result: N14ClothingHeadHatNCRHelmetSnow
+  category: N14BlueprintNCRArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 100
+    Thread: 80
+    Steel: 75
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorVestCoatBlack
+  result: N14ClothingOuterNCRVestCoatBlack
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 180
+    Thread: 120
+    Leather: 75
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorMPArmorWest
+  result: N14ClothingOuterNCRMPArmorWest
+  category: N14BlueprintNCRArmorT1
+  completetime: 7
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 180
+    Thread: 120
+    Leather: 100
+    Steel: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorTrenchCoatNCR
+  result: N14ClothingOuterNCRTrenchCoat
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 200
+    Thread: 150
+    Leather: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHelmetMetalMP
+  result: N14ClothingHeadHatNCRHelmetMetalMilitaryPolice
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 150
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHelmetMetalMedic
+  result: N14ClothingHeadHatNCRHelmetMetalMedic
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 120
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHelmetMetalWoods
+  result: N14ClothingHeadHatNCRHelmetMetalWoods
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 120
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHelmetMetalSnow
+  result: N14ClothingHeadHatNCRHelmetMetalSnow
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 120
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHelmetMetalGhillie
+  result: N14ClothingHeadHatNCRHelmetMetalGhillie
+  category: N14BlueprintNCRArmorT1
+  completetime: 7
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 120
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCloakGhillie
+  result: N14ClothingNeckCloakGhillie
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 120
+    Thread: 80
+    Leather: 60
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBootsLeather
+  result: N14ClothingBootsLeather
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 150
+    Thread: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorUniformNCR
+  result: N14ClothingUniformNCR
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorUniformNCRSnow
+  result: N14ClothingUniformNCRSnow
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorUniformMPNCRDesert
+  result: N14ClothingMPUniformNCRDesert
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorUniformMPNCRSnow
+  result: N14ClothingMPUniformNCRSnow
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorUniformOfficerNCRDesert
+  result: N14ClothingOfficerUniformNCRDesert
+  category: N14BlueprintNCRArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 160
+    Thread: 110
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorUniformJumpsuitNCRMP
+  result: N14ClothingUniformJumpsuitNCRMP
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorUniformOfficerNCRSnow
+  result: N14ClothingOfficerUniformNCRSnow
+  category: N14BlueprintNCRArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 160
+    Thread: 110
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorUniformNCRCF
+  result: N14ClothingUniformNCRCFUniform
+  category: N14BlueprintNCRArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 160
+    Thread: 110
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCorrectionalNCR
+  result: N14ClothingOuterNCRCorrectional
+  category: N14BlueprintNCRArmorT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+    Leather: 75
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBackpackNCR
+  result: N14ClothingBackpackNCR
+  category: N14BlueprintNCRArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 150
+    Thread: 100
+    Leather: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBackpackSatchelNCR
+  result: N14ClothingBackpackSatchelNCR
+  category: N14BlueprintNCRArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 100
+    Thread: 60
+    Leather: 80
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCapNCRMP
+  result: N14ClothingHeadHatNCRMPCap
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 80
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorSidecapNCR
+  result: N14ClothingHeadHatNCRSidecap
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 80
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBeretNCRMedic
+  result: N14ClothingHeadHatNCRBeretMedic
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBeretNCROfficer
+  result: N14ClothingHeadHatNCRBeretOfficer
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorGlovesNCR
+  result: N14ClothingHandsGlovesNCR
+  category: N14BlueprintNCRArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Cloth: 75
+    Thread: 50
+    Leather: 50
+
+# --- NCR Tier 2 Armor (expanded) ---
+
+- type: latheRecipe
+  id: N14BPNCRArmorMaskPlate
+  result: N14ClothingMaskPlate
+  category: N14BlueprintNCRArmorT2
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 75
+    Cloth: 50
+    Thread: 30
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorRangerArmor
+  result: N14ClothingOuterRangerArmor
+  category: N14BlueprintNCRArmorT2
+  completetime: 12
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 300
+    Cloth: 250
+    Thread: 175
+    Steel: 150
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorVeteranArmorSnow
+  result: N14ClothingOuterNCRVeteranArmorSnow
+  category: N14BlueprintNCRArmorT2
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 300
+    Cloth: 250
+    Thread: 175
+    Leather: 150
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorVeteranArmor
+  result: N14ClothingOuterNCRVeteranArmor
+  category: N14BlueprintNCRArmorT2
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 300
+    Cloth: 250
+    Thread: 175
+    Leather: 150
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCombatArmorSnow
+  result: N14ClothingOuterNCRCombatArmorSnow
+  category: N14BlueprintNCRArmorT2
+  completetime: 15
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 400
+    Cloth: 300
+    Thread: 200
+    Leather: 150
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorRangerArmorOld
+  result: N14ClothingOuterRangerArmorOld
+  category: N14BlueprintNCRArmorT2
+  completetime: 12
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 300
+    Cloth: 250
+    Thread: 175
+    Steel: 150
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorBackpackRadioNCR
+  result: N14ClothingBackpackRadioNCR
+  category: N14BlueprintNCRArmorT2
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 100
+    Cloth: 150
+    Thread: 100
+    Circuitry: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHeadHatRangerB
+  result: N14ClothingHeadHatRangerB
+  category: N14BlueprintNCRArmorT2
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 100
+    Cloth: 60
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHeadHatRanger
+  result: N14ClothingHeadHatRanger
+  category: N14BlueprintNCRArmorT2
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 100
+    Cloth: 60
+    Thread: 50
+
+# --- NCR Tier 3 Armor (expanded) ---
+
+- type: latheRecipe
+  id: N14BPNCRArmorRangerArmorB
+  result: N14ClothingOuterRangerArmorB
+  category: N14BlueprintNCRArmorT3
+  completetime: 15
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 350
+    Cloth: 275
+    Thread: 200
+    Steel: 175
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorRangerRedwood
+  result: N14ClothingOuterRangerRedwood
+  category: N14BlueprintNCRArmorT3
+  completetime: 15
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 350
+    Cloth: 275
+    Thread: 200
+    Steel: 175
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorRangerCoyote
+  result: N14ClothingOuterRangerCoyote
+  category: N14BlueprintNCRArmorT3
+  completetime: 15
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 350
+    Cloth: 275
+    Thread: 200
+    Steel: 175
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorRangerScorpion
+  result: N14ClothingOuterRangerScorpion
+  category: N14BlueprintNCRArmorT3
+  completetime: 15
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Leather: 350
+    Cloth: 275
+    Thread: 200
+    Steel: 175
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCombatArmorMK2Snow
+  result: N14ClothingOuterNCRCombatArmorMK2Snow
+  category: N14BlueprintNCRArmorT3
+  completetime: 20
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 700
+    Cloth: 400
+    Thread: 250
+    Leather: 200
+    Circuitry: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCombatVeteranArmorSnow
+  result: N14ClothingOuterNCRCombatVeteranArmorSnow
+  category: N14BlueprintNCRArmorT3
+  completetime: 17
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 550
+    Cloth: 350
+    Thread: 225
+    Leather: 175
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCombatVeteranArmor
+  result: N14ClothingOuterNCRCombatVeteranArmor
+  category: N14BlueprintNCRArmorT3
+  completetime: 17
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 550
+    Cloth: 350
+    Thread: 225
+    Leather: 175
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCombatHelmet
+  result: N14ClothingHeadHatNCRCombatHelmet
+  category: N14BlueprintNCRArmorT3
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 250
+    Cloth: 100
+    Thread: 75
+    Glass: 75
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorCombatHelmetSnow
+  result: N14ClothingHeadHatNCRCombatHelmetSnow
+  category: N14BlueprintNCRArmorT3
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 250
+    Cloth: 100
+    Thread: 75
+    Glass: 75
+
+# --- NCR Tier 4 Armor (expanded) ---
+
+- type: latheRecipe
+  id: N14BPNCRArmorPowerArmorT45NCR
+  result: N14ClothingOuterPowerArmorT45NCR
+  category: N14BlueprintNCRArmorT4
+  completetime: 28
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 1200
+    N14Iron: 500
+    Circuitry: 150
+    ScrapElectronic: 100
+    N14Brass: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorRangerCombatDesert
+  result: N14ClothingOuterRangerCombatDesert
+  category: N14BlueprintNCRArmorT4
+  completetime: 20
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 600
+    Leather: 400
+    Cloth: 350
+    Thread: 250
+    N14Iron: 100
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorEyesNCRNVGs
+  result: N14ClothingEyesNCRNVGs
+  category: N14BlueprintNCRArmorT4
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 100
+    Glass: 100
+    Circuitry: 100
+    ScrapElectronic: 50
+
+
+- type: latheRecipe
+  id: N14BPNCRArmorHeadsetNCR
+  result: N14ClothingHeadsetNCR
+  category: N14BlueprintNCRArmorT4
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - NCR
+  materials:
+    Steel: 75
+    N14Brass: 75
+    Circuitry: 75
 
 # =====================================================================
 # NCR AMMO RECIPES

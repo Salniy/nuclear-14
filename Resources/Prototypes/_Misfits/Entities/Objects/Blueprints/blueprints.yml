@@ -42,14 +42,12 @@
     recipes:
     - N14BPNCRWeaponPistol9mm
     - N14BPNCRWeaponPistol10mm
-    - N14BPNCRWeaponPistol22lr
-    - N14BPNCRWeaponRevolver9mm
-    - N14BPNCRWeaponRevolver10mm
     - N14BPNCRWeaponSniperHunting
     - N14BPNCRWeaponSniperEnfield
     - N14BPNCRWeaponShotgun
     - N14BPNCRWeaponShotgunLever
-    - N14BPNCRWeaponSniper556Varmint
+    - N14BPNCRWeaponRifle556Service
+    - N14BPNCRWeaponSMG9mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -62,16 +60,15 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRWeaponPistol45Colt
-    - N14BPNCRWeaponRifle556Service
     - N14BPNCRWeaponRifle556ServiceScoped
-    - N14BPNCRWeaponRifle556R91
-    - N14BPNCRWeaponSMG9mm
+    - N14BPNCRWeaponRevolver44Magnun
+    - N14BPNCRWeaponSniper44LeverCarbine
+    - N14BPNCRWeaponPistol45Colt
     - N14BPNCRWeaponSMG45
-    - N14BPNCRWeaponShotgunAuto
-    - N14BPNCRWeaponShotgunRiot
-    - N14BPNCRWeaponSniper45-70BrushGun
-    - N14BPNCRWeaponRifle762Marksman
+    - N14BPNCRWeaponRifle556R91
+    - N14BPNCRWeaponRifle762Fal
+    - N14BPNCRWeaponRifle308Battle
+    - N14BPNCRWeaponSMG10mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -84,16 +81,15 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRWeaponRifle556Scout
+    - N14BPNCRWeaponShotgunAuto
+    - N14BPNCRWeaponShotgunRiot
+    - N14BPNCRWeaponSniper45-70BrushGun
+    - N14BPNCRWeaponRifle762Marksman
     - N14BPNCRWeaponRifle556Carbine
-    - N14BPNCRWeaponRifle762Fal
-    - N14BPNCRWeaponRifle308Battle
-    - N14BPNCRWeaponSMG10mm
-    - N14BPNCRWeaponSMG12mm
-    - N14BPNCRWeaponRevolver44Magnun
     - N14BPNCRWeaponDesertEagle44
-    - N14BPNCRWeaponRevolver45-70RangerSequoia
-    - N14BPNCRWeaponShotgunChinese
+    - N14BPNCRWeaponRevolver45-70Hunter
+    - N14BPNCRWeaponMinigun
+    - N14BPNCRWeaponLMG
 
 - type: entity
   parent: N14BlueprintBase
@@ -106,12 +102,11 @@
   components:
   - type: Blueprint
     recipes:
+    - N14BPNCRWeaponRifle556Scout
     - N14BPNCRWeaponSniper50NCR
     - N14BPNCRWeaponLMGAutoRifle
-    - N14BPNCRWeaponLMG
     - N14BPNCRWeaponSMG12mmAdvanced
-    - N14BPNCRWeaponRevolver45-70Hunter
-    - N14BPNCRWeaponMinigun
+    - N14BPNCRWeaponRevolver45-70RangerSequoia
 
 # --- NCR Armor ---
 - type: entity
@@ -120,14 +115,55 @@
   name: Лекало базовой брони НКР
   suffix: NCRT1
   description: |-
-    Лекала стандартных жилетов НКР для новобранцев. Броня 1-го уровня.
-    Содержит: баллистический жилет НКР зимний, баллистический жилет НКР лесной
+    Лекала стандартного снаряжения НКР для новобранцев. Броня 1-го уровня.
+    Содержит: баллистические жилеты НКР, униформы, плащи, ремни, каски, рюкзаки и ботинки
   components:
   - type: Blueprint
     recipes:
     - N14BPNCRArmorVestSnow
-    - N14BPNCRArmorVestWoods
-    # N14BPNCRArmorVestDesert disabled: N14ClothingOuterNCRVestDesert not local
+    - N14BPNCRArmorNeckNCRMPCoat
+    - N14BPNCRArmorCloakNCRWoods
+    - N14BPNCRArmorCloakNCR
+    - N14BPNCRArmorCloakNCRSnow
+    - N14BPNCRArmorShoulderPadNCR
+    - N14BPNCRArmorMantleNCR
+    - N14BPNCRArmorShoulderPadFlagNCR
+    - N14BPNCRArmorBeltHarnessNCR
+    - N14BPNCRArmorBeltBandolierNCR
+    - N14BPNCRArmorBeltPouchesNCR
+    - N14BPNCRArmorBeltNCR
+    - N14BPNCRArmorCloakTentHoodNCR
+    - N14BPNCRArmorVestpaddedWeb
+    - N14BPNCRArmorVestpaddedWebSnow
+    - N14BPNCRArmorVestNCR
+    - N14BPNCRArmorHelmetNCR
+    - N14BPNCRArmorHelmetNCRSnow
+    - N14BPNCRArmorVestCoatBlack
+    - N14BPNCRArmorMPArmorWest
+    - N14BPNCRArmorTrenchCoatNCR
+    - N14BPNCRArmorHelmetMetalMP
+    - N14BPNCRArmorHelmetMetalMedic
+    - N14BPNCRArmorHelmetMetalWoods
+    - N14BPNCRArmorHelmetMetalSnow
+    - N14BPNCRArmorHelmetMetalGhillie
+    - N14BPNCRArmorCloakGhillie
+    - N14BPNCRArmorBootsLeather
+    - N14BPNCRArmorUniformNCR
+    - N14BPNCRArmorUniformNCRSnow
+    - N14BPNCRArmorUniformMPNCRDesert
+    - N14BPNCRArmorUniformMPNCRSnow
+    - N14BPNCRArmorUniformOfficerNCRDesert
+    - N14BPNCRArmorUniformJumpsuitNCRMP
+    - N14BPNCRArmorUniformOfficerNCRSnow
+    - N14BPNCRArmorUniformNCRCF
+    - N14BPNCRArmorCorrectionalNCR
+    - N14BPNCRArmorBackpackNCR
+    - N14BPNCRArmorBackpackSatchelNCR
+    - N14BPNCRArmorCapNCRMP
+    - N14BPNCRArmorSidecapNCR
+    - N14BPNCRArmorBeretNCRMedic
+    - N14BPNCRArmorBeretNCROfficer
+    - N14BPNCRArmorGlovesNCR
 
 - type: entity
   parent: N14BlueprintBase
@@ -136,14 +172,22 @@
   suffix: NCRT2
   description: |-
     Лекала усиленной брони НКР для передовых частей. Броня 2-го уровня.
-    Содержит: лесная пластинчатая броня НКР, пустынная пластинчатая броня НКР, баллистический жилет НКР исправительного учреждения
+    Содержит: пластинчатая броня НКР, ветерана НКР, броня рейнджера, боевая броня НКР, жилеты рейнджера и радио-рюкзак
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRArmorPlateWoods
-    - N14BPNCRArmorPlateDesert
-    # N14BPNCRArmorPouchedVest* disabled: N14ClothingOuterNCRPouchedVest* not local
-    - N14BPNCRArmorCFvest
+    - N14BPNCRArmorCombatArmor
+    - N14BPNCRArmorRangerVest
+    - N14BPNCRArmorRangerCoat
+    - N14BPNCRArmorMaskPlate
+    - N14BPNCRArmorRangerArmor
+    - N14BPNCRArmorVeteranArmorSnow
+    - N14BPNCRArmorVeteranArmor
+    - N14BPNCRArmorCombatArmorSnow
+    - N14BPNCRArmorRangerArmorOld
+    - N14BPNCRArmorBackpackRadioNCR
+    - N14BPNCRArmorHeadHatRangerB
+    - N14BPNCRArmorHeadHatRanger
 
 - type: entity
   parent: N14BlueprintBase
@@ -152,14 +196,21 @@
   suffix: NCRT3
   description: |-
     Планы производства боевой брони НКР. Защита уровня рейнджеров. Броня 3-го уровня.
-    Содержит: боевая броня НКР, кожаный жилет рейнджера, пустынная броня рейнджера, разведывательный плащ рейнджера
+    Содержит: боевая броня НКР Mk.2, броня рейнджера, боевая броня ветерана НКР, боевые шлемы НКР
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRArmorCombatArmor
-    - N14BPNCRArmorRangerVest
-    - N14BPNCRArmorRangerCoat
     - N14BPNCRArmorRangerDuster
+    - N14BPNCRArmorCombatArmorMK2
+    - N14BPNCRArmorRangerArmorB
+    - N14BPNCRArmorRangerRedwood
+    - N14BPNCRArmorRangerCoyote
+    - N14BPNCRArmorRangerScorpion
+    - N14BPNCRArmorCombatArmorMK2Snow
+    - N14BPNCRArmorCombatVeteranArmorSnow
+    - N14BPNCRArmorCombatVeteranArmor
+    - N14BPNCRArmorCombatHelmet
+    - N14BPNCRArmorCombatHelmetSnow
 
 - type: entity
   parent: N14BlueprintBase
@@ -168,14 +219,15 @@
   suffix: NCRT4
   description: |-
     Секретные чертежи силовой брони НКР и брони элитных рейнджеров. Броня 4-го уровня.
-    Содержит: боевая броня НКР Mk.2, боевая броня рейнджера, элитная боевая броня рейнджера, силовая броня T-51 НКР
+    Содержит: боевая броня рейнджера, элитная боевая броня рейнджера, силовая броня T-45 и T-51 НКР, ПНВ и гарнитура
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRArmorCombatArmorMK2
-    - N14BPNCRArmorRangerCombat
-    - N14BPNCRArmorRangerElite
     - N14BPNCRArmorPowerArmorT51NCR
+    - N14BPNCRArmorPowerArmorT45NCR
+    - N14BPNCRArmorRangerCombatDesert
+    - N14BPNCRArmorEyesNCRNVGs
+    - N14BPNCRArmorHeadsetNCR
 
 # --- NCR Ammo ---
 - type: entity
@@ -266,16 +318,18 @@
   suffix: LegionT1
   description: |-
     Грубые схемы оружия, нацарапанные на пергаменте. Базовое племенное оружие для новобранцев и рабов. Оружие 1-го уровня.
-    Содержит: племенной нож, племенная булава, сломанная труба, доска с гвоздями, копьё, 4-ёх зарядный племенной револьвер
+    Содержит: племенной нож, племенная булава, сломанная труба, доска с гвоздями, копьё, племенной револьвер, обрез, винтовка с рычажным затвором, пистолет-пулемёт 9 мм, самодельный пистолет-пулемёт 12 мм, гладиус
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionWeaponTribalKnife
     - N14BPLegionWeaponTribalClub
-    - N14BPLegionWeaponBrokenPipe
-    - N14BPLegionWeaponNailBoard
     - N14BPLegionWeaponWastelandSpear
-    - N14BPLegionWeaponRevolver44Tribal
+    - N14BPLegionWeaponRevolver44TribalUpgraded
+    - N14BPLegionWeaponShotgunSawedOff
+    - N14BPLegionWeaponShotgunLever
+    - N14BPLegionWeaponSMG9mm
+    - N14BPLegionWeaponSMG12mmPipe
+    - N14BPLegionWeaponGladius
 
 - type: entity
   parent: N14BlueprintBase
@@ -284,18 +338,19 @@
   suffix: LegionT2
   description: |-
     Военные планы для стандартного снаряжения легионера. Кованое оружие во славу Цезаря. Оружие 2-го уровня.
-    Содержит: племенное мачете, мачете, племенной топорик, племенной меч, 6-ти зарядный племенной револьвер, двуствольный дробовик, самодельное ружьё, булава с шипами
+    Содержит:  мачете, усиленный племенной револьвер, булава с шипами, винтовка Росса, племенная винтовка, пистолет-пулемёт 10 мм, мачете-гладиус
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionWeaponTribalMachete
     - N14BPLegionWeaponMachete
-    - N14BPLegionWeaponTribalHatchet
-    - N14BPLegionWeaponTribalSword
-    - N14BPLegionWeaponRevolver44TribalUpgraded
-    - N14BPLegionWeaponShotgunDoubleBarrel
-    - N14BPLegionWeaponShotgunPipe
+    - N14BPLegionWeaponRevolver44TribalExtra
     - N14BPLegionWeaponTrenchClub
+    - N14BPLegionWeaponSniper308Ross
+    - N14BPLegionWeaponSniper308Tribal
+    - N14BPLegionWeaponSMG10mm
+    - N14BPLegionWeaponBlowback
+    - N14BPLegionWeaponMacheteGladius
+    - N14BPLegionWeaponBaseballBat
 
 - type: entity
   parent: N14BlueprintBase
@@ -304,7 +359,7 @@
   suffix: LegionT3
   description: |-
     Проверенные в боях конструкции оружия, передаваемые среди ветеранов Легиона. Оружие 3-го уровня.
-    Содержит: церемониальный меч, длинный меч, отбойный молот, большая племенная булава, 8-ми зарядный племенной револьвер, 4-ёх зарядный тяжёлый племенной револьвер, гранатомёт, бейсбольная бита
+    Содержит: церемониальный меч, длинный меч, отбойный молот, большая племенная булава, племенной револьвер «Восьмизарядный», тяжёлый племенной револьвер, гранатомёт, усиленный тяжёлый револьвер, канадский дробовик, пистолет-пулемёт 12 мм, усиленная племенная винтовка, кебаб
   components:
   - type: Blueprint
     recipes:
@@ -312,10 +367,12 @@
     - N14BPLegionWeaponLongSword
     - N14BPLegionWeaponSledgeHammer
     - N14BPLegionWeaponTribalBigClub
-    - N14BPLegionWeaponRevolver44TribalExtra
-    - N14BPLegionWeaponHandcannon
     - N14BPLegionWeaponLauncherGrenade
-    - N14BPLegionWeaponBaseballBat
+    - N14BPLegionWeaponHandcannonUpgraded
+    - N14BPLegionWeaponShotgunCanadian
+    - N14BPLegionWeaponSMG12mm
+    - N14BPLegionWeaponSniper308TribalUpgraded
+    - N14BPLegionWeaponKebab
 
 - type: entity
   parent: N14BlueprintBase
@@ -324,16 +381,16 @@
   suffix: LegionT4
   description: |-
     Личные чертежи оружия легата Легиона. Только величайшие воины могут владеть этим оружием. Оружие 4-го уровня.
-    Содержит: супер отбойный молот, украшенная большая племенная булава, 6-ти зарядный тяжёлый племенной револьвер, потрошитель, алебарда, пусковая установка
+    Содержит: супер отбойный молот, украшенная большая племенная булава, потрошитель, алебарда, пусковая установка, термокопьё
   components:
   - type: Blueprint
     recipes:
     - N14BPLegionWeaponSuperSledgeHammer
     - N14BPLegionWeaponTribalBigClubDecorated
-    - N14BPLegionWeaponHandcannonUpgraded
     - N14BPLegionWeaponRipper
     - N14BPLegionWeaponPolearm
     - N14BPLegionWeaponLauncherMissile
+    - N14BPLegionWeaponThermospear
 
 # --- Legion Armor ---
 - type: entity
@@ -343,12 +400,31 @@
   suffix: LegionT1
   description: |-
     Инструкции по созданию брони новобранца Легиона из подручных материалов. Броня 1-го уровня.
-    Содержит: легкая броня легионера
+    Содержит: броня новобранца и легионера, калиги, племенная обувь, перчатки, щит и баклер, куртки триария, униформа, капюшоны, накидки, ремни, звериные шкуры и головы
   components:
   - type: Blueprint
     recipes:
     - N14BPLegionArmorRecruitArmor
-    # N14BPLegionArmorExplorerArmor disabled: N14ClothingOuterLegionnaireExplorerArmor not local
+    - N14BPLegionArmorBaseArmor
+    - N14BPLegionArmorShoesKaligi
+    - N14BPLegionArmorShoesTribal
+    - N14BPLegionArmorHandsGlovesTribal
+    - N14BPLegionArmorLegionnaireBuckler
+    - N14BPLegionArmorLegionnaireShield
+    - N14BPLegionArmorUniformJumpsuitLegionnaire
+    - N14BPLegionArmorUniformJumpsuitLegionnaireOther
+    - N14BPLegionArmorHeadHatVenator
+    - N14BPLegionArmorTriariumArmor
+    - N14BPLegionArmorNeckLegionMantle
+    - N14BPLegionArmorNeckCapeLegion
+    - N14BPLegionArmorNeckCapeLegionSagum
+    - N14BPLegionArmorBeltQuiverSpear
+    - N14BPLegionArmorBeltRope
+    - N14BPLegionArmorHeadHatAnimal
+    - N14BPLegionArmorHeadHatNightstalker
+    - N14BPLegionArmorHeadHatLightBaseballHelmet
+    - N14BPLegionArmorHeadHatDog
+    - N14BPLegionArmorHeadHatTriarium
 
 - type: entity
   parent: N14BlueprintBase
@@ -357,13 +433,21 @@
   suffix: LegionT2
   description: |-
     Лекала брони для стандартных легионеров, одобренные центурионом. Броня 2-го уровня.
-    Содержит: броня легионера, броня вексиллярия
+    Содержит: броня легионера и вексиллярия, гастатские доспехи, шлемы гастатов, шлем легионера, шлемы принцепсов
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionArmorBaseArmor
+    - N14BPLegionArmorVeteranArmor
     - N14BPLegionArmorVexillariusArmor
-    # N14BPLegionArmorReconArmor disabled: N14ClothingLegionReconArmor not local
+    - N14BPLegionArmorArmorGastat
+    - N14BPLegionArmorArmorPrimeGastat
+    - N14BPLegionArmorVeteranArmorVeteranGastat
+    - N14BPLegionArmorHeadHatBaseballHelmet
+    - N14BPLegionArmorHeadHatGastatVeteran
+    - N14BPLegionArmorHeadHatGastat
+    - N14BPLegionArmorHeadHatPrinceps
+    - N14BPLegionArmorHeadHatPrincepsPrime
+    - N14BPLegionArmorHeadHatPrimeAssasin
 
 - type: entity
   parent: N14BlueprintBase
@@ -372,14 +456,17 @@
   suffix: LegionT3
   description: |-
     Конструкции брони ветеранов Легиона с использованием трофейного военного снаряжения. Броня 3-го уровня.
-    Содержит: броня легионера-ветерана, тяжелая легионерская броня, разведывательная броня
+    Содержит: броня легионера-ветерана, деканская броня и шлемы, броня принцепса-ветерана, пыльник, лёгкая разведывательная броня
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionArmorVeteranArmor
-    # N14BPLegionArmorOratorArmor disabled: N14ClothingOuterLegionnaireOratorArmor not local
-    - N14BPLegionArmorDeanRecruitArmor
-    - N14BPLegionArmorReconnaissanceArmor
+    - N14BPLegionArmorDeanVeteranArmor
+    - N14BPLegionArmorHeadHatDeanVeteranHelmet
+    - N14BPLegionArmorHeadHatDeanPrimeHelmet
+    - N14BPLegionArmorHeadHatDeanRecruitHelmet
+    - N14BPLegionArmorPrincepsPrimeArmor
+    - N14BPLegionArmorDuster
+    - N14BPLegionArmorLightReconnaissanceArmor
 
 - type: entity
   parent: N14BlueprintBase
@@ -388,13 +475,20 @@
   suffix: LegionT4
   description: |-
     Драгоценные чертежи брони центурионов Легиона, созданной из фрагментов силовой брони побежденных врагов. Броня 4-го уровня.
-    Содержит: тяжелая броня центуриона, тяжелая легионерская броня, тяжелая легионерская броня
+    Содержит: броня тяжёлого центуриона, броня ассасина, шлем и перчатки центуриона, броня завоевателя и Пепельного центуриона, разведывательная броня, деканская броня
   components:
   - type: Blueprint
     recipes:
     - N14BPLegionArmorHeavyCenturionArmor
-    - N14BPLegionArmorDeanVeteranArmor
-    - N14BPLegionArmorDeanPrimeArmor
+    - N14BPLegionArmorReconnaissanceArmor
+    - N14BPLegionArmorAssassinPrimeArmor
+    - N14BPLegionArmorAssassinArmor
+    - N14BPLegionArmorCenturionHelmet
+    - N14BPLegionArmorGlovesCenturion
+    - N14BPLegionArmorConquerorCenturionArmor
+    - N14BPLegionArmorCinderCenturionArmor
+    - N14BPLegionArmorCenturionConquerorHelmet
+    - N14BPLegionArmorCenturionCinderHelmet
 
 # --- Legion Ammo ---
 - type: entity

@@ -1,8 +1,6 @@
-using System.Collections.Generic;
 using Content.Shared.DeltaV.Salvage; // DeltaV
 using Content.Shared.Lathe;
 using Content.Shared.Research.Components;
-using Content.Shared.Research.Prototypes;
 using JetBrains.Annotations;
 using Robust.Client.UserInterface;
 
@@ -49,13 +47,8 @@ namespace Content.Client.Lathe.UI
                         _menu.Recipes = msg.Recipes;
                     _menu?.PopulateRecipes();
                     _menu?.UpdateCategories();
-
-                    var queue = new List<LatheRecipePrototype>();
-                    if (msg.CurrentlyProducing != null)
-                        queue.Add(msg.CurrentlyProducing);
-                    queue.AddRange(msg.Queue);
-
-                    _menu?.PopulateQueueList(queue);
+                    _menu?.PopulateQueueList(msg.Queue);
+                    _menu?.SetQueueInfo(msg.CurrentlyProducing);
                     break;
             }
         }
