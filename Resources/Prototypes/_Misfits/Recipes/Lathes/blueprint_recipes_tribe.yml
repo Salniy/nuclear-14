@@ -1,420 +1,10 @@
-# Blueprint crafting recipes for Vault and Tribe factions.
+# Blueprint crafting recipes for the Tribe faction.
 # All recipes require a blueprint item in workbench storage.
 
-# =====================================================================
-# VAULT WEAPON RECIPES
-# =====================================================================
+# ====================================================================
+# TRIBE BLUEPRINT RECIPES
+# ====================================================================
 
-# --- Vault Tier 1 Weapons (Standard Vault-Tec security) ---
-- type: latheRecipe
-  id: N14BPVaultWeaponPistol10mm
-  result: N14WeaponPistol10mm
-  category: N14BlueprintVaultWeaponsT1
-  completetime: 5
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 125
-    Plastic: 25
-
-- type: latheRecipe
-  id: N14BPVaultWeaponPoliceBaton
-  result: N14PoliceBaton
-  category: N14BlueprintVaultWeaponsT1
-  completetime: 3
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 75
-    Plastic: 50
-
-- type: latheRecipe
-  id: N14BPVaultWeaponLaserPistol
-  result: N14WeaponLaserPistol
-  category: N14BlueprintVaultWeaponsT1
-  completetime: 6
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 100
-    Glass: 50
-    Circuitry: 25
-
-# --- Vault Tier 2 Weapons (Advanced security) ---
-- type: latheRecipe
-  id: N14BPVaultWeaponSMG10mm
-  result: N14WeaponSMG10mm
-  category: N14BlueprintVaultWeaponsT2
-  completetime: 10
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 250
-    Plastic: 75
-    N14Iron: 50
-
-- type: latheRecipe
-  id: N14BPVaultWeaponLaserPistolRecharger
-  result: N14WeaponLaserPistolRecharger
-  category: N14BlueprintVaultWeaponsT2
-  completetime: 8
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 125
-    Glass: 75
-    Circuitry: 75
-    ScrapElectronic: 25
-
-- type: latheRecipe
-  id: N14BPVaultWeaponLaserRifleRecharger
-  result: N14WeaponLaserRifleRecharger
-  category: N14BlueprintVaultWeaponsT2
-  completetime: 12
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 200
-    Glass: 125
-    Circuitry: 100
-    ScrapElectronic: 50
-
-- type: latheRecipe
-  id: N14BPVaultWeaponCombatKnife
-  result: N14CombatKnife
-  category: N14BlueprintVaultWeaponsT2
-  completetime: 4
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 100
-    Plastic: 25
-
-# --- Vault Tier 3 Weapons (R&D energy weapons) ---
-- type: latheRecipe
-  id: N14BPVaultWeaponPlasmaPistol
-  result: N14WeaponPlasmaPistol
-  category: N14BlueprintVaultWeaponsT3
-  completetime: 14
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 300
-    Glass: 175
-    Circuitry: 150
-    ScrapElectronic: 75
-
-- type: latheRecipe
-  id: N14BPVaultWeaponLaserRifle
-  result: N14WeaponLaserRifle
-  category: N14BlueprintVaultWeaponsT3
-  completetime: 14
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 300
-    Glass: 175
-    Circuitry: 125
-    Plastic: 75
-
-- type: latheRecipe
-  id: N14BPVaultWeaponPlasmaDefender
-  result: N14WeaponPlasmaDefender
-  category: N14BlueprintVaultWeaponsT3
-  completetime: 14
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 275
-    Glass: 175
-    Circuitry: 150
-    ScrapElectronic: 75
-
-# --- Vault Tier 4 Weapons (Experimental prototypes) ---
-- type: latheRecipe
-  id: N14BPVaultWeaponPlasmaRifle
-  result: N14WeaponPlasmaRifle
-  category: N14BlueprintVaultWeaponsT4
-  completetime: 20
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 500
-    Glass: 300
-    Circuitry: 250
-    ScrapElectronic: 150
-    Plastic: 50
-
-- type: latheRecipe
-  id: N14BPVaultWeaponLaserRifleWattz2000
-  result: N14WeaponLaserRifleWattz2000
-  category: N14BlueprintVaultWeaponsT4
-  completetime: 22
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 500
-    Glass: 350
-    Circuitry: 275
-    ScrapElectronic: 150
-
-- type: latheRecipe
-  id: N14BPVaultWeaponLaserRifleAuto
-  result: N14WeaponLaserRifleAuto
-  category: N14BlueprintVaultWeaponsT4
-  completetime: 20
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 550
-    Glass: 300
-    Circuitry: 250
-    ScrapElectronic: 175
-    Plastic: 75
-
-# =====================================================================
-# VAULT ARMOR RECIPES
-# =====================================================================
-
-# --- Vault Tier 1 Armor ---
-- type: latheRecipe
-  id: N14BPVaultArmorVaultSecVest
-  result: N14ClothingOuterVaultSecVest
-  category: N14BlueprintVaultArmorT1
-  completetime: 6
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Cloth: 125
-    Thread: 100
-    Plastic: 50
-
-# --- Vault Tier 2 Armor ---
-- type: latheRecipe
-  id: N14BPVaultArmorLightLeatherArmor
-  result: N14ClothingOuterLightLeatherArmor
-  category: N14BlueprintVaultArmorT2
-  completetime: 8
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Leather: 150
-    Cloth: 125
-    Thread: 100
-    Plastic: 25
-
-- type: latheRecipe
-  id: N14BPVaultArmorReinforcedLeatherArmor
-  result: N14ClothingOuterReinforcedLeatherArmor
-  category: N14BlueprintVaultArmorT2
-  completetime: 10
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Leather: 200
-    Steel: 100
-    Cloth: 150
-    Thread: 100
-
-# --- Vault Tier 3 Armor ---
-- type: latheRecipe
-  id: N14BPVaultArmorCombatArmor
-  result: N14ClothingOuterCombatArmor
-  category: N14BlueprintVaultArmorT3
-  completetime: 15
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 400
-    Cloth: 250
-    Thread: 175
-    Plastic: 75
-    Circuitry: 25
-
-- type: latheRecipe
-  id: N14BPVaultArmorPoliceCombat
-  result: N14ClothingOuterPoliceCombat
-  category: N14BlueprintVaultArmorT3
-  completetime: 14
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 350
-    Cloth: 225
-    Thread: 150
-    Plastic: 50
-
-# --- Vault Tier 4 Armor ---
-- type: latheRecipe
-  id: N14BPVaultArmorCombatArmorMK2
-  result: N14ClothingOuterCombatArmorMK2
-  category: N14BlueprintVaultArmorT4
-  completetime: 20
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 700
-    Cloth: 350
-    Thread: 250
-    Circuitry: 100
-    ScrapElectronic: 75
-    Plastic: 50
-
-- type: latheRecipe
-  id: N14BPVaultArmorMarineArmor
-  result: N14ClothingOuterMarineArmor
-  category: N14BlueprintVaultArmorT4
-  completetime: 25
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 900
-    Cloth: 400
-    Thread: 275
-    Circuitry: 150
-    ScrapElectronic: 100
-    N14Iron: 100
-
-# =====================================================================
-# VAULT AMMO RECIPES
-# =====================================================================
-
-# --- Vault Tier 1 Ammo ---
-- type: latheRecipe
-  id: N14BPVaultAmmoBox10mm
-  result: MagazineBox10mm
-  category: N14BlueprintVaultAmmoT1
-  completetime: 4
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Lead: 100
-    N14Brass: 50
-    N14Gunpowder: 50
-
-- type: latheRecipe
-  id: N14BPVaultAmmoMag10mmPistol
-  result: N14MagazinePistol10mm
-  category: N14BlueprintVaultAmmoT1
-  completetime: 3
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 75
-    Lead: 50
-    N14Gunpowder: 25
-
-# --- Vault Tier 2 Ammo ---
-- type: latheRecipe
-  id: N14BPVaultAmmoPowerCellSmall
-  result: N14PowerCellSmall
-  category: N14BlueprintVaultAmmoT2
-  completetime: 5
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Glass: 75
-    Circuitry: 50
-    ScrapElectronic: 25
-
-- type: latheRecipe
-  id: N14BPVaultAmmoMag10mmSMG
-  result: N14MagazineSMG10mm
-  category: N14BlueprintVaultAmmoT2
-  completetime: 5
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Steel: 125
-    Lead: 100
-    N14Gunpowder: 50
-
-# --- Vault Tier 3 Ammo ---
-- type: latheRecipe
-  id: N14BPVaultAmmoPowerCellHigh
-  result: N14PowerCellHigh
-  category: N14BlueprintVaultAmmoT3
-  completetime: 8
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Glass: 150
-    Circuitry: 100
-    ScrapElectronic: 75
-    Plastic: 25
-
-- type: latheRecipe
-  id: N14BPVaultAmmoPlasmaCell
-  result: N14PlasmaCartridge
-  category: N14BlueprintVaultAmmoT3
-  completetime: 9
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Glass: 175
-    Circuitry: 125
-    ScrapElectronic: 75
-
-# --- Vault Tier 4 Ammo ---
-- type: latheRecipe
-  id: N14BPVaultAmmoPlasmaCartridge
-  result: N14PlasmaCartridge
-  category: N14BlueprintVaultAmmoT4
-  completetime: 12
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Glass: 275
-    Circuitry: 200
-    ScrapElectronic: 150
-    Plastic: 50
-
-- type: latheRecipe
-  id: N14BPVaultAmmoPowerCellAdvanced
-  result: N14PowerCellAdvanced
-  category: N14BlueprintVaultAmmoT4
-  completetime: 12
-  requiresBlueprint: true
-  availableFaction:
-  - Vault
-  materials:
-    Glass: 250
-    Circuitry: 200
-    ScrapElectronic: 125
-    Plastic: 50
-
-# =====================================================================
-# TRIBE WEAPON RECIPES
-# =====================================================================
-
-# --- Tribe Tier 1 Weapons (Basic hunting tools) ---
 - type: latheRecipe
   id: N14BPTribeWeaponTribalKnife
   result: N14TribalKnife
@@ -427,6 +17,7 @@
     N14Iron: 75
     Leather: 25
 
+
 - type: latheRecipe
   id: N14BPTribeWeaponTribalClub
   result: N14TribalClub
@@ -438,6 +29,7 @@
   materials:
     Wood: 100
     Leather: 50
+
 
 - type: latheRecipe
   id: N14BPTribeWeaponWastelandSpear
@@ -452,6 +44,7 @@
     N14Iron: 50
     Leather: 25
 
+
 - type: latheRecipe
   id: N14BPTribeWeaponRevolver44Tribal
   result: N14WeaponRevolver44Tribal
@@ -464,6 +57,7 @@
     N14Iron: 100
     Scrap: 75
     Wood: 25
+
 
 - type: latheRecipe
   id: N14BPTribeWeaponBrokenPipe
@@ -478,6 +72,7 @@
     ScrapSteel: 50
 
 # --- Tribe Tier 2 Weapons (Warrior weapons) ---
+
 - type: latheRecipe
   id: N14BPTribeWeaponTribalMachete
   result: N14TribalMachete
@@ -490,6 +85,7 @@
     N14Iron: 175
     Leather: 75
     Wood: 50
+
 
 - type: latheRecipe
   id: N14BPTribeWeaponTribalHatchet
@@ -504,6 +100,7 @@
     Wood: 100
     Leather: 50
 
+
 - type: latheRecipe
   id: N14BPTribeWeaponTribalSword
   result: N14TribalSword
@@ -516,6 +113,7 @@
     N14Iron: 200
     Leather: 100
     Cloth: 50
+
 
 - type: latheRecipe
   id: N14BPTribeWeaponRevolver44TribalUpgraded
@@ -530,6 +128,7 @@
     Scrap: 100
     Steel: 50
 
+
 - type: latheRecipe
   id: N14BPTribeWeaponPistol10mmPipe
   result: N14WeaponPistol10mmPipe
@@ -542,6 +141,7 @@
     Scrap: 125
     ScrapSteel: 75
     Wood: 25
+
 
 - type: latheRecipe
   id: N14BPTribeWeaponShotgunPipe
@@ -557,6 +157,7 @@
     Wood: 50
 
 # --- Tribe Tier 3 Weapons (Elder's war knowledge) ---
+
 - type: latheRecipe
   id: N14BPTribeWeaponRevolver44TribalExtra
   result: N14WeaponRevolver44TribalUpgradedExtra
@@ -571,6 +172,7 @@
     Scrap: 100
     N14Brass: 50
 
+
 - type: latheRecipe
   id: N14BPTribeWeaponHandcannon
   result: N14WeaponRevolver45-70Handcannon
@@ -583,6 +185,7 @@
     Steel: 250
     N14Iron: 200
     Scrap: 100
+
 
 - type: latheRecipe
   id: N14BPTribeWeaponTribalBigClub
@@ -597,6 +200,7 @@
     N14Iron: 150
     Leather: 100
 
+
 - type: latheRecipe
   id: N14BPTribeWeaponTribalSpear
   result: N14WastelandTribalSpear
@@ -610,6 +214,7 @@
     N14Iron: 125
     Leather: 75
 
+
 - type: latheRecipe
   id: N14BPTribeWeaponSMG12mmPipe
   result: N14WeaponSMG12mmPipe
@@ -622,6 +227,7 @@
     Scrap: 250
     ScrapSteel: 150
     N14Iron: 75
+
 
 - type: latheRecipe
   id: N14BPTribeWeaponRifle556Pipe
@@ -637,6 +243,7 @@
     Wood: 75
 
 # --- Tribe Tier 4 Weapons (Shaman's sacred weapons) ---
+
 - type: latheRecipe
   id: N14BPTribeWeaponHandcannonUpgraded
   result: N14WeaponRevolver45-70HandcannonUpgraded
@@ -650,6 +257,7 @@
     N14Iron: 250
     N14Brass: 100
     Leather: 50
+
 
 - type: latheRecipe
   id: N14BPTribeWeaponTribalBigClubDecorated
@@ -665,6 +273,7 @@
     Leather: 150
     N14Gold: 50
 
+
 - type: latheRecipe
   id: N14BPTribeWeaponPolearm
   result: N14WastelandPolearm
@@ -679,6 +288,7 @@
     Wood: 200
     Leather: 75
 
+
 - type: latheRecipe
   id: N14BPTribeWeaponSniper50Pipe
   result: N14WeaponSniper50Pipe
@@ -692,6 +302,7 @@
     ScrapSteel: 300
     N14Iron: 200
     Wood: 100
+
 
 - type: latheRecipe
   id: N14BPTribeWeaponSuperSledgeHammer
@@ -712,6 +323,7 @@
 # =====================================================================
 
 # --- Tribe Tier 1 Armor ---
+
 - type: latheRecipe
   id: N14BPTribeArmorTribalArmor
   result: N14ClothingOuterTribalArmor
@@ -724,6 +336,7 @@
     Leather: 100
     Cloth: 75
     Thread: 50
+
 
 - type: latheRecipe
   id: N14BPTribeArmorDrylanderSimple
@@ -739,6 +352,7 @@
     Leather: 50
 
 # --- Tribe Tier 2 Armor ---
+
 - type: latheRecipe
   id: N14BPTribeArmorBandito
   result: N14ClothingOuterBandito
@@ -751,6 +365,7 @@
     Leather: 175
     Cloth: 125
     Thread: 100
+
 
 - type: latheRecipe
   id: N14BPTribeArmorForager
@@ -765,6 +380,7 @@
     Cloth: 150
     Thread: 100
 
+
 - type: latheRecipe
   id: N14BPTribeArmorHunter
   result: N14ClothingOuterhunter
@@ -777,6 +393,7 @@
     Leather: 175
     Cloth: 125
     Thread: 100
+
 
 - type: latheRecipe
   id: N14BPTribeArmorPoncho
@@ -792,6 +409,7 @@
     Leather: 50
 
 # --- Tribe Tier 3 Armor ---
+
 - type: latheRecipe
   id: N14BPTribeArmorTribalArmorHeavy
   result: N14ClothingOuterTribalArmorHeavy
@@ -805,6 +423,7 @@
     N14Iron: 150
     Cloth: 200
     Thread: 150
+
 
 - type: latheRecipe
   id: N14BPTribeArmorHeadtaker
@@ -820,6 +439,7 @@
     Cloth: 175
     Thread: 125
 
+
 - type: latheRecipe
   id: N14BPTribeArmorShaman
   result: N14ClothingOutershaman
@@ -832,6 +452,7 @@
     Cloth: 250
     Thread: 175
     Leather: 150
+
 
 - type: latheRecipe
   id: N14BPTribeArmorCombatTribal
@@ -848,6 +469,7 @@
     Thread: 150
 
 # --- Tribe Tier 4 Armor ---
+
 - type: latheRecipe
   id: N14BPTribeArmorRadArmor
   result: N14ClothingOuterRadArmor
@@ -862,6 +484,7 @@
     N14Iron: 200
     Cloth: 200
     Thread: 150
+
 
 - type: latheRecipe
   id: N14BPTribeArmorInsectArmor
@@ -882,6 +505,7 @@
 # =====================================================================
 
 # --- Tribe Tier 1 Ammo ---
+
 - type: latheRecipe
   id: N14BPTribeAmmoBox44Magnum
   result: MagazineBox44
@@ -895,6 +519,7 @@
     Scrap: 50
     N14Gunpowder: 75
 
+
 - type: latheRecipe
   id: N14BPTribeAmmoBox10mm
   result: MagazineBox10mm
@@ -907,6 +532,7 @@
     Lead: 100
     Scrap: 50
     N14Gunpowder: 50
+
 
 - type: latheRecipe
   id: N14BPTribeAmmoSpeedLoader44
@@ -922,6 +548,7 @@
     N14Gunpowder: 50
 
 # --- Tribe Tier 2 Ammo ---
+
 - type: latheRecipe
   id: N14BPTribeAmmoBox12gauge
   result: MagazineBox12gauge
@@ -935,6 +562,7 @@
     Scrap: 75
     N14Gunpowder: 100
 
+
 - type: latheRecipe
   id: N14BPTribeAmmoBox556
   result: MagazineBox556
@@ -947,6 +575,7 @@
     Lead: 150
     Scrap: 75
     N14Gunpowder: 100
+
 
 - type: latheRecipe
   id: N14BPTribeAmmoMag10mmPipe
@@ -962,6 +591,7 @@
     N14Gunpowder: 50
 
 # --- Tribe Tier 3 Ammo ---
+
 - type: latheRecipe
   id: N14BPTribeAmmoBox127
   result: MagazineBox12
@@ -975,6 +605,7 @@
     Scrap: 100
     N14Gunpowder: 150
 
+
 - type: latheRecipe
   id: N14BPTribeAmmoBox308
   result: MagazineBox308
@@ -987,6 +618,7 @@
     Lead: 250
     Scrap: 125
     N14Gunpowder: 175
+
 
 - type: latheRecipe
   id: N14BPTribeAmmoSpeedLoader45-70
@@ -1002,6 +634,7 @@
     N14Gunpowder: 100
 
 # --- Tribe Tier 4 Ammo ---
+
 - type: latheRecipe
   id: N14BPTribeAmmoBox50
   result: MagazineBox50
@@ -1016,6 +649,7 @@
     N14Gunpowder: 300
     N14Iron: 100
 
+
 - type: latheRecipe
   id: N14BPTribeAmmoBox45-70
   result: MagazineBox45-70
@@ -1028,6 +662,7 @@
     Lead: 350
     Scrap: 175
     N14Gunpowder: 250
+
 
 - type: latheRecipe
   id: N14BPTribeAmmoMag556Pipe

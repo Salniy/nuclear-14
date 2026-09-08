@@ -96,7 +96,10 @@
             VerticalExpand="True"
             HorizontalExpand="True"
             SeparationOverride="5">
-            <BoxContainer Orientation="Vertical">
+            <BoxContainer
+                Orientation="Vertical"
+                VerticalExpand="True"
+                SizeFlagsStretchRatio="3">
                 <BoxContainer
                     Orientation="Horizontal"
                     Align="End"
@@ -109,36 +112,7 @@
                     </Button>
                 </BoxContainer>
                 <Label Text="{Loc 'lathe-menu-queue-title'}" Margin="5 5 5 5" HorizontalAlignment="Center"/>
-                <BoxContainer
-                    Name="FabricatingContainer"
-                    Orientation="Horizontal"
-                    HorizontalExpand="True"
-                    SizeFlagsStretchRatio="2">
-                    <PanelContainer
-                        VerticalExpand="True"
-                        HorizontalExpand="True"
-                        SizeFlagsStretchRatio="3">
-                        <PanelContainer.PanelOverride>
-                            <gfx:StyleBoxFlat BackgroundColor="#408040" />
-                        </PanelContainer.PanelOverride>
-                        <Label
-                            RectClipContent="False"
-                            HorizontalAlignment="Left"
-                            Margin="5 0 0 0"
-                            Text="{Loc 'lathe-menu-fabricating-message'}">
-                        </Label>
-                        <BoxContainer Name="FabricatingDisplayContainer"
-                                      HorizontalAlignment="Left"
-                                      Margin="100 0 0 0"/>
-                        <Label
-                            Name="NameLabel"
-                            RectClipContent="True"
-                            HorizontalAlignment="Left"
-                            Margin="130 0 0 0">
-                        </Label>
-                    </PanelContainer>
-                </BoxContainer>
-                <ScrollContainer VerticalExpand="True" HScrollEnabled="False">
+                <ScrollContainer VerticalExpand="True" HorizontalExpand="True" HScrollEnabled="False">
                     <BoxContainer
                         Name="QueueList"
                         Orientation="Vertical"
@@ -149,9 +123,10 @@
                 </ScrollContainer>
             </BoxContainer>
             <BoxContainer
-            VerticalExpand="True"
-            HorizontalExpand="True"
-            Orientation="Vertical">
+                VerticalExpand="True"
+                HorizontalExpand="True"
+                Orientation="Vertical"
+                SizeFlagsStretchRatio="2">
             <Label Text="{Loc 'lathe-menu-materials-title'}" Margin="5 5 5 5" HorizontalAlignment="Center"/>
             <BoxContainer
                 Orientation="Vertical"
