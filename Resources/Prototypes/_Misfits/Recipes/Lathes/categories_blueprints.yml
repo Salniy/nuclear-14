@@ -100,54 +100,104 @@
   id: N14BlueprintLegionAmmoT4
   name: lathe-category-blueprint-legion-ammo-t4
 
-# === BROTHERHOOD OF STEEL ===
+# === WASHINGTON BOS ===
 - type: latheCategory
-  id: N14BlueprintBoSWeaponsT1
-  name: lathe-category-blueprint-bos-weapons-t1
+  id: N14BlueprintWashingtonBosWeaponsT1
+  name: lathe-category-blueprint-washingtonbos-weapons-t1
 
 - type: latheCategory
-  id: N14BlueprintBoSWeaponsT2
-  name: lathe-category-blueprint-bos-weapons-t2
+  id: N14BlueprintWashingtonBosWeaponsT2
+  name: lathe-category-blueprint-washingtonbos-weapons-t2
 
 - type: latheCategory
-  id: N14BlueprintBoSWeaponsT3
-  name: lathe-category-blueprint-bos-weapons-t3
+  id: N14BlueprintWashingtonBosWeaponsT3
+  name: lathe-category-blueprint-washingtonbos-weapons-t3
 
 - type: latheCategory
-  id: N14BlueprintBoSWeaponsT4
-  name: lathe-category-blueprint-bos-weapons-t4
+  id: N14BlueprintWashingtonBosWeaponsT4
+  name: lathe-category-blueprint-washingtonbos-weapons-t4
 
 - type: latheCategory
-  id: N14BlueprintBoSArmorT1
-  name: lathe-category-blueprint-bos-armor-t1
+  id: N14BlueprintWashingtonBosArmorT1
+  name: lathe-category-blueprint-washingtonbos-armor-t1
 
 - type: latheCategory
-  id: N14BlueprintBoSArmorT2
-  name: lathe-category-blueprint-bos-armor-t2
+  id: N14BlueprintWashingtonBosArmorT2
+  name: lathe-category-blueprint-washingtonbos-armor-t2
 
 - type: latheCategory
-  id: N14BlueprintBoSArmorT3
-  name: lathe-category-blueprint-bos-armor-t3
+  id: N14BlueprintWashingtonBosArmorT3
+  name: lathe-category-blueprint-washingtonbos-armor-t3
 
 - type: latheCategory
-  id: N14BlueprintBoSArmorT4
-  name: lathe-category-blueprint-bos-armor-t4
+  id: N14BlueprintWashingtonBosArmorT4
+  name: lathe-category-blueprint-washingtonbos-armor-t4
+
+# === WEST BOS ===
+- type: latheCategory
+  id: N14BlueprintWestBosWeaponsT1
+  name: lathe-category-blueprint-westbos-weapons-t1
 
 - type: latheCategory
-  id: N14BlueprintBoSAmmoT1
-  name: lathe-category-blueprint-bos-ammo-t1
+  id: N14BlueprintWestBosWeaponsT2
+  name: lathe-category-blueprint-westbos-weapons-t2
 
 - type: latheCategory
-  id: N14BlueprintBoSAmmoT2
-  name: lathe-category-blueprint-bos-ammo-t2
+  id: N14BlueprintWestBosWeaponsT3
+  name: lathe-category-blueprint-westbos-weapons-t3
 
 - type: latheCategory
-  id: N14BlueprintBoSAmmoT3
-  name: lathe-category-blueprint-bos-ammo-t3
+  id: N14BlueprintWestBosWeaponsT4
+  name: lathe-category-blueprint-westbos-weapons-t4
 
 - type: latheCategory
-  id: N14BlueprintBoSAmmoT4
-  name: lathe-category-blueprint-bos-ammo-t4
+  id: N14BlueprintWestBosArmorT1
+  name: lathe-category-blueprint-westbos-armor-t1
+
+- type: latheCategory
+  id: N14BlueprintWestBosArmorT2
+  name: lathe-category-blueprint-westbos-armor-t2
+
+- type: latheCategory
+  id: N14BlueprintWestBosArmorT3
+  name: lathe-category-blueprint-westbos-armor-t3
+
+- type: latheCategory
+  id: N14BlueprintWestBosArmorT4
+  name: lathe-category-blueprint-westbos-armor-t4
+
+# === MIDWEST BOS ===
+- type: latheCategory
+  id: N14BlueprintMidWestBosWeaponsT1
+  name: lathe-category-blueprint-midwestbos-weapons-t1
+
+- type: latheCategory
+  id: N14BlueprintMidWestBosWeaponsT2
+  name: lathe-category-blueprint-midwestbos-weapons-t2
+
+- type: latheCategory
+  id: N14BlueprintMidWestBosWeaponsT3
+  name: lathe-category-blueprint-midwestbos-weapons-t3
+
+- type: latheCategory
+  id: N14BlueprintMidWestBosWeaponsT4
+  name: lathe-category-blueprint-midwestbos-weapons-t4
+
+- type: latheCategory
+  id: N14BlueprintMidWestBosArmorT1
+  name: lathe-category-blueprint-midwestbos-armor-t1
+
+- type: latheCategory
+  id: N14BlueprintMidWestBosArmorT2
+  name: lathe-category-blueprint-midwestbos-armor-t2
+
+- type: latheCategory
+  id: N14BlueprintMidWestBosArmorT3
+  name: lathe-category-blueprint-midwestbos-armor-t3
+
+- type: latheCategory
+  id: N14BlueprintMidWestBosArmorT4
+  name: lathe-category-blueprint-midwestbos-armor-t4
 
 # === TOWNSFOLK ===
 - type: latheCategory

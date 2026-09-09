@@ -1,0 +1,869 @@
+# Blueprint crafting recipes for the Midwest Brotherhood of Steel faction.
+# All recipes require a blueprint item in workbench storage.
+
+# =====================================================================
+# MIDWEST BOS WEAPON RECIPES
+# =====================================================================
+
+# --- Midwest BoS Tier 1 Weapons ---
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponShotgun
+  result: N14WeaponShotgun
+  category: N14BlueprintMidWestBosWeaponsT1
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 250
+    Wood: 100
+    N14Iron: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponRifle556CarbineOld
+  result: N14WeaponRifle556CarbineOld
+  category: N14BlueprintMidWestBosWeaponsT1
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 300
+    Wood: 100
+    N14Iron: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponSniper308TribalUpgraded
+  result: N14WeaponSniper308TribalUpgraded
+  category: N14BlueprintMidWestBosWeaponsT1
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 300
+    Wood: 100
+    N14Iron: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponPistol12mm
+  result: N14WeaponPistol12mm
+  category: N14BlueprintMidWestBosWeaponsT1
+  completetime: 6
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 200
+    N14Iron: 75
+    Wood: 25
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponLaserPistol
+  result: N14WeaponLaserPistol
+  category: N14BlueprintMidWestBosWeaponsT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 100
+    Glass: 50
+    Circuitry: 25
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponSMG12mm
+  result: N14WeaponSMG12mm
+  category: N14BlueprintMidWestBosWeaponsT1
+  completetime: 9
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 300
+    N14Iron: 125
+    N14Brass: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponLaserRifleCrude
+  result: N14WeaponLaserRifleCrude
+  category: N14BlueprintMidWestBosWeaponsT1
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 200
+    Glass: 100
+    Circuitry: 50
+    Scrap: 75
+
+# --- Midwest BoS Tier 2 Weapons ---
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponRevolver45-70Hunter
+  result: N14WeaponRevolver45-70Hunter
+  category: N14BlueprintMidWestBosWeaponsT2
+  completetime: 9
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 250
+    N14Iron: 150
+    Wood: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponPlasmaRifleUrban
+  result: N14WeaponPlasmaRifleUrban
+  category: N14BlueprintMidWestBosWeaponsT2
+  completetime: 14
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 375
+    Glass: 200
+    Circuitry: 175
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponShotgunAuto
+  result: N14WeaponShotgunAuto
+  category: N14BlueprintMidWestBosWeaponsT2
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 350
+    Wood: 100
+    N14Iron: 125
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponCeremonialSword
+  result: N14CeremonialSword
+  category: N14BlueprintMidWestBosWeaponsT2
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 200
+    N14Iron: 100
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponLaserRifle
+  result: N14WeaponLaserRifle
+  category: N14BlueprintMidWestBosWeaponsT2
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 250
+    Glass: 125
+    Circuitry: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponRifle556Carbine
+  result: N14WeaponRifle556Carbine
+  category: N14BlueprintMidWestBosWeaponsT2
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 450
+    Wood: 150
+    N14Iron: 125
+    N14Brass: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponRifle762Fal
+  result: N14WeaponRifle762Fal
+  category: N14BlueprintMidWestBosWeaponsT2
+  completetime: 11
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 450
+    Wood: 150
+    N14Iron: 125
+    N14Brass: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponRifle308SniperRifle
+  result: N14WeaponRifle308SniperRifle
+  category: N14BlueprintMidWestBosWeaponsT2
+  completetime: 12
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 400
+    Wood: 150
+    Glass: 75
+    N14Iron: 125
+
+# --- Midwest BoS Tier 3 Weapons ---
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponPlasmaRifleAuto
+  result: N14WeaponPlasmaRifleAuto
+  category: N14BlueprintMidWestBosWeaponsT3
+  completetime: 16
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 500
+    Glass: 300
+    Circuitry: 225
+    ScrapElectronic: 150
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponLaserRifleWattz2000
+  result: N14WeaponLaserRifleWattz2000
+  category: N14BlueprintMidWestBosWeaponsT3
+  completetime: 16
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 450
+    Glass: 250
+    Circuitry: 200
+    ScrapElectronic: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponLMG
+  result: N14WeaponLMG
+  category: N14BlueprintMidWestBosWeaponsT3
+  completetime: 15
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 500
+    N14Iron: 200
+    N14Brass: 100
+    Wood: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponMinigun
+  result: N14WeaponMinigun
+  category: N14BlueprintMidWestBosWeaponsT3
+  completetime: 18
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 800
+    N14Iron: 300
+    N14Brass: 150
+    Circuitry: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponLaserRifleAuto
+  result: N14WeaponLaserRifleAuto
+  category: N14BlueprintMidWestBosWeaponsT3
+  completetime: 15
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 400
+    Glass: 200
+    Circuitry: 175
+    ScrapElectronic: 100
+
+# --- Midwest BoS Tier 4 Weapons ---
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponLauncherGrenade
+  result: N14WeaponLauncherGrenade
+  category: N14BlueprintMidWestBosWeaponsT4
+  completetime: 15
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 500
+    N14Iron: 200
+    N14Brass: 100
+    Wood: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponLaserGatling
+  result: N14WeaponLaserGatling
+  category: N14BlueprintMidWestBosWeaponsT4
+  completetime: 25
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 900
+    Glass: 500
+    Circuitry: 400
+    ScrapElectronic: 300
+    N14Silver: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponLaserRifleWattz3000
+  result: N14WeaponLaserRifleWattz3000
+  category: N14BlueprintMidWestBosWeaponsT4
+  completetime: 22
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 700
+    Glass: 450
+    Circuitry: 350
+    ScrapElectronic: 250
+    N14Silver: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosWeaponPlasmaCaster
+  result: N14WeaponPlasmaCaster
+  category: N14BlueprintMidWestBosWeaponsT4
+  completetime: 22
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 650
+    Glass: 350
+    Circuitry: 300
+    ScrapElectronic: 200
+
+# =====================================================================
+# MIDWEST BOS ARMOR RECIPES
+# =====================================================================
+
+# --- Midwest BoS Tier 1 Armor ---
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorBoSInquisitorCap
+  result: N14ClothingHeadHatBoSInquisitorCap
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorBoSInquisitorHat
+  result: N14ClothingHeadHatBoSInquisitorHat
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorBoSInquisitorBlackHat
+  result: N14ClothingHeadHatBoSInquisitorBlackHat
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorBrotherhoodFieldCap
+  result: N14ClothingHeadHatBrotherhoodFieldCap
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorArmyCap
+  result: N14ClothingHeadHatArmyCap
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorBanganeBoS
+  result: N14ClothingHeadHatBanganeBoS
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 75
+    Thread: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorUniformJumpsuitBOSFieldScribe
+  result: N14ClothingUniformJumpsuitBOSFieldScribe
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 100
+    Thread: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorUniformJumpsuitBOSScribe
+  result: N14ClothingUniformJumpsuitBOSScribe
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 100
+    Thread: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorUniformJumpsuitInquisitorBOS
+  result: N14ClothingUniformJumpsuitInquisitorBOS
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 100
+    Thread: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterMBoSSquireArmor
+  result: N14ClothingOuterMBoSSquireArmor
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 7
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 100
+    Thread: 75
+    Steel: 75
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterMBoSInitiateArmor
+  result: N14ClothingOuterMBoSInitiateArmor
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 7
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 100
+    Thread: 75
+    Steel: 75
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorUniformBosRecon
+  result: N14ClothingUniformBosRecon
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 100
+    Thread: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorUniformJumpsuitBOSGreen
+  result: N14ClothingUniformJumpsuitBOSGreen
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 4
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 100
+    Thread: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterMidwestBoSCoat
+  result: N14ClothingOuterMidwestBoSCoat
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 125
+    Thread: 100
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterBrotherhoodMidwestFieldScribeCoat
+  result: N14ClothingOuterBrotherhoodMidwestFieldScribeCoat
+  category: N14BlueprintMidWestBosArmorT1
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 125
+    Thread: 100
+    Leather: 50
+
+# --- Midwest BoS Tier 2 Armor ---
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterBOSInquisitorCoat
+  result: N14ClothingOuterBOSInquisitorCoat
+  category: N14BlueprintMidWestBosArmorT2
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 150
+    Thread: 100
+    Steel: 100
+    Leather: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorHeadHatBrotherhoodMidwestHelmet
+  result: N14ClothingHeadHatBrotherhoodMidwestHelmet
+  category: N14BlueprintMidWestBosArmorT2
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 175
+    N14Iron: 75
+    Leather: 50
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterMBoSKnightArmor
+  result: N14ClothingOuterMBoSKnightArmor
+  category: N14BlueprintMidWestBosArmorT2
+  completetime: 12
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 300
+    Cloth: 200
+    Thread: 150
+    Leather: 125
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterMidwestArmor
+  result: N14ClothingOuterMidwestArmor
+  category: N14BlueprintMidWestBosArmorT2
+  completetime: 12
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 300
+    Cloth: 150
+    Leather: 125
+    N14Iron: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterBrotherhoodMedicalScribeRobes
+  result: N14ClothingOuterBrotherhoodMedicalScribeRobes
+  category: N14BlueprintMidWestBosArmorT2
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 150
+    Thread: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorBeltBoSWebbing
+  result: N14ClothingBeltBoSWebbing
+  category: N14BlueprintMidWestBosArmorT2
+  completetime: 3
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Leather: 100
+    Steel: 50
+
+# --- Midwest BoS Tier 3 Armor ---
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterMBoSPaladinArmor
+  result: N14ClothingOuterMBoSPaladinArmor
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 16
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 500
+    Cloth: 200
+    Thread: 150
+    Leather: 150
+    N14Iron: 150
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterMidwestArmorMK2
+  result: N14ClothingOuterMidwestArmorMK2
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 16
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 500
+    Cloth: 150
+    Leather: 150
+    N14Iron: 200
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterMBoSSeniorKArmor
+  result: N14ClothingOuterMBoSSeniorKArmor
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 16
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 450
+    Cloth: 200
+    Thread: 150
+    Leather: 150
+    N14Iron: 150
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterBOSInquisitorBlackCoat
+  result: N14ClothingOuterBOSInquisitorBlackCoat
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 8
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Cloth: 175
+    Thread: 125
+    Steel: 150
+    Leather: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterBOSInquisitorBattleArmor
+  result: N14ClothingOuterBOSInquisitorBattleArmor
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 14
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 400
+    Cloth: 150
+    Leather: 150
+    N14Iron: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterPowerArmorT45
+  result: N14ClothingOuterPowerArmorT45
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 30
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 1500
+    N14Iron: 500
+    Circuitry: 250
+    ScrapElectronic: 200
+    N14Brass: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorHeadHatBoSInquisitorBattleHelmetHood
+  result: N14ClothingHeadHatBoSInquisitorBattleHelmetHood
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 200
+    N14Iron: 100
+    Leather: 75
+    Cloth: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorHeadHatBoSInquisitorBattleHelmet
+  result: N14ClothingHeadHatBoSInquisitorBattleHelmet
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 10
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 200
+    N14Iron: 100
+    Leather: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorHeadsetBOSMidwest
+  result: N14ClothingHeadsetBOSMidwest
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 5
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 75
+    N14Brass: 75
+    Circuitry: 75
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorHeadHatBrotherhoodMidwestHelmetVeteran
+  result: N14ClothingHeadHatBrotherhoodMidwestHelmetVeteran
+  category: N14BlueprintMidWestBosArmorT3
+  completetime: 12
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 250
+    N14Iron: 125
+    Circuitry: 75
+    Leather: 50
+
+# --- Midwest BoS Tier 4 Armor ---
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterMidwestReconArmor
+  result: N14ClothingOuterMidwestReconArmor
+  category: N14BlueprintMidWestBosArmorT4
+  completetime: 18
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 600
+    Cloth: 200
+    Leather: 200
+    N14Iron: 200
+    Circuitry: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorHeadHatBrotherhoodMidwestHelmetRecon
+  result: N14ClothingHeadHatBrotherhoodMidwestHelmetRecon
+  category: N14BlueprintMidWestBosArmorT4
+  completetime: 12
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 250
+    N14Iron: 125
+    Circuitry: 100
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterPowerArmorMidwest
+  result: N14ClothingOuterPowerArmorMidwest
+  category: N14BlueprintMidWestBosArmorT4
+  completetime: 35
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 1800
+    N14Iron: 600
+    Circuitry: 300
+    ScrapElectronic: 250
+    N14Brass: 125
+
+
+- type: latheRecipe
+  id: N14BPMidWestBosArmorOuterPowerArmorMidwestCommander
+  result: N14ClothingOuterPowerArmorMidwestCommander
+  category: N14BlueprintMidWestBosArmorT4
+  completetime: 40
+  requiresBlueprint: true
+  availableFaction:
+  - BrotherhoodMidwest
+  materials:
+    Steel: 2000
+    N14Iron: 700
+    Circuitry: 350
+    ScrapElectronic: 300
+    N14Brass: 150
+    N14Gold: 50

@@ -31,18 +31,6 @@ lathe-category-blueprint-legion-ammo-t1 = Боеприпасы Легиона - 
 lathe-category-blueprint-legion-ammo-t2 = Боеприпасы Легиона - Уровень 2
 lathe-category-blueprint-legion-ammo-t3 = Боеприпасы Легиона - Уровень 3
 lathe-category-blueprint-legion-ammo-t4 = Боеприпасы Легиона - Уровень 4
-lathe-category-blueprint-bos-weapons-t1 = Оружие Братства Стали - Уровень 1
-lathe-category-blueprint-bos-weapons-t2 = Оружие Братства Стали - Уровень 2
-lathe-category-blueprint-bos-weapons-t3 = Оружие Братства Стали - Уровень 3
-lathe-category-blueprint-bos-weapons-t4 = Оружие Братства Стали - Уровень 4
-lathe-category-blueprint-bos-armor-t1 = Броня Братства Стали - Уровень 1
-lathe-category-blueprint-bos-armor-t2 = Броня Братства Стали - Уровень 2
-lathe-category-blueprint-bos-armor-t3 = Броня Братства Стали - Уровень 3
-lathe-category-blueprint-bos-armor-t4 = Броня Братства Стали - Уровень 4
-lathe-category-blueprint-bos-ammo-t1 = Боеприпасы Братства Стали - Уровень 1
-lathe-category-blueprint-bos-ammo-t2 = Боеприпасы Братства Стали - Уровень 2
-lathe-category-blueprint-bos-ammo-t3 = Боеприпасы Братства Стали - Уровень 3
-lathe-category-blueprint-bos-ammo-t4 = Боеприпасы Братства Стали - Уровень 4
 lathe-category-blueprint-town-weapons-t1 = Оружие Поселений - Уровень 1
 lathe-category-blueprint-town-weapons-t2 = Оружие Поселений - Уровень 2
 lathe-category-blueprint-town-weapons-t3 = Оружие Поселений - Уровень 3
@@ -79,4 +67,34 @@ lathe-category-blueprint-tribe-ammo-t1 = Боеприпасы Племени - �
 lathe-category-blueprint-tribe-ammo-t2 = Боеприпасы Племени - Уровень 2
 lathe-category-blueprint-tribe-ammo-t3 = Боеприпасы Племени - Уровень 3
 lathe-category-blueprint-tribe-ammo-t4 = Боеприпасы Племени - Уровень 4
+
+# === Вашингтонское Братство ===
+lathe-category-blueprint-washingtonbos-weapons-t1 = Оружие Вашингтонского Братства - Уровень 1
+lathe-category-blueprint-washingtonbos-weapons-t2 = Оружие Вашингтонского Братства - Уровень 2
+lathe-category-blueprint-washingtonbos-weapons-t3 = Оружие Вашингтонского Братства - Уровень 3
+lathe-category-blueprint-washingtonbos-weapons-t4 = Оружие Вашингтонского Братства - Уровень 4
+lathe-category-blueprint-washingtonbos-armor-t1 = Броня Вашингтонского Братства - Уровень 1
+lathe-category-blueprint-washingtonbos-armor-t2 = Броня Вашингтонского Братства - Уровень 2
+lathe-category-blueprint-washingtonbos-armor-t3 = Броня Вашингтонского Братства - Уровень 3
+lathe-category-blueprint-washingtonbos-armor-t4 = Броня Вашингтонского Братства - Уровень 4
+
+# === Западное Братство ===
+lathe-category-blueprint-westbos-weapons-t1 = Оружие Западного Братства - Уровень 1
+lathe-category-blueprint-westbos-weapons-t2 = Оружие Западного Братства - Уровень 2
+lathe-category-blueprint-westbos-weapons-t3 = Оружие Западного Братства - Уровень 3
+lathe-category-blueprint-westbos-weapons-t4 = Оружие Западного Братства - Уровень 4
+lathe-category-blueprint-westbos-armor-t1 = Броня Западного Братства - Уровень 1
+lathe-category-blueprint-westbos-armor-t2 = Броня Западного Братства - Уровень 2
+lathe-category-blueprint-westbos-armor-t3 = Броня Западного Братства - Уровень 3
+lathe-category-blueprint-westbos-armor-t4 = Броня Западного Братства - Уровень 4
+
+# === Среднезападное Братство ===
+lathe-category-blueprint-midwestbos-weapons-t1 = Оружие Среднезападного Братства - Уровень 1
+lathe-category-blueprint-midwestbos-weapons-t2 = Оружие Среднезападного Братства - Уровень 2
+lathe-category-blueprint-midwestbos-weapons-t3 = Оружие Среднезападного Братства - Уровень 3
+lathe-category-blueprint-midwestbos-weapons-t4 = Оружие Среднезападного Братства - Уровень 4
+lathe-category-blueprint-midwestbos-armor-t1 = Броня Среднезападного Братства - Уровень 1
+lathe-category-blueprint-midwestbos-armor-t2 = Броня Среднезападного Братства - Уровень 2
+lathe-category-blueprint-midwestbos-armor-t3 = Броня Среднезападного Братства - Уровень 3
+lathe-category-blueprint-midwestbos-armor-t4 = Броня Среднезападного Братства - Уровень 4
 

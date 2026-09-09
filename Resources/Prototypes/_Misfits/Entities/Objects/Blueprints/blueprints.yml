@@ -554,200 +554,459 @@
     - N14BPLegionAmmo40mmGrenadeIncendiary
 
 # =====================================================================
-# BROTHERHOOD OF STEEL BLUEPRINTS
+# WASHINGTON BOS BLUEPRINTS
 # =====================================================================
 
-# --- BoS Weapons ---
+# --- Washington BoS Weapons ---
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSWeaponsT1
-  name: Руководство по энергетическому оружию новичка БС
-  suffix: BoST1
+  id: N14BlueprintWashingtonBosWeaponsT1
+  name: Схемы оружия послушника Вашингтонского БС
+  suffix: WashingtonBoST1
   description: |-
-    Учебное пособие Братства по сборке базового энергетического оружия. Оружие 1-го уровня.
-    Содержит: лазерный пистолет AEP7, пистолет с подзарядкой, самодельный лазерный револьвер, пистолет 10 мм
+    Базовые руководства Вашингтонского Братства по сборке оружия для новых послушников. Оружие 1-го уровня.
+    Содержит: плазменный пистолет, китайский пистолет 9 мм, примитивная плазменная винтовка, канадский пистолет-пулемёт 9 мм, китайский пистолет-пулемёт 10 мм, карабин СКС, винтовка M14
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSWeaponLaserPistol
-    - N14BPBoSWeaponLaserPistolRecharger
-    - N14BPBoSWeaponLaserRevolver
-    - N14BPBoSWeaponPistol10mm
+    - N14BPWashingtonBosWeaponPlasmaPistol
+    - N14BPWashingtonBosWeaponPistol9mmChinese
+    - N14BPWashingtonBosWeaponPlasmaRifleCrude
+    - N14BPWashingtonBosWeaponSMG9mmCanadian
+    - N14BPWashingtonBosWeaponSMG10mmChinese
+    - N14BPWashingtonBosWeaponRifle762SKS
+    - N14BPWashingtonBosWeaponRifle762M14
 
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSWeaponsT2
-  name: Схемы энергетического оружия рыцаря БС
-  suffix: BoST2
+  id: N14BlueprintWashingtonBosWeaponsT2
+  name: Арсенал рыцаря Вашингтонского БС
+  suffix: WashingtonBoST2
   description: |-
-    Спецификации производства энергетического оружия уровня рыцаря Братства. Оружие 2-го уровня.
-    Содержит: самодельная AER-9, самодельная лазерная винтовка, лазерная винтовка AER9, винтовка с подзарядкой, плазменный пистолет, плазменный защитник
+    Военные спецификации оружия уровня рыцаря Вашингтонского Братства. Оружие 2-го уровня.
+    Содержит: револьвер Вебли, боевая винтовка .308, усовершенствованный канадский пистолет-пулемёт 12 мм, плазменная винтовка, плазменная граната
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSWeaponLaserRifleCrude
-    - N14BPBoSWeaponLaserRifleMakeshift
-    - N14BPBoSWeaponLaserRifle
-    - N14BPBoSWeaponLaserRifleRecharger
-    - N14BPBoSWeaponPlasmaPistol
-    - N14BPBoSWeaponPlasmaDefender
+    - N14BPWashingtonBosWeaponRevolverWebley
+    - N14BPWashingtonBosWeaponRifle308Battle
+    - N14BPWashingtonBosWeaponSMG12mmAdvancedCanadian
+    - N14BPWashingtonBosWeaponPlasmaRifle
+    - N14BPWashingtonBosWeaponPlasmaGrenade
 
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSWeaponsT3
-  name: Планы арсенала паладина БС
-  suffix: BoST3
+  id: N14BlueprintWashingtonBosWeaponsT3
+  name: Планы арсенала паладина Вашингтонского БС
+  suffix: WashingtonBoST3
   description: |-
-    Продвинутые схемы оружия Братства из арсенала паладина. Оружие 3-го уровня.
-    Содержит: автоматическая лазерная винтовка AER9, плазменная винтовка, автоматическая плазменная винтовка, городская плазменная винтовка, лазерная винтовка "Wattz 2000", мультиплазменная винтовка
+    Продвинутые схемы оружия из арсенала паладинов Вашингтонского Братства. Оружие 3-го уровня.
+    Содержит: китайская винтовка 7.62, карабин 5.56, городская плазменная винтовка, снайперская винтовка .308, плазменный защитник
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSWeaponLaserRifleAuto
-    - N14BPBoSWeaponPlasmaRifle
-    - N14BPBoSWeaponPlasmaRifleAuto
-    - N14BPBoSWeaponPlasmaRifleUrban
-    - N14BPBoSWeaponLaserRifleWattz2000
-    - N14BPBoSWeaponPlasmaMultiplas
+    - N14BPWashingtonBosWeaponRifle762Chinese
+    - N14BPWashingtonBosWeaponRifle556Carbine
+    - N14BPWashingtonBosWeaponPlasmaRifleUrban
+    - N14BPWashingtonBosWeaponRifle308SniperRifle
+    - N14BPWashingtonBosWeaponPlasmaDefender
 
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSWeaponsT4
-  name: Чертежи хранилища старейшины БС
-  suffix: BoST4
+  id: N14BlueprintWashingtonBosWeaponsT4
+  name: Чертежи хранилища старейшины Вашингтонского БС
+  suffix: WashingtonBoST4
   description: |-
-    Довоенные прототипы военного оружия, извлеченные из архивов убежищ. Самые охраняемые секреты Братства. Оружие 4-го уровня.
-    Содержит: прототип лазерной винтовки AER14, лазерная винтовка "Wattz 3000", плазмомёт, гатлинг-лазер
+    Довоенные прототипы оружия, извлеченные из архивов Вашингтонского Братства. Оружие 4-го уровня.
+    Содержит: мультиплазменная винтовка, плазмомёт, крупнокалиберная снайперская винтовка, китайский пулемёт
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSWeaponLaserRiflePrototypeAER14
-    - N14BPBoSWeaponLaserRifleWattz3000
-    - N14BPBoSWeaponPlasmaCaster
-    - N14BPBoSWeaponLaserGatling
+    - N14BPWashingtonBosWeaponPlasmaMultiplas
+    - N14BPWashingtonBosWeaponPlasmaCaster
+    - N14BPWashingtonBosWeaponSniper50Pipe
+    - N14BPWashingtonBosWeaponLMGchinese
 
-# --- BoS Armor ---
+# --- Washington BoS Armor ---
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSArmorT1
-  name: Лекало брони новичка БС
-  suffix: BoST1
+  id: N14BlueprintWashingtonBosArmorT1
+  name: Лекала униформы послушника Вашингтонского БС
+  suffix: WashingtonBoST1
   description: |-
-    Инструкции по сборке стандартной брони Братства для новых новичков. Броня 1-го уровня.
-    Содержит: броня послушника, броня новобранца СЗБС, кожаный жилет писца
+    Лекала униформы и снаряжения для новичков Вашингтонского Братства. Броня 1-го уровня.
+    Содержит: очки, одеяния аколита и писца, плащ Братства, классическая и лордская униформа, униформа аколита и полевого писца, берет
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSArmorWBoSInitiateArmor
-    - N14BPBoSArmorMBoSInitiateArmor
-    - N14BPBoSArmorBosScribe
-
-- type: entity
-  parent: N14BlueprintBase
-  id: N14BlueprintBoSArmorT2
-  name: Схема брони оруженосца БС
-  suffix: BoST2
-  description: |-
-    Руководство оружейника Братства по созданию снаряжения уровня оруженосца. Броня 2-го уровня.
-    Содержит: броня оруженосца, броня оруженосца СЗБС, боевая броня Среднезападного Братства Стали
-  components:
-  - type: Blueprint
-    recipes:
-    - N14BPBoSArmorWBoSSquireArmor
-    - N14BPBoSArmorMBoSSquireArmor
-    - N14BPBoSArmorMidwestArmor
+    - N14BPWashingtonBosArmorEyesGlassesWBoS
+    - N14BPWashingtonBosArmorAcolyteCoat
+    - N14BPWashingtonBosArmorScripterCoat
+    - N14BPWashingtonBosArmorNeckMantleBrotherhoodWashington
+    - N14BPWashingtonBosArmorNeckCloakBrotherhoodWashington
+    - N14BPWashingtonBosArmorUniformClassic
+    - N14BPWashingtonBosArmorUniformLord
+    - N14BPWashingtonBosArmorUniformAcolyte
+    - N14BPWashingtonBosArmorOuterCoatBrotherhoodWashington
+    - N14BPWashingtonBosArmorUniformFieldScribe
+    - N14BPWashingtonBosArmorBeret
 
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSArmorT3
-  name: Схема брони рыцаря БС
-  suffix: BoST3
+  id: N14BlueprintWashingtonBosArmorT2
+  name: Схема боевой брони рыцаря Вашингтонского БС
+  suffix: WashingtonBoST2
   description: |-
-    Планы сборки полной боевой брони из рядов рыцарей Братства. Броня 3-го уровня.
-    Содержит: броня рыцаря, броня рыцаря СЗБС, броня старшего рыцаря, броня старшего рыцаря СЗБС, боевая броня Среднезападного Братства Стали Mk.2
+    Планы сборки боевой брони рыцарей Вашингтонского Братства. Броня 2-го уровня.
+    Содержит: боевая броня рыцаря, боевая броня рыцаря с килтом, боевой шлем рыцаря
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSArmorWBoSKnightArmor
-    - N14BPBoSArmorMBoSKnightArmor
-    - N14BPBoSArmorWBoSSeniorKArmor
-    - N14BPBoSArmorMBoSSeniorKArmor
-    - N14BPBoSArmorMidwestArmorMK2
+    - N14BPWashingtonBosArmorKnightBattleArmor
+    - N14BPWashingtonBosArmorKnightBattleArmorKilt
+    - N14BPWashingtonBosArmorBattleHelmet
 
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSArmorT4
-  name: Планы силовой брони паладина БС
-  suffix: BoST4
+  id: N14BlueprintWashingtonBosArmorT3
+  name: Схема разведывательной брони Вашингтонского БС
+  suffix: WashingtonBoST3
   description: |-
-    Планы сборки силовой брони Братства Стали. Вершина довоенных военных технологий. Броня 4-го уровня.
-    Содержит: paladin armor, броня паладина СЗБС, силовая броня T-45, силовая броня T-51, силовая броня T-60
+    Конструкции разведывательной брони Вашингтонского Братства из трофейного снаряжения. Броня 3-го уровня.
+    Содержит: разведывательная боевая броня, респиратор разведчика, рейдерская силовая броня
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSArmorWBoSPaladinArmor
-    - N14BPBoSArmorMBoSPaladinArmor
-    - N14BPBoSArmorPowerArmorT45
-    - N14BPBoSArmorPowerArmorT51
-    - N14BPBoSArmorPowerArmorT60
-
-# --- BoS Ammo ---
-- type: entity
-  parent: N14BlueprintBase
-  id: N14BlueprintBoSAmmoT1
-  name: Руководство по энергоячейкам БС
-  suffix: BoST1
-  description: |-
-    Руководство Братства по сборке базовых элементов питания для энергетического оружия. Боеприпасы 1-го уровня.
-    Содержит: энергобатарея, коробка патронов (10mm Auto)
-  components:
-  - type: Blueprint
-    recipes:
-    - N14BPBoSAmmoPowerCellSmall
-    - N14BPBoSAmmoBox10mm
+    - N14BPWashingtonBosArmorReconBattleArmor
+    - N14BPWashingtonBosArmorMaskGasWBoSRecon
+    - N14BPWashingtonBosArmorPowerArmorRaider
 
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSAmmoT2
-  name: Спецификация силовых элементов БС
-  suffix: BoST2
+  id: N14BlueprintWashingtonBosArmorT4
+  name: Чертежи силовой брони лорда Вашингтонского БС
+  suffix: WashingtonBoST4
   description: |-
-    Спецификации Братства для стандартных элементов питания энергетического оружия. Боеприпасы 2-го уровня.
-    Содержит: микроядерная батарея, заряд плазмы
+    Драгоценные чертежи силовой и командной брони лордов Вашингтонского Братства. Броня 4-го уровня.
+    Содержит: боевая броня лорда, силовая броня БС Вашингтона, шлем лорда
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSAmmoPowerCellHigh
-    - N14BPBoSAmmoPlasmaCell
+    - N14BPWashingtonBosArmorLordBattleArmor
+    - N14BPWashingtonBosArmorPowerArmorWBoS
+    - N14BPWashingtonBosArmorLordHelmet
+
+# =====================================================================
+# WEST BOS BLUEPRINTS
+# =====================================================================
+
+# --- West BoS Weapons ---
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintWestBosWeaponsT1
+  name: Схемы оружия послушника Западного БС
+  suffix: WestBoST1
+  description: |-
+    Базовые руководства Западного Братства по сборке оружия для новых послушников. Оружие 1-го уровня.
+    Содержит: примитивная плазменная винтовка, револьвер .45 Колт, примитивная лазерная винтовка, лазерный пистолет, снайперская винтовка Энфилд, винтовка M14, пистолет-пулемёт 10 мм
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPWestBosWeaponPlasmaRifleCrude
+    - N14BPWestBosWeaponPistol45Colt
+    - N14BPWestBosWeaponLaserRifleCrude
+    - N14BPWestBosWeaponLaserPistol
+    - N14BPWestBosWeaponSniperEnfield
+    - N14BPWestBosWeaponRifle762M14
+    - N14BPWestBosWeaponSMG10mm
 
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSAmmoT3
-  name: Схема продвинутых элементов БС
-  suffix: BoST3
+  id: N14BlueprintWestBosWeaponsT2
+  name: Арсенал рыцаря Западного БС
+  suffix: WestBoST2
   description: |-
-    Продвинутые планы производства элементов питания из архивов писцов. Боеприпасы 3-го уровня.
-    Содержит: электронный зарядный аккумулятор, заряд плазмы
+    Военные спецификации оружия уровня рыцаря Западного Братства. Оружие 2-го уровня.
+    Содержит: плазменный пистолет, дробовик Blowback, автомат АК-112, плазменная винтовка, лазерная винтовка, лазерный магнито-пистолет, снайперская винтовка .308
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSAmmoPowerCellAdvanced
-    - N14BPBoSAmmoPlasmaCartridge
+    - N14BPWestBosWeaponPlasmaPistol
+    - N14BPWestBosWeaponBlowback
+    - N14BPWestBosWeaponRifleAk112
+    - N14BPWestBosWeaponPlasmaRifle
+    - N14BPWestBosWeaponLaserRifle
+    - N14BPWestBosWeaponLaserMagnetoPistol
+    - N14BPWestBosWeaponRifle308SniperRifle
 
 - type: entity
   parent: N14BlueprintBase
-  id: N14BlueprintBoSAmmoT4
-  name: Схема термоядерного элемента БС
-  suffix: BoST4
+  id: N14BlueprintWestBosWeaponsT3
+  name: Планы арсенала паладина Западного БС
+  suffix: WestBoST3
   description: |-
-    Довоенные планы сборки термоядерных элементов. Самая ценная технология боеприпасов Братства. Боеприпасы 4-го уровня.
-    Содержит: ядерная батарея, плазменный снаряд, тяжёлая микроядерная батарея
+    Продвинутые схемы оружия из арсенала паладинов Западного Братства. Оружие 3-го уровня.
+    Содержит: городская плазменная винтовка, автоматическая лазерная винтовка, усовершенствованный пистолет-пулемёт 12 мм, автомат АК-112ПН, бозар
   components:
   - type: Blueprint
     recipes:
-    - N14BPBoSAmmoPowerCellFusion
-    - N14BPBoSAmmoPlasmaShell
-    - N14BPBoSAmmoPowerCellFocused
+    - N14BPWestBosWeaponPlasmaRifleUrban
+    - N14BPWestBosWeaponLaserRifleAuto
+    - N14BPWestBosWeaponSMG12mmAdvanced
+    - N14BPWestBosWeaponRifleAk112pn
+    - N14BPWestBosWeaponRifleBozarGRA
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintWestBosWeaponsT4
+  name: Чертежи хранилища старейшины Западного БС
+  suffix: WestBoST4
+  description: |-
+    Довоенные прототипы оружия, извлеченные из архивов Западного Братства. Оружие 4-го уровня.
+    Содержит: мультиплазменная винтовка, гаусс-винтовка, лазерная винтовка YK42B, прототип лазерной винтовки AER14
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPWestBosWeaponPlasmaMultiplas
+    - N14BPWestBosWeaponGaussRifle
+    - N14BPWestBosWeaponLaserRifleYk42b
+    - N14BPWestBosWeaponLaserRiflePrototypeAER14
+
+# --- West BoS Armor ---
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintWestBosArmorT1
+  name: Лекала униформы послушника Западного БС
+  suffix: WestBoST1
+  description: |-
+    Лекала униформы и снаряжения для новичков Западного Братства. Броня 1-го уровня.
+    Содержит: броня рекрута, униформа разведчика, берет рыцаря, фуражки скаута, паладина, полевого бойца и рыцаря, униформа писца, разведчика, паладина и рыцаря, стандартная униформа, пояса БС, очки пулемётчика
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPWestBosArmorRecruitWesternArmor
+    - N14BPWestBosArmorUniformBosReconWest
+    - N14BPWestBosArmorBeretknighBoS
+    - N14BPWestBosArmorCapScout
+    - N14BPWestBosArmorCapPaladin
+    - N14BPWestBosArmorBrotherhoodFieldCap
+    - N14BPWestBosArmorCapkhighBoS
+    - N14BPWestBosArmorUniformJumpsuitBOSWestScribe
+    - N14BPWestBosArmorBeltBoSWesternKhignht
+    - N14BPWestBosArmorEyesGlassesMachinegun
+    - N14BPWestBosArmorBeltBosLeatherunl
+    - N14BPWestBosArmorUniformJumpsuitBOSWestScout
+    - N14BPWestBosArmorUniformJumpsuitBOSWest
+    - N14BPWestBosArmorUniformJumpsuitBOSWestPaladin
+    - N14BPWestBosArmorCapkhighbluBoS
+    - N14BPWestBosArmorUniformJumpsuitBOSWestKnight
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintWestBosArmorT2
+  name: Схема боевой брони рыцаря Западного БС
+  suffix: WestBoST2
+  description: |-
+    Планы сборки боевой брони рыцарей Западного Братства. Броня 2-го уровня.
+    Содержит: броня рыцаря, капральный шлем, шлем брата, газовая маска брата
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPWestBosArmorMaskGasBrootherWestern
+    - N14BPWestBosArmorKnightWesternArmor
+    - N14BPWestBosArmorBrotherCapralHelmet
+    - N14BPWestBosArmorBrotherHelmet
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintWestBosArmorT3
+  name: Схема силовой брони Западного БС
+  suffix: WestBoST3
+  description: |-
+    Конструкции силовой брони из арсенала Западного Братства. Броня 3-го уровня.
+    Содержит: силовая броня T-45d западная, силовая броня T-45d, гарнитура связи БС
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPWestBosArmorPowerArmorT45West
+    - N14BPWestBosArmorPowerArmorT45
+    - N14BPWestBosArmorHeadsetBOSWest
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintWestBosArmorT4
+  name: Чертежи силовой брони старейшины Западного БС
+  suffix: WestBoST4
+  description: |-
+    Драгоценные чертежи силовой брони высшего командования Западного Братства. Броня 4-го уровня.
+    Содержит: силовая броня T-51b, силовая броня старейшины T-51b, силовая броня T-51b BC
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPWestBosArmorPowerArmorT51
+    - N14BPWestBosArmorPowerArmorT51Elder
+    - N14BPWestBosArmorPowerArmorT51BC
+
+# =====================================================================
+# MIDWEST BOS BLUEPRINTS
+# =====================================================================
+
+# --- Midwest BoS Weapons ---
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintMidWestBosWeaponsT1
+  name: Схемы оружия послушника Среднезападного БС
+  suffix: MidWestBoST1
+  description: |-
+    Базовые руководства Среднезападного Братства по сборке оружия для новых послушников. Оружие 1-го уровня.
+    Содержит: дробовик, старая винтовка 5.56, снайперская винтовка .308 племен улучшенная, пистолет 12 мм, лазерный пистолет, пистолет-пулемёт 12 мм, примитивная лазерная винтовка
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPMidWestBosWeaponShotgun
+    - N14BPMidWestBosWeaponRifle556CarbineOld
+    - N14BPMidWestBosWeaponSniper308TribalUpgraded
+    - N14BPMidWestBosWeaponPistol12mm
+    - N14BPMidWestBosWeaponLaserPistol
+    - N14BPMidWestBosWeaponSMG12mm
+    - N14BPMidWestBosWeaponLaserRifleCrude
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintMidWestBosWeaponsT2
+  name: Арсенал рыцаря Среднезападного БС
+  suffix: MidWestBoST2
+  description: |-
+    Военные спецификации оружия уровня рыцаря Среднезападного Братства. Оружие 2-го уровня.
+    Содержит: револьвер .45-70 охотника, городская плазменная винтовка, автоматический дробовик, церемониальный меч, лазерная винтовка, винтовка 5.56, винтовка FN FAL, снайперская винтовка .308
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPMidWestBosWeaponRevolver45-70Hunter
+    - N14BPMidWestBosWeaponPlasmaRifleUrban
+    - N14BPMidWestBosWeaponShotgunAuto
+    - N14BPMidWestBosWeaponCeremonialSword
+    - N14BPMidWestBosWeaponLaserRifle
+    - N14BPMidWestBosWeaponRifle556Carbine
+    - N14BPMidWestBosWeaponRifle762Fal
+    - N14BPMidWestBosWeaponRifle308SniperRifle
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintMidWestBosWeaponsT3
+  name: Планы арсенала паладина Среднезападного БС
+  suffix: MidWestBoST3
+  description: |-
+    Продвинутые схемы оружия из арсенала паладинов Среднезападного Братства. Оружие 3-го уровня.
+    Содержит: автоматическая плазменная винтовка, лазерная винтовка Ваттца 2000, ручной пулемёт, миниган, автоматическая лазерная винтовка
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPMidWestBosWeaponPlasmaRifleAuto
+    - N14BPMidWestBosWeaponLaserRifleWattz2000
+    - N14BPMidWestBosWeaponLMG
+    - N14BPMidWestBosWeaponMinigun
+    - N14BPMidWestBosWeaponLaserRifleAuto
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintMidWestBosWeaponsT4
+  name: Чертежи хранилища старейшины Среднезападного БС
+  suffix: MidWestBoST4
+  description: |-
+    Довоенные прототипы оружия, извлеченные из архивов Среднезападного Братства. Оружие 4-го уровня.
+    Содержит: гранатомёт, лазерный гатлинг, лазерная винтовка Ваттца 3000, плазмомёт
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPMidWestBosWeaponLauncherGrenade
+    - N14BPMidWestBosWeaponLaserGatling
+    - N14BPMidWestBosWeaponLaserRifleWattz3000
+    - N14BPMidWestBosWeaponPlasmaCaster
+
+# --- Midwest BoS Armor ---
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintMidWestBosArmorT1
+  name: Лекала униформы послушника Среднезападного БС
+  suffix: MidWestBoST1
+  description: |-
+    Лекала униформы и снаряжения для новичков Среднезападного Братства. Броня 1-го уровня.
+    Содержит: головные уборы инквизиторов, фуражка БС, армейская фуражка, берет, униформы писцов и инквизитора, броня сквайра и послушника, униформы разведчика и зелёная, пальто Среднезападного БС
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPMidWestBosArmorBoSInquisitorCap
+    - N14BPMidWestBosArmorBoSInquisitorHat
+    - N14BPMidWestBosArmorBoSInquisitorBlackHat
+    - N14BPMidWestBosArmorBrotherhoodFieldCap
+    - N14BPMidWestBosArmorArmyCap
+    - N14BPMidWestBosArmorBanganeBoS
+    - N14BPMidWestBosArmorUniformJumpsuitBOSFieldScribe
+    - N14BPMidWestBosArmorUniformJumpsuitBOSScribe
+    - N14BPMidWestBosArmorUniformJumpsuitInquisitorBOS
+    - N14BPMidWestBosArmorOuterMBoSSquireArmor
+    - N14BPMidWestBosArmorOuterMBoSInitiateArmor
+    - N14BPMidWestBosArmorUniformBosRecon
+    - N14BPMidWestBosArmorUniformJumpsuitBOSGreen
+    - N14BPMidWestBosArmorOuterMidwestBoSCoat
+    - N14BPMidWestBosArmorOuterBrotherhoodMidwestFieldScribeCoat
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintMidWestBosArmorT2
+  name: Схема боевой брони рыцаря Среднезападного БС
+  suffix: MidWestBoST2
+  description: |-
+    Планы сборки боевой брони рыцарей Среднезападного Братства. Броня 2-го уровня.
+    Содержит: пальто инквизитора, шлем Среднезападного БС, броня рыцаря, броня Среднезападного БС, одеяния медицинского писца, тактический ремень БС
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPMidWestBosArmorOuterBOSInquisitorCoat
+    - N14BPMidWestBosArmorHeadHatBrotherhoodMidwestHelmet
+    - N14BPMidWestBosArmorOuterMBoSKnightArmor
+    - N14BPMidWestBosArmorOuterMidwestArmor
+    - N14BPMidWestBosArmorOuterBrotherhoodMedicalScribeRobes
+    - N14BPMidWestBosArmorBeltBoSWebbing
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintMidWestBosArmorT3
+  name: Схема брони паладина Среднезападного БС
+  suffix: MidWestBoST3
+  description: |-
+    Конструкции боевой и силовой брони из арсенала Среднезападного Братства. Броня 3-го уровня.
+    Содержит: броня паладина, броня Среднезападного БС MK2, броня старшего рыцаря, чёрное пальто и боевая броня инквизитора, силовая броня T-45d, боевые шлемы инквизитора, гарнитура связи БС, ветеранский шлем
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPMidWestBosArmorOuterMBoSPaladinArmor
+    - N14BPMidWestBosArmorOuterMidwestArmorMK2
+    - N14BPMidWestBosArmorOuterMBoSSeniorKArmor
+    - N14BPMidWestBosArmorOuterBOSInquisitorBlackCoat
+    - N14BPMidWestBosArmorOuterBOSInquisitorBattleArmor
+    - N14BPMidWestBosArmorOuterPowerArmorT45
+    - N14BPMidWestBosArmorHeadHatBoSInquisitorBattleHelmetHood
+    - N14BPMidWestBosArmorHeadHatBoSInquisitorBattleHelmet
+    - N14BPMidWestBosArmorHeadsetBOSMidwest
+    - N14BPMidWestBosArmorHeadHatBrotherhoodMidwestHelmetVeteran
+
+- type: entity
+  parent: N14BlueprintBase
+  id: N14BlueprintMidWestBosArmorT4
+  name: Чертежи силовой брони старейшины Среднезападного БС
+  suffix: MidWestBoST4
+  description: |-
+    Драгоценные чертежи силовой брони высшего командования Среднезападного Братства. Броня 4-го уровня.
+    Содержит: разведывательная броня, шлем разведчика, силовая броня Среднезападного БС, силовая броня командующего
+  components:
+  - type: Blueprint
+    recipes:
+    - N14BPMidWestBosArmorOuterMidwestReconArmor
+    - N14BPMidWestBosArmorHeadHatBrotherhoodMidwestHelmetRecon
+    - N14BPMidWestBosArmorOuterPowerArmorMidwest
+    - N14BPMidWestBosArmorOuterPowerArmorMidwestCommander
 
 # =====================================================================
 # TOWNSFOLK BLUEPRINTS
