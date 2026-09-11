@@ -40,14 +40,16 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRWeaponPistol9mm
-    - N14BPNCRWeaponPistol10mm
-    - N14BPNCRWeaponSniperHunting
-    - N14BPNCRWeaponSniperEnfield
-    - N14BPNCRWeaponShotgun
-    - N14BPNCRWeaponShotgunLever
-    - N14BPNCRWeaponRifle556Service
-    - N14BPNCRWeaponSMG9mm
+    - N14WeaponPistol9mm
+    - N14WeaponPistol10mm
+    - N14WeaponPistol22lr
+    - N14WeaponRevolver9mm
+    - N14WeaponRevolver10mm
+    - N14WeaponSniperHunting
+    - N14WeaponSniperEnfield
+    - N14WeaponShotgun
+    - N14WeaponShotgunLever
+    - N14WeaponSniper556VarmintRifle
 
 - type: entity
   parent: N14BlueprintBase
@@ -60,15 +62,17 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRWeaponRifle556ServiceScoped
-    - N14BPNCRWeaponRevolver44Magnun
-    - N14BPNCRWeaponSniper44LeverCarbine
-    - N14BPNCRWeaponPistol45Colt
-    - N14BPNCRWeaponSMG45
-    - N14BPNCRWeaponRifle556R91
-    - N14BPNCRWeaponRifle762Fal
-    - N14BPNCRWeaponRifle308Battle
-    - N14BPNCRWeaponSMG10mm
+    - N14WeaponSniper44LeverCarbine
+    - N14WeaponPistol45Colt
+    - N14WeaponRifle556Service
+    - N14WeaponRifle556ServiceScoped
+    - N14WeaponRifle556R91
+    - N14WeaponSMG9mm
+    - N14WeaponSMG45
+    - N14WeaponShotgunAuto
+    - N14WeaponShotgunRiot
+    - N14WeaponSniper45-70BrushGun
+    - N14WeaponRifle762Marksman
 
 - type: entity
   parent: N14BlueprintBase
@@ -81,15 +85,16 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRWeaponShotgunAuto
-    - N14BPNCRWeaponShotgunRiot
-    - N14BPNCRWeaponSniper45-70BrushGun
-    - N14BPNCRWeaponRifle762Marksman
-    - N14BPNCRWeaponRifle556Carbine
-    - N14BPNCRWeaponDesertEagle44
-    - N14BPNCRWeaponRevolver45-70Hunter
-    - N14BPNCRWeaponMinigun
-    - N14BPNCRWeaponLMG
+    - N14WeaponRifle556Scout
+    - N14WeaponRifle556Carbine
+    - N14WeaponRifle762Fal
+    - N14WeaponRifle308Battle
+    - N14WeaponSMG10mm
+    - N14WeaponSMG12mm
+    - N14WeaponRevolver44Magnun
+    - N14WeaponDesertEagle44
+    - N14WeaponRevolver45-70RangerSequoia
+    - N14WeaponShotgunChinese
 
 - type: entity
   parent: N14BlueprintBase
@@ -102,11 +107,12 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRWeaponRifle556Scout
-    - N14BPNCRWeaponSniper50NCR
-    - N14BPNCRWeaponLMGAutoRifle
-    - N14BPNCRWeaponSMG12mmAdvanced
-    - N14BPNCRWeaponRevolver45-70RangerSequoia
+    - N14WeaponSniper50NCRRifle
+    - N14WeaponLMGAutoRifle
+    - N14WeaponLMG
+    - N14WeaponSMG12mmAdvanced
+    - N14WeaponRevolver45-70Hunter
+    - N14WeaponMinigun
 
 # --- NCR Armor ---
 - type: entity
@@ -120,50 +126,51 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRArmorVestSnow
-    - N14BPNCRArmorNeckNCRMPCoat
-    - N14BPNCRArmorCloakNCRWoods
-    - N14BPNCRArmorCloakNCR
-    - N14BPNCRArmorCloakNCRSnow
-    - N14BPNCRArmorShoulderPadNCR
-    - N14BPNCRArmorMantleNCR
-    - N14BPNCRArmorShoulderPadFlagNCR
-    - N14BPNCRArmorBeltHarnessNCR
-    - N14BPNCRArmorBeltBandolierNCR
-    - N14BPNCRArmorBeltPouchesNCR
-    - N14BPNCRArmorBeltNCR
-    - N14BPNCRArmorCloakTentHoodNCR
-    - N14BPNCRArmorVestpaddedWeb
-    - N14BPNCRArmorVestpaddedWebSnow
-    - N14BPNCRArmorVestNCR
-    - N14BPNCRArmorHelmetNCR
-    - N14BPNCRArmorHelmetNCRSnow
-    - N14BPNCRArmorVestCoatBlack
-    - N14BPNCRArmorMPArmorWest
-    - N14BPNCRArmorTrenchCoatNCR
-    - N14BPNCRArmorHelmetMetalMP
-    - N14BPNCRArmorHelmetMetalMedic
-    - N14BPNCRArmorHelmetMetalWoods
-    - N14BPNCRArmorHelmetMetalSnow
-    - N14BPNCRArmorHelmetMetalGhillie
-    - N14BPNCRArmorCloakGhillie
-    - N14BPNCRArmorBootsLeather
-    - N14BPNCRArmorUniformNCR
-    - N14BPNCRArmorUniformNCRSnow
-    - N14BPNCRArmorUniformMPNCRDesert
-    - N14BPNCRArmorUniformMPNCRSnow
-    - N14BPNCRArmorUniformOfficerNCRDesert
-    - N14BPNCRArmorUniformJumpsuitNCRMP
-    - N14BPNCRArmorUniformOfficerNCRSnow
-    - N14BPNCRArmorUniformNCRCF
-    - N14BPNCRArmorCorrectionalNCR
-    - N14BPNCRArmorBackpackNCR
-    - N14BPNCRArmorBackpackSatchelNCR
-    - N14BPNCRArmorCapNCRMP
-    - N14BPNCRArmorSidecapNCR
-    - N14BPNCRArmorBeretNCRMedic
-    - N14BPNCRArmorBeretNCROfficer
-    - N14BPNCRArmorGlovesNCR
+    - N14ClothingOuterNCRVestSnow
+    - N14ClothingOuterNCRVestWoods
+    - N14ClothingNeckNCRMPCoat
+    - N14ClothingNeckCloakNCRWoods
+    - N14ClothingNeckCloakNCR
+    - N14ClothingNeckCloakNCRSnow
+    - N14ClothingNeckNCRShoulderPad
+    - N14ClothingNeckMantleNCR
+    - N14ClothingNeckNCRShoulderPadFlag
+    - ClothingBeltNCRHarness
+    - ClothingBeltNCRBandolier
+    - ClothingBeltNCRPouches
+    - ClothingBeltNCR
+    - N14ClothingNeckCloakTentHoodNCR
+    - N14ClothingOuterNCRVestpaddedWeb
+    - N14ClothingOuterNCRVestpaddedWebSnow
+    - N14ClothingOuterNCRVest
+    - N14ClothingHeadHatNCRHelmet
+    - N14ClothingHeadHatNCRHelmetSnow
+    - N14ClothingOuterNCRVestCoatBlack
+    - N14ClothingOuterNCRMPArmorWest
+    - N14ClothingOuterNCRTrenchCoat
+    - N14ClothingHeadHatNCRHelmetMetalMilitaryPolice
+    - N14ClothingHeadHatNCRHelmetMetalMedic
+    - N14ClothingHeadHatNCRHelmetMetalWoods
+    - N14ClothingHeadHatNCRHelmetMetalSnow
+    - N14ClothingHeadHatNCRHelmetMetalGhillie
+    - N14ClothingNeckCloakGhillie
+    - N14ClothingBootsLeather
+    - N14ClothingUniformNCR
+    - N14ClothingUniformNCRSnow
+    - N14ClothingMPUniformNCRDesert
+    - N14ClothingMPUniformNCRSnow
+    - N14ClothingOfficerUniformNCRDesert
+    - N14ClothingUniformJumpsuitNCRMP
+    - N14ClothingOfficerUniformNCRSnow
+    - N14ClothingUniformNCRCFUniform
+    - N14ClothingOuterNCRCorrectional
+    - N14ClothingBackpackNCR
+    - N14ClothingBackpackSatchelNCR
+    - N14ClothingHeadHatNCRMPCap
+    - N14ClothingHeadHatNCRSidecap
+    - N14ClothingHeadHatNCRBeretMedic
+    - N14ClothingHeadHatNCRBeretOfficer
+    - N14ClothingHandsGlovesNCR
 
 - type: entity
   parent: N14BlueprintBase
@@ -176,18 +183,21 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRArmorCombatArmor
-    - N14BPNCRArmorRangerVest
-    - N14BPNCRArmorRangerCoat
-    - N14BPNCRArmorMaskPlate
-    - N14BPNCRArmorRangerArmor
-    - N14BPNCRArmorVeteranArmorSnow
-    - N14BPNCRArmorVeteranArmor
-    - N14BPNCRArmorCombatArmorSnow
-    - N14BPNCRArmorRangerArmorOld
-    - N14BPNCRArmorBackpackRadioNCR
-    - N14BPNCRArmorHeadHatRangerB
-    - N14BPNCRArmorHeadHatRanger
+    - N14ClothingOuterNCRPlateWoods
+    - N14ClothingOuterNCRPlateDesert
+    - N14ClothingOuterNCRCFvest
+    - N14ClothingOuterNCRCombatArmor
+    - N14ClothingOuterRangerVest
+    - N14ClothingOuterRangerCoat
+    - N14ClothingMaskPlate
+    - N14ClothingOuterRangerArmor
+    - N14ClothingOuterNCRVeteranArmorSnow
+    - N14ClothingOuterNCRVeteranArmor
+    - N14ClothingOuterNCRCombatArmorSnow
+    - N14ClothingOuterRangerArmorOld
+    - N14ClothingBackpackRadioNCR
+    - N14ClothingHeadHatRangerB
+    - N14ClothingHeadHatRanger
 
 - type: entity
   parent: N14BlueprintBase
@@ -200,17 +210,17 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRArmorRangerDuster
-    - N14BPNCRArmorCombatArmorMK2
-    - N14BPNCRArmorRangerArmorB
-    - N14BPNCRArmorRangerRedwood
-    - N14BPNCRArmorRangerCoyote
-    - N14BPNCRArmorRangerScorpion
-    - N14BPNCRArmorCombatArmorMK2Snow
-    - N14BPNCRArmorCombatVeteranArmorSnow
-    - N14BPNCRArmorCombatVeteranArmor
-    - N14BPNCRArmorCombatHelmet
-    - N14BPNCRArmorCombatHelmetSnow
+    - N14ClothingOuterRangerDuster
+    - N14ClothingOuterNCRCombatArmorMK2
+    - N14ClothingOuterRangerArmorB
+    - N14ClothingOuterRangerRedwood
+    - N14ClothingOuterRangerCoyote
+    - N14ClothingOuterRangerScorpion
+    - N14ClothingOuterNCRCombatArmorMK2Snow
+    - N14ClothingOuterNCRCombatVeteranArmorSnow
+    - N14ClothingOuterNCRCombatVeteranArmor
+    - N14ClothingHeadHatNCRCombatHelmet
+    - N14ClothingHeadHatNCRCombatHelmetSnow
 
 - type: entity
   parent: N14BlueprintBase
@@ -223,11 +233,13 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRArmorPowerArmorT51NCR
-    - N14BPNCRArmorPowerArmorT45NCR
-    - N14BPNCRArmorRangerCombatDesert
-    - N14BPNCRArmorEyesNCRNVGs
-    - N14BPNCRArmorHeadsetNCR
+    - N14ClothingOuterRangerCombat
+    - N14ClothingOuterRangerElite
+    - N14ClothingOuterPowerArmorT51NCR
+    - N14ClothingOuterPowerArmorT45NCR
+    - N14ClothingOuterRangerCombatDesert
+    - N14ClothingEyesNCRNVGs
+    - N14ClothingHeadsetNCR
 
 # --- NCR Ammo ---
 - type: entity
@@ -242,11 +254,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRAmmoBox9mm
-    - N14BPNCRAmmoBox10mm
-    - N14BPNCRAmmoBox22lr
-    - N14BPNCRAmmoMag9mmPistol
-    - N14BPNCRAmmoMag10mmPistol
+    - MagazineBox9mm
+    - MagazineBox10mm
+    - MagazineBox22
+    - N14MagazinePistol9mm
+    - N14MagazinePistol10mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -260,12 +272,12 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRAmmoBox556
-    - N14BPNCRAmmoBox45
-    - N14BPNCRAmmoBox12gauge
-    - N14BPNCRAmmoMag556Rifle
-    - N14BPNCRAmmoMag45SMG
-    - N14BPNCRAmmoMag9mmSMG
+    - MagazineBox556
+    - MagazineBox45
+    - MagazineBox12gauge
+    - Magazine556Rifle
+    - Magazine45SubMachineGun
+    - N14MagazineSMG9mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -279,13 +291,13 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRAmmoBox762
-    - N14BPNCRAmmoBox308
-    - N14BPNCRAmmoBox127
-    - N14BPNCRAmmoBox44Magnum
-    - N14BPNCRAmmoMag762Rifle
-    - N14BPNCRAmmoMag10mmSMG
-    - N14BPNCRAmmoMag12mmSMG
+    - MagazineBox762
+    - MagazineBox308
+    - MagazineBox12
+    - MagazineBox44
+    - Magazine762Rifle
+    - N14MagazineSMG10mm
+    - N14MagazineSMG12mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -299,12 +311,12 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPNCRAmmoBox50
-    - N14BPNCRAmmoBox5mm
-    - N14BPNCRAmmoBox45-70
-    - N14BPNCRAmmoMag556Long
-    - N14BPNCRAmmoMag308LMG
-    - N14BPNCRAmmoMagTopSMG12mm
+    - MagazineBox50
+    - N14MagazineMinigun5mm
+    - MagazineBox45-70
+    - LongMagazine556Rifle
+    - LMGMagazine556Rifle
+    - N14TopMagazineSMG12mm
 
 # =====================================================================
 # CAESAR'S LEGION BLUEPRINTS
@@ -322,14 +334,18 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionWeaponTribalClub
-    - N14BPLegionWeaponWastelandSpear
-    - N14BPLegionWeaponRevolver44TribalUpgraded
-    - N14BPLegionWeaponShotgunSawedOff
-    - N14BPLegionWeaponShotgunLever
-    - N14BPLegionWeaponSMG9mm
-    - N14BPLegionWeaponSMG12mmPipe
-    - N14BPLegionWeaponGladius
+    - N14TribalKnife
+    - N14TribalClub
+    - N14BrokenPipe
+    - N14NailBoard
+    - N14WastelandSpear
+    - N14WeaponRevolver44Tribal
+    - N14WeaponShotgunSawedOff
+    - N14WeaponShotgunLever
+    - N14WeaponSMG9mm
+    - N14WeaponSMG12mmPipe
+    - N14Gladius
+    - N14WeaponRevolver44TribalUpgraded
 
 - type: entity
   parent: N14BlueprintBase
@@ -342,15 +358,20 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionWeaponMachete
-    - N14BPLegionWeaponRevolver44TribalExtra
-    - N14BPLegionWeaponTrenchClub
-    - N14BPLegionWeaponSniper308Ross
-    - N14BPLegionWeaponSniper308Tribal
-    - N14BPLegionWeaponSMG10mm
-    - N14BPLegionWeaponBlowback
-    - N14BPLegionWeaponMacheteGladius
-    - N14BPLegionWeaponBaseballBat
+    - N14TribalMachete
+    - N14Machete
+    - N14TribalHatchet
+    - N14TribalSword
+    - N14WeaponShotgunDoubleBarrel
+    - N14WeaponShotgunPipe
+    - N14TrenchClub
+    - N14WeaponSniper308Ross
+    - N14WeaponSniper308Tribal
+    - N14WeaponSMG10mm
+    - N14WeaponBlowback
+    - N14MacheteGladius
+    - N14WeaponRevolver44TribalUpgradedExtra
+    - N14BaseBallBat
 
 - type: entity
   parent: N14BlueprintBase
@@ -363,16 +384,17 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionWeaponCeremonialSword
-    - N14BPLegionWeaponLongSword
-    - N14BPLegionWeaponSledgeHammer
-    - N14BPLegionWeaponTribalBigClub
-    - N14BPLegionWeaponLauncherGrenade
-    - N14BPLegionWeaponHandcannonUpgraded
-    - N14BPLegionWeaponShotgunCanadian
-    - N14BPLegionWeaponSMG12mm
-    - N14BPLegionWeaponSniper308TribalUpgraded
-    - N14BPLegionWeaponKebab
+    - N14CeremonialSword
+    - N14LongSword
+    - N14SledgeHammer
+    - N14TribalBigClub
+    - N14WeaponRevolver45-70Handcannon
+    - N14WeaponLauncherGrenade
+    - N14WeaponShotgunCanadian
+    - N14WeaponSMG12mm
+    - N14WeaponSniper308TribalUpgraded
+    - N14WeaponKebab
+    - N14WeaponRevolver45-70HandcannonUpgraded
 
 - type: entity
   parent: N14BlueprintBase
@@ -385,12 +407,12 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionWeaponSuperSledgeHammer
-    - N14BPLegionWeaponTribalBigClubDecorated
-    - N14BPLegionWeaponRipper
-    - N14BPLegionWeaponPolearm
-    - N14BPLegionWeaponLauncherMissile
-    - N14BPLegionWeaponThermospear
+    - N14SuperSledgeHammer
+    - N14TribalBigClubDecorated
+    - N14ripper
+    - N14WastelandPolearm
+    - N14WeaponLauncherMissile
+    - N14WeaponThermospear
 
 # --- Legion Armor ---
 - type: entity
@@ -404,27 +426,27 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionArmorRecruitArmor
-    - N14BPLegionArmorBaseArmor
-    - N14BPLegionArmorShoesKaligi
-    - N14BPLegionArmorShoesTribal
-    - N14BPLegionArmorHandsGlovesTribal
-    - N14BPLegionArmorLegionnaireBuckler
-    - N14BPLegionArmorLegionnaireShield
-    - N14BPLegionArmorUniformJumpsuitLegionnaire
-    - N14BPLegionArmorUniformJumpsuitLegionnaireOther
-    - N14BPLegionArmorHeadHatVenator
-    - N14BPLegionArmorTriariumArmor
-    - N14BPLegionArmorNeckLegionMantle
-    - N14BPLegionArmorNeckCapeLegion
-    - N14BPLegionArmorNeckCapeLegionSagum
-    - N14BPLegionArmorBeltQuiverSpear
-    - N14BPLegionArmorBeltRope
-    - N14BPLegionArmorHeadHatAnimal
-    - N14BPLegionArmorHeadHatNightstalker
-    - N14BPLegionArmorHeadHatLightBaseballHelmet
-    - N14BPLegionArmorHeadHatDog
-    - N14BPLegionArmorHeadHatTriarium
+    - N14ClothingOuterLegionnaireRecruitArmor
+    - N14ClothingOuterLegionnaireBaseArmor
+    - N14ClothingShoesKaligi
+    - N14ClothingShoesTribal
+    - N14ClothingHandsGlovesTribal
+    - N14LegionnaireBuckler
+    - N14LegionnaireShield
+    - N14ClothingUniformJumpsuitLegionnaire
+    - N14ClothingUniformJumpsuitLegionnaireOther
+    - N14ClothingHeadHatVenator
+    - N14ClothingOuterLegionnaireTriariumArmor
+    - M14ClothingNeckLegionMantle
+    - N14ClothingNeckCapeLegion
+    - N14ClothingNeckCapeLegionSagum
+    - ClothingBeltQuiverSpear
+    - ClothingBeltRope
+    - N14ClothingHeadHatAnimal
+    - N14ClothingHeadHatNightstalker
+    - N14ClothingHeadHatLightBaseballHelmet
+    - N14ClothingHeadHatDog
+    - N14ClothingHeadHatTriarium
 
 - type: entity
   parent: N14BlueprintBase
@@ -437,17 +459,16 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionArmorVeteranArmor
-    - N14BPLegionArmorVexillariusArmor
-    - N14BPLegionArmorArmorGastat
-    - N14BPLegionArmorArmorPrimeGastat
-    - N14BPLegionArmorVeteranArmorVeteranGastat
-    - N14BPLegionArmorHeadHatBaseballHelmet
-    - N14BPLegionArmorHeadHatGastatVeteran
-    - N14BPLegionArmorHeadHatGastat
-    - N14BPLegionArmorHeadHatPrinceps
-    - N14BPLegionArmorHeadHatPrincepsPrime
-    - N14BPLegionArmorHeadHatPrimeAssasin
+    - N14ClothingOuterLegionnaireVexillariusArmor
+    - N14ClothingOuterLegionnaireArmorGastat
+    - N14ClothingOuterLegionnaireArmorPrimeGastat
+    - N14ClothingOuterLegionnaireVeteranArmorVeteranGastat
+    - N14ClothingHeadHatBaseballHelmet
+    - N14ClothingHeadHatGastatVeteran
+    - N14ClothingHeadHatGastat
+    - N14ClothingHeadHatPrinceps
+    - N14ClothingHeadHatPrincepsPrime
+    - N14ClothingHeadHatPrimeAssasin
 
 - type: entity
   parent: N14BlueprintBase
@@ -460,13 +481,15 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionArmorDeanVeteranArmor
-    - N14BPLegionArmorHeadHatDeanVeteranHelmet
-    - N14BPLegionArmorHeadHatDeanPrimeHelmet
-    - N14BPLegionArmorHeadHatDeanRecruitHelmet
-    - N14BPLegionArmorPrincepsPrimeArmor
-    - N14BPLegionArmorDuster
-    - N14BPLegionArmorLightReconnaissanceArmor
+    - N14ClothingOuterLegionnaireVeteranArmor
+    - N14ClothingOuterDeanLegionnaireRecruitArmor
+    - N14ClothingOuterDeanLegionnaireVeteranArmor
+    - N14ClothingHeadHatDeanVeteranHelmet
+    - N14ClothingHeadHatDeanPrimeHelmet
+    - N14ClothingHeadHatDeanRecruitHelmet
+    - N14ClothingOuterLegionnairePrincepsPrimeArmor
+    - N14ClothingOuterLegionnaireDuster
+    - N14ClothingOuterLegionnaireLightReconnaissanceArmor
 
 - type: entity
   parent: N14BlueprintBase
@@ -479,16 +502,17 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionArmorHeavyCenturionArmor
-    - N14BPLegionArmorReconnaissanceArmor
-    - N14BPLegionArmorAssassinPrimeArmor
-    - N14BPLegionArmorAssassinArmor
-    - N14BPLegionArmorCenturionHelmet
-    - N14BPLegionArmorGlovesCenturion
-    - N14BPLegionArmorConquerorCenturionArmor
-    - N14BPLegionArmorCinderCenturionArmor
-    - N14BPLegionArmorCenturionConquerorHelmet
-    - N14BPLegionArmorCenturionCinderHelmet
+    - N14ClothingOuterHeavyCenturionArmor
+    - N14ClothingOuterLegionnaireReconnaissanceArmor
+    - N14ClothingOuterLegionnaireAssassinPrimeArmor
+    - N14ClothingOuterLegionnaireAssassinArmor
+    - N14ClothingHeadHatCenturionHelmet
+    - N14ClothingHandsGlovesCenturion
+    - N14ClothingOuterConquerorCenturionArmor
+    - N14ClothingOuterCinderCenturionArmor
+    - N14ClothingHeadHatCenturionConquerorHelmet
+    - N14ClothingHeadHatCenturionCinderHelmet
+    - N14ClothingOuterDeanLegionnairePrimeArmor
 
 # --- Legion Ammo ---
 - type: entity
@@ -503,9 +527,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionAmmoBox44Magnum
-    - N14BPLegionAmmoBox10mm
-    - N14BPLegionAmmoSpeedLoader44
+    - MagazineBox44
+    - MagazineBox10mm
+    - SpeedLoader44
 
 - type: entity
   parent: N14BlueprintBase
@@ -519,9 +543,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionAmmoBox12gauge
-    - N14BPLegionAmmoMag44Pistol
-    - N14BPLegionAmmoBox9mm
+    - MagazineBox12gauge
+    - N14MagazinePistol44
+    - MagazineBox9mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -534,8 +558,8 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPLegionAmmoBox45-70
-    - N14BPLegionAmmoSpeedLoader45-70
+    - MagazineBox45-70
+    - SpeedLoader45-70
     - N14BPLegionAmmo40mmGrenade
 
 - type: entity
@@ -550,7 +574,7 @@
   - type: Blueprint
     recipes:
     - N14BPLegionAmmoMissile
-    - N14BPLegionAmmoBox50
+    - MagazineBox50
     - N14BPLegionAmmo40mmGrenadeIncendiary
 
 # =====================================================================
@@ -569,13 +593,13 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWashingtonBosWeaponPlasmaPistol
-    - N14BPWashingtonBosWeaponPistol9mmChinese
-    - N14BPWashingtonBosWeaponPlasmaRifleCrude
-    - N14BPWashingtonBosWeaponSMG9mmCanadian
-    - N14BPWashingtonBosWeaponSMG10mmChinese
-    - N14BPWashingtonBosWeaponRifle762SKS
-    - N14BPWashingtonBosWeaponRifle762M14
+    - N14WeaponPlasmaPistol
+    - N14WeaponPistol9mmChinese
+    - N14WeaponPlasmaRifleCrude
+    - N14WeaponSMG9mmCanadian
+    - N14WeaponSMG10mmChinese
+    - N14WeaponRifle762SKS
+    - N14WeaponRifle762M14
 
 - type: entity
   parent: N14BlueprintBase
@@ -588,10 +612,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWashingtonBosWeaponRevolverWebley
-    - N14BPWashingtonBosWeaponRifle308Battle
-    - N14BPWashingtonBosWeaponSMG12mmAdvancedCanadian
-    - N14BPWashingtonBosWeaponPlasmaRifle
+    - N14WeaponRevolverWebley
+    - N14WeaponRifle308Battle
+    - N14WeaponSMG12mmAdvancedCanadian
+    - N14WeaponPlasmaRifle
     - N14BPWashingtonBosWeaponPlasmaGrenade
 
 - type: entity
@@ -605,11 +629,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWashingtonBosWeaponRifle762Chinese
-    - N14BPWashingtonBosWeaponRifle556Carbine
-    - N14BPWashingtonBosWeaponPlasmaRifleUrban
-    - N14BPWashingtonBosWeaponRifle308SniperRifle
-    - N14BPWashingtonBosWeaponPlasmaDefender
+    - N14WeaponRifle762Chinese
+    - N14WeaponRifle556Carbine
+    - N14WeaponPlasmaRifleUrban
+    - N14WeaponRifle308SniperRifle
+    - N14WeaponPlasmaDefender
 
 - type: entity
   parent: N14BlueprintBase
@@ -622,10 +646,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWashingtonBosWeaponPlasmaMultiplas
-    - N14BPWashingtonBosWeaponPlasmaCaster
-    - N14BPWashingtonBosWeaponSniper50Pipe
-    - N14BPWashingtonBosWeaponLMGchinese
+    - N14WeaponPlasmaMultiplas
+    - N14WeaponPlasmaCaster
+    - N14WeaponSniper50Pipe
+    - N14WeaponLMGchinese
 
 # --- Washington BoS Armor ---
 - type: entity
@@ -639,17 +663,17 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWashingtonBosArmorEyesGlassesWBoS
-    - N14BPWashingtonBosArmorAcolyteCoat
-    - N14BPWashingtonBosArmorScripterCoat
-    - N14BPWashingtonBosArmorNeckMantleBrotherhoodWashington
-    - N14BPWashingtonBosArmorNeckCloakBrotherhoodWashington
-    - N14BPWashingtonBosArmorUniformClassic
-    - N14BPWashingtonBosArmorUniformLord
-    - N14BPWashingtonBosArmorUniformAcolyte
-    - N14BPWashingtonBosArmorOuterCoatBrotherhoodWashington
-    - N14BPWashingtonBosArmorUniformFieldScribe
-    - N14BPWashingtonBosArmorBeret
+    - N14ClothingEyesGlassesWBoS
+    - N14ClothingOuterWBoSAcolyteCoat
+    - N14ClothingOuterWBoSScripterCoat
+    - N14ClothingNeckMantleBrotherhoodWashington
+    - N14ClothingNeckCloakBrotherhoodWashington
+    - N14ClothingUniformJumpsuitWBoSClassic
+    - N14ClothingUniformJumpsuitWBoSLord
+    - N14ClothingUniformJumpsuitWBoSAcolyte
+    - N14ClothingOuterBrotherhoodWashingtonCoat
+    - N14ClothingUniformJumpsuitBOSWashingtonFieldScribe
+    - N14ClothingHeadHatWBoSBeret
 
 - type: entity
   parent: N14BlueprintBase
@@ -662,9 +686,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWashingtonBosArmorKnightBattleArmor
-    - N14BPWashingtonBosArmorKnightBattleArmorKilt
-    - N14BPWashingtonBosArmorBattleHelmet
+    - N14ClothingOuterWBoSKnightBattleArmor
+    - N14ClothingOuterWBoSKnightBattleArmorKilt
+    - N14ClothingHeadHatWBoSBattleHelmet
 
 - type: entity
   parent: N14BlueprintBase
@@ -677,9 +701,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWashingtonBosArmorReconBattleArmor
-    - N14BPWashingtonBosArmorMaskGasWBoSRecon
-    - N14BPWashingtonBosArmorPowerArmorRaider
+    - N14ClothingOuterWBoSReconBattleArmor
+    - N14ClothingMaskGasWBoSRecon
+    - N14ClothingOuterPowerArmorRaider
 
 - type: entity
   parent: N14BlueprintBase
@@ -692,9 +716,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWashingtonBosArmorLordBattleArmor
-    - N14BPWashingtonBosArmorPowerArmorWBoS
-    - N14BPWashingtonBosArmorLordHelmet
+    - N14ClothingOuterWBoSLordBattleArmor
+    - N14ClothingOuterPowerArmorWBoSPowerArmor
+    - N14ClothingHeadHatWBoSLordHelmet
 
 # =====================================================================
 # WEST BOS BLUEPRINTS
@@ -712,13 +736,13 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWestBosWeaponPlasmaRifleCrude
-    - N14BPWestBosWeaponPistol45Colt
-    - N14BPWestBosWeaponLaserRifleCrude
-    - N14BPWestBosWeaponLaserPistol
-    - N14BPWestBosWeaponSniperEnfield
-    - N14BPWestBosWeaponRifle762M14
-    - N14BPWestBosWeaponSMG10mm
+    - N14WeaponPlasmaRifleCrude
+    - N14WeaponPistol45Colt
+    - N14WeaponLaserRifleCrude
+    - N14WeaponLaserPistol
+    - N14WeaponSniperEnfield
+    - N14WeaponRifle762M14
+    - N14WeaponSMG10mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -731,13 +755,13 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWestBosWeaponPlasmaPistol
-    - N14BPWestBosWeaponBlowback
-    - N14BPWestBosWeaponRifleAk112
-    - N14BPWestBosWeaponPlasmaRifle
-    - N14BPWestBosWeaponLaserRifle
-    - N14BPWestBosWeaponLaserMagnetoPistol
-    - N14BPWestBosWeaponRifle308SniperRifle
+    - N14WeaponPlasmaPistol
+    - N14WeaponBlowback
+    - N14WeaponRifleAk112
+    - N14WeaponPlasmaRifle
+    - N14WeaponLaserRifle
+    - N14WeaponLaserMagnetoPistol
+    - N14WeaponRifle308SniperRifle
 
 - type: entity
   parent: N14BlueprintBase
@@ -750,11 +774,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWestBosWeaponPlasmaRifleUrban
-    - N14BPWestBosWeaponLaserRifleAuto
-    - N14BPWestBosWeaponSMG12mmAdvanced
-    - N14BPWestBosWeaponRifleAk112pn
-    - N14BPWestBosWeaponRifleBozarGRA
+    - N14WeaponPlasmaRifleUrban
+    - N14WeaponLaserRifleAuto
+    - N14WeaponSMG12mmAdvanced
+    - N14WeaponRifleAk112pn
+    - N14WeaponRifleBozarGRA
 
 - type: entity
   parent: N14BlueprintBase
@@ -767,10 +791,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWestBosWeaponPlasmaMultiplas
-    - N14BPWestBosWeaponGaussRifle
-    - N14BPWestBosWeaponLaserRifleYk42b
-    - N14BPWestBosWeaponLaserRiflePrototypeAER14
+    - N14WeaponPlasmaMultiplas
+    - N14WeaponGaussRifle
+    - N14WeaponLaserRifleYk42b
+    - N14WeaponLaserRiflePrototypeAER14
 
 # --- West BoS Armor ---
 - type: entity
@@ -784,22 +808,22 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWestBosArmorRecruitWesternArmor
-    - N14BPWestBosArmorUniformBosReconWest
-    - N14BPWestBosArmorBeretknighBoS
-    - N14BPWestBosArmorCapScout
-    - N14BPWestBosArmorCapPaladin
-    - N14BPWestBosArmorBrotherhoodFieldCap
-    - N14BPWestBosArmorCapkhighBoS
-    - N14BPWestBosArmorUniformJumpsuitBOSWestScribe
-    - N14BPWestBosArmorBeltBoSWesternKhignht
-    - N14BPWestBosArmorEyesGlassesMachinegun
-    - N14BPWestBosArmorBeltBosLeatherunl
-    - N14BPWestBosArmorUniformJumpsuitBOSWestScout
-    - N14BPWestBosArmorUniformJumpsuitBOSWest
-    - N14BPWestBosArmorUniformJumpsuitBOSWestPaladin
-    - N14BPWestBosArmorCapkhighbluBoS
-    - N14BPWestBosArmorUniformJumpsuitBOSWestKnight
+    - N14ClothingOuterRecruitWesternArmor
+    - N14ClothingUniformBosReconWest
+    - N14ClothingHeadHatBeretknighBoS
+    - N14ClothingHeadHatCapScout
+    - N14ClothingHeadHatCapPaladin
+    - N14ClothingHeadHatBrotherhoodFieldCap
+    - N14ClothingHeadHatCapkhighBoS
+    - N14ClothingUniformJumpsuitBOSWestScribe
+    - N14ClothingBeltBoSWesternKhignht
+    - N14ClothingEyesGlassesMachinegun
+    - N14ClothingBeltBosLeatherunl
+    - N14ClothingUniformJumpsuitBOSWestScout
+    - N14ClothingUniformJumpsuitBOSWest
+    - N14ClothingUniformJumpsuitBOSWestPaladin
+    - N14ClothingHeadHatCapkhighbluBoS
+    - N14ClothingUniformJumpsuitBOSWestKnight
 
 - type: entity
   parent: N14BlueprintBase
@@ -812,10 +836,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWestBosArmorMaskGasBrootherWestern
-    - N14BPWestBosArmorKnightWesternArmor
-    - N14BPWestBosArmorBrotherCapralHelmet
-    - N14BPWestBosArmorBrotherHelmet
+    - ClothingMaskGasBrootherWestern
+    - N14ClothingOuterKnightWesternArmor
+    - N14ClothingHeadHatBrotherCapralHelmet
+    - N14ClothingHeadHatBrotherHelmet
 
 - type: entity
   parent: N14BlueprintBase
@@ -828,9 +852,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWestBosArmorPowerArmorT45West
-    - N14BPWestBosArmorPowerArmorT45
-    - N14BPWestBosArmorHeadsetBOSWest
+    - N14ClothingOuterPowerArmorT45West
+    - N14ClothingOuterPowerArmorT45
+    - N14ClothingHeadsetBOSWest
 
 - type: entity
   parent: N14BlueprintBase
@@ -843,9 +867,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPWestBosArmorPowerArmorT51
-    - N14BPWestBosArmorPowerArmorT51Elder
-    - N14BPWestBosArmorPowerArmorT51BC
+    - N14ClothingOuterPowerArmorT51
+    - N14ClothingOuterPowerArmorT51Elder
+    - N14ClothingOuterPowerArmorT51BC
 
 # =====================================================================
 # MIDWEST BOS BLUEPRINTS
@@ -863,13 +887,13 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPMidWestBosWeaponShotgun
-    - N14BPMidWestBosWeaponRifle556CarbineOld
-    - N14BPMidWestBosWeaponSniper308TribalUpgraded
-    - N14BPMidWestBosWeaponPistol12mm
-    - N14BPMidWestBosWeaponLaserPistol
-    - N14BPMidWestBosWeaponSMG12mm
-    - N14BPMidWestBosWeaponLaserRifleCrude
+    - N14WeaponShotgun
+    - N14WeaponRifle556CarbineOld
+    - N14WeaponSniper308TribalUpgraded
+    - N14WeaponPistol12mm
+    - N14WeaponLaserPistol
+    - N14WeaponSMG12mm
+    - N14WeaponLaserRifleCrude
 
 - type: entity
   parent: N14BlueprintBase
@@ -882,14 +906,14 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPMidWestBosWeaponRevolver45-70Hunter
-    - N14BPMidWestBosWeaponPlasmaRifleUrban
-    - N14BPMidWestBosWeaponShotgunAuto
-    - N14BPMidWestBosWeaponCeremonialSword
-    - N14BPMidWestBosWeaponLaserRifle
-    - N14BPMidWestBosWeaponRifle556Carbine
-    - N14BPMidWestBosWeaponRifle762Fal
-    - N14BPMidWestBosWeaponRifle308SniperRifle
+    - N14WeaponRevolver45-70Hunter
+    - N14WeaponPlasmaRifleUrban
+    - N14WeaponShotgunAuto
+    - N14CeremonialSword
+    - N14WeaponLaserRifle
+    - N14WeaponRifle556Carbine
+    - N14WeaponRifle762Fal
+    - N14WeaponRifle308SniperRifle
 
 - type: entity
   parent: N14BlueprintBase
@@ -902,11 +926,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPMidWestBosWeaponPlasmaRifleAuto
-    - N14BPMidWestBosWeaponLaserRifleWattz2000
-    - N14BPMidWestBosWeaponLMG
-    - N14BPMidWestBosWeaponMinigun
-    - N14BPMidWestBosWeaponLaserRifleAuto
+    - N14WeaponPlasmaRifleAuto
+    - N14WeaponLaserRifleWattz2000
+    - N14WeaponLMG
+    - N14WeaponMinigun
+    - N14WeaponLaserRifleAuto
 
 - type: entity
   parent: N14BlueprintBase
@@ -919,10 +943,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPMidWestBosWeaponLauncherGrenade
-    - N14BPMidWestBosWeaponLaserGatling
-    - N14BPMidWestBosWeaponLaserRifleWattz3000
-    - N14BPMidWestBosWeaponPlasmaCaster
+    - N14WeaponLauncherGrenade
+    - N14WeaponLaserGatling
+    - N14WeaponLaserRifleWattz3000
+    - N14WeaponPlasmaCaster
 
 # --- Midwest BoS Armor ---
 - type: entity
@@ -936,21 +960,21 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPMidWestBosArmorBoSInquisitorCap
-    - N14BPMidWestBosArmorBoSInquisitorHat
-    - N14BPMidWestBosArmorBoSInquisitorBlackHat
-    - N14BPMidWestBosArmorBrotherhoodFieldCap
-    - N14BPMidWestBosArmorArmyCap
-    - N14BPMidWestBosArmorBanganeBoS
-    - N14BPMidWestBosArmorUniformJumpsuitBOSFieldScribe
-    - N14BPMidWestBosArmorUniformJumpsuitBOSScribe
-    - N14BPMidWestBosArmorUniformJumpsuitInquisitorBOS
-    - N14BPMidWestBosArmorOuterMBoSSquireArmor
-    - N14BPMidWestBosArmorOuterMBoSInitiateArmor
-    - N14BPMidWestBosArmorUniformBosRecon
-    - N14BPMidWestBosArmorUniformJumpsuitBOSGreen
-    - N14BPMidWestBosArmorOuterMidwestBoSCoat
-    - N14BPMidWestBosArmorOuterBrotherhoodMidwestFieldScribeCoat
+    - N14ClothingHeadHatBoSInquisitorCap
+    - N14ClothingHeadHatBoSInquisitorHat
+    - N14ClothingHeadHatBoSInquisitorBlackHat
+    - N14ClothingHeadHatBrotherhoodFieldCap
+    - N14ClothingHeadHatArmyCap
+    - N14ClothingHeadHatBanganeBoS
+    - N14ClothingUniformJumpsuitBOSFieldScribe
+    - N14ClothingUniformJumpsuitBOSScribe
+    - N14ClothingUniformJumpsuitInquisitorBOS
+    - N14ClothingOuterMBoSSquireArmor
+    - N14ClothingOuterMBoSInitiateArmor
+    - N14ClothingUniformBosRecon
+    - N14ClothingUniformJumpsuitBOSGreen
+    - N14ClothingOuterMidwestBoSCoat
+    - N14ClothingOuterBrotherhoodMidwestFieldScribeCoat
 
 - type: entity
   parent: N14BlueprintBase
@@ -963,12 +987,12 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPMidWestBosArmorOuterBOSInquisitorCoat
-    - N14BPMidWestBosArmorHeadHatBrotherhoodMidwestHelmet
-    - N14BPMidWestBosArmorOuterMBoSKnightArmor
-    - N14BPMidWestBosArmorOuterMidwestArmor
-    - N14BPMidWestBosArmorOuterBrotherhoodMedicalScribeRobes
-    - N14BPMidWestBosArmorBeltBoSWebbing
+    - N14ClothingOuterBOSInquisitorCoat
+    - N14ClothingHeadHatBrotherhoodMidwestHelmet
+    - N14ClothingOuterMBoSKnightArmor
+    - N14ClothingOuterMidwestArmor
+    - N14ClothingOuterBrotherhoodMedicalScribeRobes
+    - N14ClothingBeltBoSWebbing
 
 - type: entity
   parent: N14BlueprintBase
@@ -981,16 +1005,16 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPMidWestBosArmorOuterMBoSPaladinArmor
-    - N14BPMidWestBosArmorOuterMidwestArmorMK2
-    - N14BPMidWestBosArmorOuterMBoSSeniorKArmor
-    - N14BPMidWestBosArmorOuterBOSInquisitorBlackCoat
-    - N14BPMidWestBosArmorOuterBOSInquisitorBattleArmor
-    - N14BPMidWestBosArmorOuterPowerArmorT45
-    - N14BPMidWestBosArmorHeadHatBoSInquisitorBattleHelmetHood
-    - N14BPMidWestBosArmorHeadHatBoSInquisitorBattleHelmet
-    - N14BPMidWestBosArmorHeadsetBOSMidwest
-    - N14BPMidWestBosArmorHeadHatBrotherhoodMidwestHelmetVeteran
+    - N14ClothingOuterMBoSPaladinArmor
+    - N14ClothingOuterMidwestArmorMK2
+    - N14ClothingOuterMBoSSeniorKArmor
+    - N14ClothingOuterBOSInquisitorBlackCoat
+    - N14ClothingOuterBOSInquisitorBattleArmor
+    - N14ClothingOuterPowerArmorT45
+    - N14ClothingHeadHatBoSInquisitorBattleHelmetHood
+    - N14ClothingHeadHatBoSInquisitorBattleHelmet
+    - N14ClothingHeadsetBOSMidwest
+    - N14ClothingHeadHatBrotherhoodMidwestHelmetVeteran
 
 - type: entity
   parent: N14BlueprintBase
@@ -1003,10 +1027,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPMidWestBosArmorOuterMidwestReconArmor
-    - N14BPMidWestBosArmorHeadHatBrotherhoodMidwestHelmetRecon
-    - N14BPMidWestBosArmorOuterPowerArmorMidwest
-    - N14BPMidWestBosArmorOuterPowerArmorMidwestCommander
+    - N14ClothingOuterMidwestReconArmor
+    - N14ClothingHeadHatBrotherhoodMidwestHelmetRecon
+    - N14ClothingOuterPowerArmorMidwest
+    - N14ClothingOuterPowerArmorMidwestCommander
 
 # =====================================================================
 # TOWNSFOLK BLUEPRINTS
@@ -1024,14 +1048,14 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownWeaponPistol9mm
-    - N14BPTownWeaponPistol10mm
-    - N14BPTownWeaponPistol22lr
-    - N14BPTownWeaponRevolver9mm
-    - N14BPTownWeaponCombatKnife
-    - N14BPTownWeaponShotgunDoubleBarrel
-    - N14BPTownWeaponShotgun
-    - N14BPTownWeaponSniperHunting
+    - N14WeaponPistol9mm
+    - N14WeaponPistol10mm
+    - N14WeaponPistol22lr
+    - N14WeaponRevolver9mm
+    - N14CombatKnife
+    - N14WeaponShotgunDoubleBarrel
+    - N14WeaponShotgun
+    - N14WeaponSniperHunting
 
 - type: entity
   parent: N14BlueprintBase
@@ -1044,15 +1068,15 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownWeaponPistol45Colt
-    - N14BPTownWeaponPistolWebley
-    - N14BPTownWeaponRifle556Service
-    - N14BPTownWeaponRifle556R91
-    - N14BPTownWeaponMachete
-    - N14BPTownWeaponHatchet
-    - N14BPTownWeaponShotgunCaravan
-    - N14BPTownWeaponSMG9mm
-    - N14BPTownWeaponSniper44LeverCarbine
+    - N14WeaponPistol45Colt
+    - N14WeaponPistolWebley
+    - N14WeaponRifle556Service
+    - N14WeaponRifle556R91
+    - N14Machete
+    - N14Hatchet
+    - N14WeaponShotgunCaravan
+    - N14WeaponSMG9mm
+    - N14WeaponSniper44LeverCarbine
 
 - type: entity
   parent: N14BlueprintBase
@@ -1065,14 +1089,14 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownWeaponRevolver44Magnun
-    - N14BPTownWeaponDesertEagle44
-    - N14BPTownWeaponRifle762Marksman
-    - N14BPTownWeaponRifle308Battle
-    - N14BPTownWeaponSMG10mm
-    - N14BPTownWeaponSMG45
-    - N14BPTownWeaponShotgunAuto
-    - N14BPTownWeaponSledgeHammer
+    - N14WeaponRevolver44Magnun
+    - N14WeaponDesertEagle44
+    - N14WeaponRifle762Marksman
+    - N14WeaponRifle308Battle
+    - N14WeaponSMG10mm
+    - N14WeaponSMG45
+    - N14WeaponShotgunAuto
+    - N14SledgeHammer
 
 - type: entity
   parent: N14BlueprintBase
@@ -1085,11 +1109,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownWeaponRifle556Carbine
-    - N14BPTownWeaponSMG12mm
-    - N14BPTownWeaponSniper45-70BrushGun
-    - N14BPTownWeaponRevolver45-70Hunter
-    - N14BPTownWeaponSniper308LeverRifle
+    - N14WeaponRifle556Carbine
+    - N14WeaponSMG12mm
+    - N14WeaponSniper45-70BrushGun
+    - N14WeaponRevolver45-70Hunter
+    - N14WeaponSniper308LeverRifle
 
 # --- Town Armor ---
 - type: entity
@@ -1103,9 +1127,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownArmorVestLeather
-    - N14BPTownArmorChitinArmor
-    - N14BPTownArmorLightLeatherArmor
+    - N14ClothingOuterVestLeather
+    - N14ClothingOuterChitinArmor
+    - N14ClothingOuterLightLeatherArmor
 
 - type: entity
   parent: N14BlueprintBase
@@ -1118,10 +1142,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownArmorPoliceVest
-    - N14BPTownArmorTownGuardLight
-    - N14BPTownArmorReinforcedLeatherArmor
-    - N14BPTownArmorLeatherArmor
+    - N14ClothingOuterPoliceVest
+    - N14ClothingOuterTownGuardLight
+    - N14ClothingOuterReinforcedLeatherArmor
+    - N14ClothingOuterLeatherArmor
 
 - type: entity
   parent: N14BlueprintBase
@@ -1134,10 +1158,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownArmorTownGuardRiot
-    - N14BPTownArmorPoliceCombat
-    - N14BPTownArmorSheriffVest
-    - N14BPTownArmorMetalArmor
+    - N14ClothingOuterTownGuardRiot
+    - N14ClothingOuterPoliceCombat
+    - N14ClothingOuterSheriffVest
+    - N14ClothingOuterMetalArmor
 
 - type: entity
   parent: N14BlueprintBase
@@ -1150,9 +1174,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownArmorCombatArmor
-    - N14BPTownArmorScavengerHeavyArmor
-    - N14BPTownArmorInsectArmor
+    - N14ClothingOuterCombatArmor
+    - N14ClothingScavengerHeavyArmor
+    - N14ClothingOuterInsectArmor
 
 # --- Town Ammo ---
 - type: entity
@@ -1167,11 +1191,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownAmmoBox9mm
-    - N14BPTownAmmoBox10mm
-    - N14BPTownAmmoBox22lr
-    - N14BPTownAmmoMag9mmPistol
-    - N14BPTownAmmoMag10mmPistol
+    - MagazineBox9mm
+    - MagazineBox10mm
+    - MagazineBox22
+    - N14MagazinePistol9mm
+    - N14MagazinePistol10mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -1185,11 +1209,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownAmmoBox556
-    - N14BPTownAmmoBox45
-    - N14BPTownAmmoBox12gauge
-    - N14BPTownAmmoMag556Rifle
-    - N14BPTownAmmoMag9mmSMG
+    - MagazineBox556
+    - MagazineBox45
+    - MagazineBox12gauge
+    - Magazine556Rifle
+    - N14MagazineSMG9mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -1203,11 +1227,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownAmmoBox762
-    - N14BPTownAmmoBox308
-    - N14BPTownAmmoBox44Magnum
-    - N14BPTownAmmoMag762Rifle
-    - N14BPTownAmmoMag10mmSMG
+    - MagazineBox762
+    - MagazineBox308
+    - MagazineBox44
+    - Magazine762Rifle
+    - N14MagazineSMG10mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -1221,10 +1245,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTownAmmoBox127
-    - N14BPTownAmmoBox45-70
-    - N14BPTownAmmoMag12mmSMG
-    - N14BPTownAmmoMag556Long
+    - MagazineBox12
+    - MagazineBox45-70
+    - N14MagazineSMG12mm
+    - LongMagazine556Rifle
 
 # =====================================================================
 # VAULT BLUEPRINTS
@@ -1242,9 +1266,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPVaultWeaponPistol10mm
-    - N14BPVaultWeaponPoliceBaton
-    - N14BPVaultWeaponLaserPistol
+    - N14WeaponPistol10mm
+    - N14PoliceBaton
+    - N14WeaponLaserPistol
 
 - type: entity
   parent: N14BlueprintBase
@@ -1257,10 +1281,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPVaultWeaponSMG10mm
-    - N14BPVaultWeaponLaserPistolRecharger
-    - N14BPVaultWeaponLaserRifleRecharger
-    - N14BPVaultWeaponCombatKnife
+    - N14WeaponSMG10mm
+    - N14WeaponLaserPistolRecharger
+    - N14WeaponLaserRifleRecharger
+    - N14CombatKnife
 
 - type: entity
   parent: N14BlueprintBase
@@ -1273,9 +1297,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPVaultWeaponPlasmaPistol
-    - N14BPVaultWeaponLaserRifle
-    - N14BPVaultWeaponPlasmaDefender
+    - N14WeaponPlasmaPistol
+    - N14WeaponLaserRifle
+    - N14WeaponPlasmaDefender
 
 - type: entity
   parent: N14BlueprintBase
@@ -1288,9 +1312,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPVaultWeaponPlasmaRifle
-    - N14BPVaultWeaponLaserRifleWattz2000
-    - N14BPVaultWeaponLaserRifleAuto
+    - N14WeaponPlasmaRifle
+    - N14WeaponLaserRifleWattz2000
+    - N14WeaponLaserRifleAuto
 
 # --- Vault Armor ---
 - type: entity
@@ -1304,7 +1328,7 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPVaultArmorVaultSecVest
+    - N14ClothingOuterVaultSecVest
 
 - type: entity
   parent: N14BlueprintBase
@@ -1317,8 +1341,8 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPVaultArmorLightLeatherArmor
-    - N14BPVaultArmorReinforcedLeatherArmor
+    - N14ClothingOuterLightLeatherArmor
+    - N14ClothingOuterReinforcedLeatherArmor
 
 - type: entity
   parent: N14BlueprintBase
@@ -1331,8 +1355,8 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPVaultArmorCombatArmor
-    - N14BPVaultArmorPoliceCombat
+    - N14ClothingOuterCombatArmor
+    - N14ClothingOuterPoliceCombat
 
 - type: entity
   parent: N14BlueprintBase
@@ -1345,8 +1369,8 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPVaultArmorCombatArmorMK2
-    - N14BPVaultArmorMarineArmor
+    - N14ClothingOuterCombatArmorMK2
+    - N14ClothingOuterMarineArmor
 
 # --- Vault Ammo ---
 - type: entity
@@ -1361,8 +1385,8 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPVaultAmmoBox10mm
-    - N14BPVaultAmmoMag10mmPistol
+    - MagazineBox10mm
+    - N14MagazinePistol10mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -1376,7 +1400,7 @@
   - type: Blueprint
     recipes:
     - N14BPVaultAmmoPowerCellSmall
-    - N14BPVaultAmmoMag10mmSMG
+    - N14MagazineSMG10mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -1422,11 +1446,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeWeaponTribalKnife
-    - N14BPTribeWeaponTribalClub
-    - N14BPTribeWeaponWastelandSpear
-    - N14BPTribeWeaponRevolver44Tribal
-    - N14BPTribeWeaponBrokenPipe
+    - N14TribalKnife
+    - N14TribalClub
+    - N14WastelandSpear
+    - N14WeaponRevolver44Tribal
+    - N14BrokenPipe
 
 - type: entity
   parent: N14BlueprintBase
@@ -1439,12 +1463,12 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeWeaponTribalMachete
-    - N14BPTribeWeaponTribalHatchet
-    - N14BPTribeWeaponTribalSword
-    - N14BPTribeWeaponRevolver44TribalUpgraded
-    - N14BPTribeWeaponPistol10mmPipe
-    - N14BPTribeWeaponShotgunPipe
+    - N14TribalMachete
+    - N14TribalHatchet
+    - N14TribalSword
+    - N14WeaponRevolver44TribalUpgraded
+    - N14WeaponPistol10mmPipe
+    - N14WeaponShotgunPipe
 
 - type: entity
   parent: N14BlueprintBase
@@ -1457,12 +1481,12 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeWeaponRevolver44TribalExtra
-    - N14BPTribeWeaponHandcannon
-    - N14BPTribeWeaponTribalBigClub
-    - N14BPTribeWeaponTribalSpear
-    - N14BPTribeWeaponSMG12mmPipe
-    - N14BPTribeWeaponRifle556Pipe
+    - N14WeaponRevolver44TribalUpgradedExtra
+    - N14WeaponRevolver45-70Handcannon
+    - N14TribalBigClub
+    - N14WastelandTribalSpear
+    - N14WeaponSMG12mmPipe
+    - N14WeaponRifle556Pipe
 
 - type: entity
   parent: N14BlueprintBase
@@ -1475,11 +1499,11 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeWeaponHandcannonUpgraded
-    - N14BPTribeWeaponTribalBigClubDecorated
-    - N14BPTribeWeaponPolearm
-    - N14BPTribeWeaponSniper50Pipe
-    - N14BPTribeWeaponSuperSledgeHammer
+    - N14WeaponRevolver45-70HandcannonUpgraded
+    - N14TribalBigClubDecorated
+    - N14WastelandPolearm
+    - N14WeaponSniper50Pipe
+    - N14SuperSledgeHammer
 
 # --- Tribe Armor ---
 - type: entity
@@ -1493,8 +1517,8 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeArmorTribalArmor
-    - N14BPTribeArmorDrylanderSimple
+    - N14ClothingOuterTribalArmor
+    - N14ClothingOuterdrylandersimple
 
 - type: entity
   parent: N14BlueprintBase
@@ -1507,10 +1531,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeArmorBandito
-    - N14BPTribeArmorForager
-    - N14BPTribeArmorHunter
-    - N14BPTribeArmorPoncho
+    - N14ClothingOuterBandito
+    - N14ClothingOuterforager
+    - N14ClothingOuterhunter
+    - N14ClothingOuterponcho
 
 - type: entity
   parent: N14BlueprintBase
@@ -1523,10 +1547,10 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeArmorTribalArmorHeavy
-    - N14BPTribeArmorHeadtaker
-    - N14BPTribeArmorShaman
-    - N14BPTribeArmorCombatTribal
+    - N14ClothingOuterTribalArmorHeavy
+    - N14ClothingOuterheadtaker
+    - N14ClothingOutershaman
+    - N14ClothingOuterCombatTribal
 
 - type: entity
   parent: N14BlueprintBase
@@ -1539,8 +1563,8 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeArmorRadArmor
-    - N14BPTribeArmorInsectArmor
+    - N14ClothingOuterRadArmor
+    - N14ClothingOuterInsectArmor
 
 # --- Tribe Ammo ---
 - type: entity
@@ -1555,9 +1579,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeAmmoBox44Magnum
-    - N14BPTribeAmmoBox10mm
-    - N14BPTribeAmmoSpeedLoader44
+    - MagazineBox44
+    - MagazineBox10mm
+    - SpeedLoader44
 
 - type: entity
   parent: N14BlueprintBase
@@ -1571,9 +1595,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeAmmoBox12gauge
-    - N14BPTribeAmmoBox556
-    - N14BPTribeAmmoMag10mmPipe
+    - MagazineBox12gauge
+    - MagazineBox556
+    - N14MagazinePistol10mm
 
 - type: entity
   parent: N14BlueprintBase
@@ -1587,9 +1611,9 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeAmmoBox127
-    - N14BPTribeAmmoBox308
-    - N14BPTribeAmmoSpeedLoader45-70
+    - MagazineBox12
+    - MagazineBox308
+    - SpeedLoader45-70
 
 - type: entity
   parent: N14BlueprintBase
@@ -1603,6 +1627,6 @@
   components:
   - type: Blueprint
     recipes:
-    - N14BPTribeAmmoBox50
-    - N14BPTribeAmmoBox45-70
-    - N14BPTribeAmmoMag556Pipe
+    - MagazineBox50
+    - MagazineBox45-70
+    - Magazine556Rifle
