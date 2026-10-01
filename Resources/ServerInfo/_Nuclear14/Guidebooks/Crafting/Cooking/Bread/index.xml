@@ -1,0 +1,218 @@
+<Document>
+# Хлеб и тосты
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Булочка
+Рецепт приготовления:
+- кусок теста
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+</Box>
+
+## Банановый хлеб
+Рецепт приготовления:
+- тесто
+- банан
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDough"/>
+<GuideEntityEmbed Entity="N14FoodBanana"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBanana"/>
+</Box>
+
+## Кукурузный хлеб
+Рецепт приготовления:
+- кукурузное тесто
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughCornmeal"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadCorn"/>
+</Box>
+
+## Хлеб со сливочным сыром
+Рецепт приготовления:
+- тесто
+- ломтик сыра x2
+- молоко брамина 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDough"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14DrinkMilkBrahmin"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadCreamcheese"/>
+</Box>
+
+## Хлеб с мясом
+Рецепт приготовления:
+- тесто
+- сырая рад-котлета x2
+- ломтик сыра x2
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDough"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadCutlet"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadMeat"/>
+</Box>
+
+## Хлеб
+Рецепт приготовления:
+- тесто
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDough"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadPlain"/>
+</Box>
+
+## Рад-ролл
+Рецепт приготовления:
+- тесто
+- филе радтаракана
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDough"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadroachFillet"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadRadroll"/>
+</Box>
+
+## Хлеб со скорпионом
+Рецепт приготовления:
+- тесто
+- лапа радскорпиона x2
+- ломтик сыра x2
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDough"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadscorpionLeg"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadMeatRadscorp"/>
+</Box>
+
+## Хлеб с тофу
+Рецепт приготовления:
+- тесто
+- тофу
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDough"/>
+<GuideEntityEmbed Entity="N14FoodTofu"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadTofu"/>
+</Box>
+
+## Тост с маслом
+Рецепт приготовления:
+- ломтик хлеба
+- сливочное масло
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadPlainSlice"/>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadButteredToast"/>
+</Box>
+
+## Французский тост
+Рецепт приготовления:
+- ломтик хлеба
+- молоко брамина 5u
+- сырое яйцо 12u
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadPlainSlice"/>
+<GuideEntityEmbed Entity="N14DrinkMilkBrahmin"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadFrenchToast"/>
+</Box>
+
+## Ломтик чесночного хлеба
+Рецепт приготовления:
+- ломтик хлеба
+- чеснок
+- сливочное масло
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadPlainSlice"/>
+<GuideEntityEmbed Entity="N14FoodGarlic"/>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadGarlicSlice"/>
+</Box>
+
+## Два ломтика
+Рецепт приготовления:
+- ломтик хлеба x2
+- вино 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadPlainSlice"/>
+<GuideEntityEmbed Entity="DrinkWineBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadTwoSlice"/>
+</Box>
+
+</Document>

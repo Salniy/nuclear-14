@@ -1,0 +1,82 @@
+<Document>
+# Пицца
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Пицца «Маргарита»
+Рецепт приготовления:
+- раскатанное тесто
+- ломтик сыра
+- тато x4
+
+<Box>
+<GuideEntityEmbed Entity="FoodDoughFlat"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 30 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodPizzaMargherita"/>
+</Box>
+
+## Пицца с грибами
+Рецепт приготовления:
+- раскатанное тесто
+- пещерный гриб x5
+
+<Box>
+<GuideEntityEmbed Entity="FoodDoughFlat"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCaveFungus"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 30 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodPizzaMushroom"/>
+</Box>
+
+## Пицца с мясом
+Рецепт приготовления:
+- раскатанное тесто
+- сырое рад-мясо x3
+- ломтик сыра
+- тато
+
+<Box>
+<GuideEntityEmbed Entity="FoodDoughFlat"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadRaw"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 30 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodPizzaMeat"/>
+</Box>
+
+## Овощная пицца
+Рецепт приготовления:
+- раскатанное тесто
+- лук
+- морковь
+- кукуруза
+- тато
+
+<Box>
+<GuideEntityEmbed Entity="FoodDoughFlat"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildOnion"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCarrot"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildMaize"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 30 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodPizzaVegetable"/>
+</Box>
+
+</Document>

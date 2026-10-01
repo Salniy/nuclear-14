@@ -25,3 +25,6 @@ tool-quality-digging-tool-name = Лопата
 
 tool-quality-n14-gun-maintenance-name = Обслуживание оружия
 tool-quality-n14-gun-maintenance-tool-name = Ящик обслуживания
+
+tool-quality-n14-sealing-name = Герметизация
+tool-quality-n14-sealing-tool-name = Изолента или чудоклей

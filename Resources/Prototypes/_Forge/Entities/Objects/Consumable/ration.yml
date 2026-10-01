@@ -1,0 +1,111 @@
+# Forge: ration packaging chain for the kitchen trade machine.
+
+# Base for the C/K tins that can be filled with a cooking reagent and cooked.
+- type: entity
+  abstract: true
+  parent: FoodTinBase
+  id: N14CookableTinBase
+  components:
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 40
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 15
+  - type: RefillableSolution
+    solution: food
+  - type: DrainableSolution
+    solution: food
+  - type: SolutionTransfer
+    canChangeTransferAmount: true
+    maxTransferAmount: 10
+  - type: UserInterface
+    interfaces:
+      enum.TransferAmountUiKey.Key:
+        type: TransferAmountBoundUserInterface
+
+# Cooked MRE can. The sprite is picked at random, contents were cooked in a microwave.
+- type: entity
+  parent: FoodTinBase
+  id: N14FoodTinCooked
+  name: приготовленная консерва
+  description: Разогретая в микроволновке армейская консерва. Пахнет по-настоящему горячей едой.
+  components:
+  - type: Sprite
+    sprite: _Forge/Objects/Consumable/Food/cooked_tins.rsi
+    layers:
+    - state: c_ration_1
+      map: ["base"]
+  - type: RandomSprite
+    available:
+    - base:
+        c_ration_1: ""
+        c_ration_2: ""
+        c_ration_3: ""
+        k_ration: ""
+  - type: Tag
+    tags:
+    - N14CookedTin
+    - Meat
+
+# Opened ration box: used to assemble a packaged ration.
+- type: entity
+  parent: BaseItem
+  id: N14RationBoxOpen
+  name: распакованная коробка из-под рациона
+  description: Пустая армейская коробка из-под рациона. В неё можно уложить готовые консервы и флягу с водой.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Misc/storage.rsi
+    state: c-ration-open
+  - type: Item
+    size: Normal
+  - type: Construction
+    graph: N14RationPackaging
+    node: start
+    defaultTarget: packed
+
+# Flask of boiled water.
+- type: entity
+  parent: FlaskBase
+  id: N14DrinkFlaskBoiled
+  name: фляга с кипячёной водой
+  description: Армейская фляга с прокипячённой и безопасной водой.
+  components:
+  - type: Sprite
+    sprite: Objects/Consumable/Drinks/mreflask.rsi
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 50
+        reagents:
+        - ReagentId: Water
+          Quantity: 50
+  - type: Tag
+    tags:
+    - N14BoiledWaterFlask
+
+# Packaged ration: the turn-in item for the standing kitchen contract.
+- type: entity
+  parent: BaseItem
+  id: N14FoodRationPackaged
+  name: упакованный рацион
+  description: Полностью собранный армейский паёк. Готов к выдаче или обмену.
+  components:
+  - type: Sprite
+    sprite: _Nuclear14/Objects/Misc/storage.rsi
+    state: c-ration
+  - type: Item
+    size: Normal
+  - type: SolutionContainerManager
+    solutions:
+      food:
+        maxVol: 60
+        reagents:
+        - ReagentId: Nutriment
+          Quantity: 40
+  - type: Food
+  - type: Construction
+    graph: N14RationPackaging
+    node: packed

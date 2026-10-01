@@ -1,0 +1,154 @@
+<Document>
+# Закуски и гарниры
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Луковые кольца
+Рецепт приготовления:
+- ломтик красного лука
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodOnionRedSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodOnionRings"/>
+</Box>
+
+## Кубинский карп
+Рецепт приготовления:
+- тесто
+- ломтик сыра x2
+- светоперец
+- рыба x2
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDough"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildGlowpepper"/>
+<GuideEntityEmbed Entity="FoodMeatFish"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealCubancarp"/>
+</Box>
+
+## Сашими
+Рецепт приготовления:
+- рыба x2
+- соль 1u
+
+<Box>
+<GuideEntityEmbed Entity="FoodMeatFish"/>
+<GuideEntityEmbed Entity="N14FoodShakerSalt"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealSashimi"/>
+</Box>
+
+## Печёный картофель с начинкой
+Рецепт приготовления:
+- тато
+- ломтик сыра
+
+<Box>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealPotatoLoaded"/>
+</Box>
+
+## Картофель фри
+Рецепт приготовления:
+- тато
+- соль 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FoodShakerSalt"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealFries"/>
+</Box>
+
+## Фри с сыром
+Рецепт приготовления:
+- тато
+- ломтик сыра
+- соль 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FoodShakerSalt"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealFriesCheesy"/>
+</Box>
+
+## Морковь фри
+Рецепт приготовления:
+- морковь
+- соль 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14FloraProduceWildCarrot"/>
+<GuideEntityEmbed Entity="N14FoodShakerSalt"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealFriesCarrot"/>
+</Box>
+
+## Попкорн
+Рецепт приготовления:
+- кукуруза
+
+<Box>
+<GuideEntityEmbed Entity="N14FloraProduceWildMaize"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 20 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodSnackPopcorn"/>
+</Box>
+
+## Кукуруза в масле
+Рецепт приготовления:
+- кукуруза
+- тарелка
+- сливочное масло
+
+<Box>
+<GuideEntityEmbed Entity="N14FloraProduceWildMaize"/>
+<GuideEntityEmbed Entity="FoodPlate"/>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealCornInButter"/>
+</Box>
+
+</Document>

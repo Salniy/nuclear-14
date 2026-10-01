@@ -1,0 +1,118 @@
+<Document>
+# Пироги, тарты и пельмени
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Пирог с муфтрутом
+Рецепт приготовления:
+- тесто для пирога
+- муфтрут x3
+- жестяная тарелка
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughPie"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildMutfruit"/>
+<GuideEntityEmbed Entity="FoodPlateTin"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodPieMutfruit"/>
+</Box>
+
+## Пахлава
+Рецепт приготовления:
+- тесто для пирога
+- кедровые орехи
+- жестяная тарелка
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughPie"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildPinyonNuts"/>
+<GuideEntityEmbed Entity="FoodPlateTin"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodPieBaklava"/>
+</Box>
+
+## Пирог с ежевикой
+Рецепт приготовления:
+- тесто для пирога
+- ежевика x3
+- жестяная тарелка
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughPie"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildBlackberries"/>
+<GuideEntityEmbed Entity="FoodPlateTin"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodPieBlackberry"/>
+</Box>
+
+## Пирог с мясом
+Рецепт приготовления:
+- тесто для пирога
+- сырое рад-мясо x3
+- жестяная тарелка
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughPie"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadRaw"/>
+<GuideEntityEmbed Entity="FoodPlateTin"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodPieMeat"/>
+</Box>
+
+## Шоколадный тарт «Лава»
+Рецепт приготовления:
+- тесто для пирога
+- шоколадный батончик x3
+- жестяная тарелка
+- сахар 5u
+- молоко 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughPie"/>
+<GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
+<GuideEntityEmbed Entity="FoodPlateTin"/>
+<GuideEntityEmbed Entity="N14ReagentContainerSugar"/>
+<GuideEntityEmbed Entity="DrinkMilkCarton"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTartCoco"/>
+</Box>
+
+## Пельмени
+Рецепт приготовления:
+- кусок теста x3
+- вода 10u
+- сырые животные протеины 6u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughSlice"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadRaw"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedDumplings"/>
+</Box>
+
+</Document>

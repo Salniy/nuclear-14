@@ -1,0 +1,150 @@
+<Document>
+# Торты
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Торт с муфтрутом
+Рецепт приготовления:
+- корж
+- муфтрут x3
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePlain"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildMutfruit"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakeMutfruit"/>
+</Box>
+
+## Морковный торт
+Рецепт приготовления:
+- корж
+- морковь x3
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePlain"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCarrot"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakeCarrot"/>
+</Box>
+
+## Торт с тарберри
+Рецепт приготовления:
+- корж
+- тарберри x3
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePlain"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTarberries"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakeTarberry"/>
+</Box>
+
+## Чизкейк
+Рецепт приготовления:
+- корж
+- ломтик сыра x3
+- сливки 10u
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePlain"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="DrinkCreamCarton"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakeCheese"/>
+</Box>
+
+## Тыквенный торт
+Рецепт приготовления:
+- корж
+- тыква
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePlain"/>
+<GuideEntityEmbed Entity="N14FoodPumpkin"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePumpkin"/>
+</Box>
+
+## Торт
+Рецепт приготовления:
+- тесто для торта
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodCakeBatter"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePlain"/>
+</Box>
+
+## Праздничный торт
+Рецепт приготовления:
+- корж
+- сливки 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePlain"/>
+<GuideEntityEmbed Entity="DrinkCreamCarton"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakeBirthday"/>
+</Box>
+
+## Шоколадный торт
+Рецепт приготовления:
+- корж
+- шоколадный батончик x2
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePlain"/>
+<GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakeChocolate"/>
+</Box>
+
+## Торт с мозгами
+Рецепт приготовления:
+- корж
+- мозг
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakePlain"/>
+<GuideEntityEmbed Entity="OrganHumanBrain"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodCakeBrain"/>
+</Box>
+
+</Document>

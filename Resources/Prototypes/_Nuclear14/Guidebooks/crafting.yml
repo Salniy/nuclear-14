@@ -27,6 +27,21 @@
   name: guide-entry-cooking
   text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking.xml"
   filterEnabled: True
+  children:
+  - N14CookingMeat
+  - N14CookingBurgers
+  - N14CookingBread
+  - N14CookingPizza
+  - N14CookingPasta
+  - N14CookingRice
+  - N14CookingSoups
+  - N14CookingPies
+  - N14CookingCakes
+  - N14CookingSweets
+  - N14CookingSnacks
+  - N14CookingSalads
+  - N14CookingMexican
+  - N14CookingMisc
 
 - type: guideEntry
   id: N14Bartending

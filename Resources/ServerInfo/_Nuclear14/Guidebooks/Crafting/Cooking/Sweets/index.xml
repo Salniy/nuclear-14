@@ -1,0 +1,222 @@
+<Document>
+# Сладкая выпечка и десерты
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Блин
+Рецепт приготовления:
+- экстракт муки раззерна 5u
+- молоко брамина 5u
+- сырое яйцо 6u
+
+<Box>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14DrinkMilkBrahmin"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedPancake"/>
+</Box>
+
+## Блин с тарберри
+Рецепт приготовления:
+- тарберри x2
+- экстракт муки раззерна 5u
+- молоко брамина 5u
+- сырое яйцо 6u
+
+<Box>
+<GuideEntityEmbed Entity="N14FloraProduceWildTarberries"/>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14DrinkMilkBrahmin"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedPancakeBb"/>
+</Box>
+
+## Вафля
+Рецепт приготовления:
+- экстракт муки раззерна 5u
+- молоко брамина 5u
+- сырое яйцо 6u
+- газированная вода 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14DrinkMilkBrahmin"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+<GuideEntityEmbed Entity="DrinkSodaWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedWaffle"/>
+</Box>
+
+## Соевая вафля
+Рецепт приготовления:
+- экстракт муки раззерна 5u
+- соевое молоко 5u
+- сырое яйцо 6u
+- газированная вода 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="DrinkSoyMilkCarton"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+<GuideEntityEmbed Entity="DrinkSodaWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedWaffleSoy"/>
+</Box>
+
+## Печенье
+Рецепт приготовления:
+- сливочное масло
+- шоколадный батончик
+- экстракт муки раззерна 5u
+- сахар 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+<GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14ReagentContainerSugar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedCookie"/>
+</Box>
+
+## Сахарное печенье
+Рецепт приготовления:
+- сливочное масло
+- экстракт муки раззерна 5u
+- сахар 10u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14ReagentContainerSugar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedCookieSugar"/>
+</Box>
+
+## Печенье с изюмом
+Рецепт приготовления:
+- изюм
+- экстракт муки раззерна 5u
+- сахар 5u
+
+<Box>
+<GuideEntityEmbed Entity="FoodSnackRaisins"/>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14ReagentContainerSugar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedCookieRaisin"/>
+</Box>
+
+## Овсяное печенье
+Рецепт приготовления:
+- сливочное масло
+- овёс 5u
+- сахар 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+<GuideEntityEmbed Entity="N14OatBushel"/>
+<GuideEntityEmbed Entity="N14ReagentContainerSugar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedCookieOatmeal"/>
+</Box>
+
+## Блин с шоколадной крошкой
+Рецепт приготовления:
+- шоколадный батончик
+- экстракт муки раззерна 5u
+- молоко брамина 5u
+- сырое яйцо 6u
+
+<Box>
+<GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14DrinkMilkBrahmin"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedPancakeCc"/>
+</Box>
+
+## Брауни
+Рецепт приготовления:
+- сливочное масло x2
+- шоколадный батончик x2
+- куриное яйцо x3
+- экстракт муки раззерна 15u
+- сахар 30u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+<GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14ReagentContainerSugar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 25 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedBrownieBatch"/>
+</Box>
+
+## Брауни с каннабисом
+Рецепт приготовления:
+- масло с каннабисом x2
+- шоколадный батончик x2
+- куриное яйцо x3
+- экстракт муки раззерна 15u
+- сахар 30u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodCannabisButter"/>
+<GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14ReagentContainerSugar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 25 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBakedCannabisBrownieBatch"/>
+</Box>
+
+</Document>

@@ -1,0 +1,61 @@
+<Document>
+# Прочее
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Масло с каннабисом
+Рецепт приготовления:
+- сливочное масло
+- листья конопли x6
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+<GuideEntityEmbed Entity="LeavesCannabis"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodCannabisButter"/>
+</Box>
+
+## Консерва для рациона
+Рецепт приготовления:
+
+Ёмкость с
+- Железо 5u
+- Питательные вещества 10u
+
+или
+
+- Железо 5u
+- Непрожаренные животные протеины 15u
+
+<Box>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodTinCooked"/>
+</Box>
+
+## Кипячённая вода
+Рецепт приготовления:
+
+Ёмкость с
+- железо 10u
+- вода 50u
+
+<Box>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14DrinkFlaskBoiled"/>
+</Box>
+
+</Document>

@@ -1,0 +1,290 @@
+<Document>
+# Бургеры и сэндвичи
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Бургер с аппендиксом
+Рецепт приготовления:
+- булочка
+- аппендикс
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="OrganHumanAppendix"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerAppendix"/>
+</Box>
+
+## Бургер с беконом
+Рецепт приготовления:
+- булочка
+- бекон
+- ломтик сыра x2
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="FoodMeatBacon"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerBacon"/>
+</Box>
+
+## Медве-бургер
+Рецепт приготовления:
+- булочка
+- мясо яо-гая
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodMeatYaoguai"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerBear"/>
+</Box>
+
+## Бургер «Большой кусок»
+Рецепт приготовления:
+- булочка
+- сырое облучённое мясо x2
+- ломтик сыра
+- тошка
+- ломтик красного лука x2
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadRaw"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FoodOnionRedSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerBig"/>
+</Box>
+
+## Бургер с мозгами
+Рецепт приготовления:
+- булочка
+- мозг
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="OrganHumanBrain"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerBrain"/>
+</Box>
+
+## Чизбургер
+Рецепт приготовления:
+- булочка
+- сырое рад-мясо
+- ломтик сыра
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadRaw"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerCheese"/>
+</Box>
+
+## Сэндвич с курицей
+Рецепт приготовления:
+- булочка
+- сырое мясо рад-курицы
+- майонез 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadchicken"/>
+<GuideEntityEmbed Entity="N14ReagentContainerMayo"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerChicken"/>
+</Box>
+
+## Крабовый бургер
+Рецепт приготовления:
+- булочка
+- клешня миларийца x2
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodMeatMirelurkClaw"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerCrab"/>
+</Box>
+
+## Бургер «Филе-о-карп»
+Рецепт приготовления:
+- булочка
+- сырая белая рыба
+- ломтик сыра
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="FoodMeatWhitefishRaw"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerCarp"/>
+</Box>
+
+## Бургер «Пять тревог»
+Рецепт приготовления:
+- булочка
+- сырое рад-мясо
+- светоперец x3
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadRaw"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildGlowpepper"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerFive"/>
+</Box>
+
+## МакГаффин
+Рецепт приготовления:
+- булочка
+- ломтик сыра
+- куриное яйцо x2
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerMcguffin"/>
+</Box>
+
+## Сэндвич с рёбрышками барбекю
+Рецепт приготовления:
+- булочка
+- рёбрышки
+- ломтик красного лука
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14CookedFoodMealRibs"/>
+<GuideEntityEmbed Entity="N14FoodOnionRedSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerMcrib"/>
+</Box>
+
+## Обычный бургер
+Рецепт приготовления:
+- булочка
+- сырое рад-мясо
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadRaw"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerPlain"/>
+</Box>
+
+## Бургер с крысой
+Рецепт приготовления:
+- булочка
+- крысиное мясо
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="FoodMeatRat"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerRat"/>
+</Box>
+
+## Бургер «Супер-кусок»
+Рецепт приготовления:
+- булочка
+- сырое рад-мясо x2
+- ломтик сыра x2
+- тато x2
+- куриное яйцо x2
+- соль 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadRaw"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+<GuideEntityEmbed Entity="N14FoodShakerSalt"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 25 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerSuper"/>
+</Box>
+
+## Бургер с тофу
+Рецепт приготовления:
+- булочка
+- ломтик тофу
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBreadBun"/>
+<GuideEntityEmbed Entity="N14FoodTofuSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodBurgerTofu"/>
+</Box>
+
+</Document>

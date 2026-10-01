@@ -1,0 +1,78 @@
+<Document>
+# Паста и лапша
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Варёные спагетти
+Рецепт приготовления:
+- сливочное масло
+- экстракт муки раззерна 15u
+- сырое яйцо 6u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+<GuideEntityEmbed Entity="N14ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodNoodlesBoiled"/>
+</Box>
+
+## Паста с томатом
+Рецепт приготовления:
+- варёная лапша
+- тато x2
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodNoodlesBoiled"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodNoodles"/>
+</Box>
+
+## Лапша с маслом
+Рецепт приготовления:
+- варёная лапша
+- сливочное масло
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodNoodlesBoiled"/>
+<GuideEntityEmbed Entity="N14FoodButter"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodNoodlesButter"/>
+</Box>
+
+## Чоу-мейн
+Рецепт приготовления:
+- варёная лапша
+- лук
+- морковь
+- кукуруза
+- куриное яйцо
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodNoodlesBoiled"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildOnion"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCarrot"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildMaize"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodNoodlesChowmein"/>
+</Box>
+
+</Document>

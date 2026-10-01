@@ -292,6 +292,9 @@
     - JunkItem
     - Trash
     - DuctTape
+  - type: Tool
+    qualities:
+    - N14Sealing
 
 - type: entity
   parent: N14JunkItemBaseMetal
@@ -558,6 +561,9 @@
           Quantity: 25
   - type: BoneGel
     speed: 0.5
+  - type: Tool
+    qualities:
+    - N14Sealing
 
 
 #MARK: Gun Parts

@@ -1,0 +1,180 @@
+<Document>
+# Мексиканская кухня
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Кесо
+Рецепт приготовления:
+- светоперец
+- ломтик сыра x2
+- чёрный перец 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14FloraProduceWildGlowpepper"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FoodShakerPepper"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealQueso"/>
+</Box>
+
+## Энчилады
+Рецепт приготовления:
+- мясо гекко
+- светоперец x2
+- кукуруза
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatGecko"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildGlowpepper"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildMaize"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 20 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealEnchiladas"/>
+</Box>
+
+## Мягкое тако
+Рецепт приготовления:
+- кусок теста
+- тато
+- ломтик красного лука x2
+- ломтик сыра
+- сырая рад-котлета
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughSlice"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FoodOnionRedSlice"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadCutlet"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealSoftTaco"/>
+</Box>
+
+## Оболочка для тако
+Рецепт приготовления:
+- лепёшка тортилья
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodDoughTortillaFlat"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoShell"/>
+</Box>
+
+## Тако с мясом
+Рецепт приготовления:
+- оболочка для тако
+- сырая рад-котлета
+- ломтик сыра
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoShell"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadCutlet"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoMeat"/>
+</Box>
+
+## Тако с курицей
+Рецепт приготовления:
+- оболочка для тако
+- сырое мясо рад-курицы
+- ломтик сыра
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoShell"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadchicken"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoChicken"/>
+</Box>
+
+## Тако с крысой
+Рецепт приготовления:
+- оболочка для тако
+- ломтик сыра
+- крысиное мясо
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoShell"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="FoodMeatRat"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoRat"/>
+</Box>
+
+## Тако с мясом «Суприм»
+Рецепт приготовления:
+- оболочка для тако
+- ломтик сыра
+- сырая рад-котлета
+- тато
+- капуста
+- ломтик красного лука x2
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoShell"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadCutlet"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCabbage"/>
+<GuideEntityEmbed Entity="N14FoodOnionRedSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoMeatSupreme"/>
+</Box>
+
+## Тако с курицей «Суприм»
+Рецепт приготовления:
+- оболочка для тако
+- ломтик сыра
+- сырое мясо рад-курицы
+- тато
+- капуста
+- ломтик красного лука x2
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoShell"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadchicken"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCabbage"/>
+<GuideEntityEmbed Entity="N14FoodOnionRedSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodTacoChickenSupreme"/>
+</Box>
+
+</Document>

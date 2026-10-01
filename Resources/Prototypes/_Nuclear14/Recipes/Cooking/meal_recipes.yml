@@ -221,15 +221,15 @@
     N14CookedFoodBreadBun: 1
     N14FoodMeatMirelurkClaw: 2 #N14 change. Not like mirelurks are in but it's good to have it set up I guess.
 
-#- type: microwaveMealRecipe
-#  id: N14RecipeCarpBurger
-#  name: fillet-o-carp burger recipe
-#  result: N14CookedFoodBurgerCarp
-#  time: 10
-#  solids:
-#    N14CookedFoodBreadBun: 1
-#    FoodMeatFish: 1 # a mystery for later
-#    N14FoodCheeseSlice: 1
+- type: microwaveMealRecipe
+  id: N14RecipeCarpBurger
+  name: fillet-o-carp burger recipe
+  result: N14CookedFoodBurgerCarp
+  time: 10
+  solids:
+    N14CookedFoodBreadBun: 1
+    FoodMeatWhitefishRaw: 1
+    N14FoodCheeseSlice: 1
 
 - type: microwaveMealRecipe
   id: N14RecipeFiveBurger

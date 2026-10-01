@@ -1,0 +1,134 @@
+<Document>
+# Салаты
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Салат с травами
+Рецепт приготовления:
+- большая миска
+- цветок брока x3
+- муфтрут
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildBrocFlower"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildMutfruit"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSaladHerb"/>
+</Box>
+
+## Коул-слоу
+Рецепт приготовления:
+- большая миска
+- лук
+- капуста
+- соус винегрет 5u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildOnion"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCabbage"/>
+<GuideEntityEmbed Entity="N14FoodCondimentBottleVinegar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSaladColeslaw"/>
+</Box>
+
+## Салат «Цезарь»
+Рецепт приготовления:
+- большая миска
+- ломтик красного лука
+- ломтик хлеба
+- ломтик сыра
+- капуста
+- оливковое масло 5u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FoodOnionRedSlice"/>
+<GuideEntityEmbed Entity="N14CookedFoodBreadPlainSlice"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCabbage"/>
+<GuideEntityEmbed Entity="N14ReagentContainerOliveoil"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSaladCaesar"/>
+</Box>
+
+## Салат кимчи
+Рецепт приготовления:
+- большая миска
+- морковь
+- капуста
+- чеснок
+- уксус 5u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FoodCarrot"/>
+<GuideEntityEmbed Entity="N14FoodCabbage"/>
+<GuideEntityEmbed Entity="N14FoodGarlic"/>
+<GuideEntityEmbed Entity="N14FoodCondimentBottleVinegar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSaladKimchi"/>
+</Box>
+
+## Фруктовый салат
+Рецепт приготовления:
+- большая миска
+- апельсин
+- яблоко
+- виноград
+- ломтик арбуза x2
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FoodOrange"/>
+<GuideEntityEmbed Entity="N14FoodApple"/>
+<GuideEntityEmbed Entity="N14FoodGrape"/>
+<GuideEntityEmbed Entity="N14FoodWatermelonSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSaladFruit"/>
+</Box>
+
+## Салат «Джунгли»
+Рецепт приготовления:
+- большая миска
+- банан
+- яблоко
+- виноград
+- ломтик арбуза x2
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FoodBanana"/>
+<GuideEntityEmbed Entity="N14FoodApple"/>
+<GuideEntityEmbed Entity="N14FoodGrape"/>
+<GuideEntityEmbed Entity="N14FoodWatermelonSlice"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSaladJungle"/>
+</Box>
+
+</Document>

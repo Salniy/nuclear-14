@@ -1,0 +1,30 @@
+# Forge: microwave recipes for the ration packaging chain.
+
+# With radioactive uncooked proteins: preferred when the reagent is added.
+- type: microwaveMealRecipe
+  id: N14RecipeTinCooked1
+  name: приготовленная консерва (радиоактивные протеины)
+  result: N14FoodTinCooked
+  time: 15
+  reagents:
+    Iron: 5
+    N14UncookedAnimalProteinsRad: 15
+
+- type: microwaveMealRecipe
+  id: N14RecipeTinCooked2
+  name: приготовленная консерва (питательный вещества)
+  result: N14FoodTinCooked
+  time: 15
+  reagents:
+    Iron: 5
+    Nutriment: 10
+
+# Flask of boiled water.
+- type: microwaveMealRecipe
+  id: N14RecipeFlaskBoiled
+  name: кипячёная вода во фляге
+  result: N14DrinkFlaskBoiled
+  time: 10
+  reagents:
+    Iron: 15
+    Water: 50

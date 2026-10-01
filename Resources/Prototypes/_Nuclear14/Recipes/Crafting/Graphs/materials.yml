@@ -9,7 +9,18 @@
             - material: N14Paper
               amount: 2
     - node: cardboard
+      edges:
+        - to: rationbox
+          steps:
+            - tool: N14Sealing
+              doAfter: 2
+          completed:
+            - !type:PlaySound
+              sound:
+                path: /Audio/Effects/box_deploy.ogg
       entity: MaterialCardboard1
+    - node: rationbox
+      entity: N14RationBoxOpen
 
 - type: constructionGraph
   id: N14Paper

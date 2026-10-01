@@ -1,0 +1,410 @@
+# Forge: kitchen trade machine (contracts + ingredient shop).
+
+# ----------------------------
+# Профиль и сам торгомат
+# ----------------------------
+- type: ncStoreProfile
+  id: TrademachineKitchenProfile
+  buy:
+  - kitchen_buy
+  contracts: N14KitchenContracts
+  theme: TradeUiThemeWasteland
+
+- type: entity
+  id: TrademachineKitchen
+  parent: Trademachine
+  name: Кухонный торгомат
+  description: Торговый автомат для поваров и добытчиков. Принимает заказы на готовую еду и продаёт кухонные ресурсы.
+  suffix: vendor, Kitchen
+  components:
+  - type: NcStore
+    profile: TrademachineKitchenProfile
+  - type: Sprite
+    sprite: Structures/Machines/VendingMachines/chefvend.rsi
+    layers:
+    - state: off
+      map: ["enum.VendingMachineVisualLayers.Base"]
+    - state: normal-unshaded
+      map: ["enum.VendingMachineVisualLayers.BaseUnshaded"]
+      shader: unshaded
+
+# ----------------------------
+# kitchen_buy (категории продажи)
+# ----------------------------
+- type: storeCategoryStructured
+  id: KitchenBuy_Meat
+  name: "Мясо"
+  entries:
+  - proto: N14FoodMeatRadroachFillet
+    price: 30
+  - proto: N14FoodMeatRadRaw
+    price: 30
+  - proto: N14FoodMeatMutantPlant
+    price: 30
+  - proto: N14FoodMeatPigrat
+    price: 30
+  - proto: N14FoodMeatSquirrel
+    price: 30
+  - proto: N14FoodMeatIguana
+    price: 30
+  - proto: N14FoodMeatRadchicken
+    price: 30
+  - proto: N14FoodMeatBrahmin
+    price: 60
+  - proto: N14FoodMeatGecko
+    price: 60
+  - proto: N14FoodMeatGeckoFire
+    price: 60
+  - proto: N14FoodMeatGeckoGolden
+    price: 60
+  - proto: N14FoodMeatRadscorpionLeg
+    price: 60
+  - proto: N14FoodMeatRadscorpion
+    price: 90
+  - proto: N14FoodMeatYaoguai
+    price: 90
+  - proto: N14FoodMeatBighorner
+    price: 90
+  - proto: N14FoodMeatMirelurkClaw
+    price: 90
+  - proto: N14FoodMeatRadlurkClaw
+    price: 90
+  - proto: N14FoodMeatRadstag
+    price: 90
+  - proto: N14FoodMeatRadhog
+    price: 90
+
+- type: storeCategoryStructured
+  id: KitchenBuy_Egg
+  name: "Яйтса"
+  entries:
+  - proto: N14FoodEggChicken
+    price: 20
+  - proto: ForgeFoodAntEgg
+    price: 30
+  - proto: N14FoodEggGecko
+    price: 40
+  - proto: N14FoodEggNightstalker
+    price: 50
+  - proto: N14FoodEggDeathclaw
+    price: 100
+  - proto: FoodContainerEgg
+    price: 100
+
+- type: storeCategoryStructured
+  id: KitchenBuy_Produce
+  name: "Овощи и фрукты"
+  entries:
+  - proto: N14FloraProduceWildTato
+    price: 25
+  - proto: N14FloraProduceWildMutfruit
+    price: 25
+  - proto: N14FloraProduceWildCabbage
+    price: 25
+  - proto: N14FloraProduceWildCarrot
+    price: 25
+  - proto: N14FloraProduceWildOnion
+    price: 25
+  - proto: N14FloraProduceWildBrocFlower
+    price: 25
+  - proto: N14FloraProduceWildRazorgrain
+    price: 25
+
+- type: storeCategoryStructured
+  id: KitchenBuy_Pantry
+  name: "Припасы"
+  entries:
+  - proto: Flour
+    price: 8
+  - proto: OilOlive
+    price: 8
+
+- type: storeCategoryStructured
+  id: KitchenBuy_Tools
+  name: "Инструменты"
+  entries:
+  - proto: N14JunkWonderglue
+    price: 10
+  - proto: N14JunkDuctTape
+    price: 20
+
+- type: storePresetStructured
+  id: kitchen_buy
+  currency: Caps
+  categories:
+  - KitchenBuy_Egg
+  - KitchenBuy_Meat
+  - KitchenBuy_Produce
+  - KitchenBuy_Pantry
+  - KitchenBuy_Tools
+
+# ----------------------------
+# Контракты
+# ----------------------------
+- type: storeContractsPreset
+  id: N14KitchenContracts
+  skipCost: 0
+  contractOffers:
+    maxVisible: 8
+    groups:
+    - pool: N14KitchenStandingOrders
+      minVisible: 1
+      maxVisible: 1
+      fillWeight: 1
+    - pool: N14KitchenDishOrders
+      minVisible: 4
+      maxVisible: 6
+      fillWeight: 5
+
+- type: ncContractOfferPool
+  id: N14KitchenStandingOrders
+  name: "Постоянные заказы кухни"
+  order: 5
+  color: "#C9A45A"
+  entries:
+  - type: Supply
+    id: N14KitchenSupplyRation
+    weight: 1
+
+- type: ncContractOfferPool
+  id: N14KitchenDishOrders
+  name: "Заказы на блюда"
+  order: 10
+  color: "#6FA65F"
+  entries:
+  - type: Supply
+    id: N14KitchenSupplyBrahminSteak
+    weight: 3
+  - type: Supply
+    id: N14KitchenSupplyRadscorpionMeat
+    weight: 3
+  - type: Supply
+    id: N14KitchenSupplyMirelurkClaw
+    weight: 2
+  - type: Supply
+    id: N14KitchenSupplyStew
+    weight: 3
+  - type: Supply
+    id: N14KitchenSupplyVegetableSoup
+    weight: 3
+  - type: Supply
+    id: N14KitchenSupplyMushroomSoup
+    weight: 3
+  - type: Supply
+    id: N14KitchenSupplyNettleSoup
+    weight: 3
+  - type: Supply
+    id: N14KitchenSupplyCheeseBurger
+    weight: 2
+  - type: Supply
+    id: N14KitchenSupplyMeatPizza
+    weight: 2
+  - type: Supply
+    id: N14KitchenSupplyRiceGumbo
+    weight: 2
+
+# ----------------------------
+# Постоянный контракт: упаковка рациона
+# ----------------------------
+- type: ncSupplyContract
+  id: N14KitchenSupplyRation
+  name: "Упаковка рациона"
+  description: "Кухня собирает армейские пайки. Собери коробку рациона: три приготовленные консервы и фляга кипячёной воды."
+  icon: N14FoodRationPackaged
+  repeatable: true
+  targets:
+  - prototype: N14FoodRationPackaged
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: 100
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyRation
+  name: "Упаковка рациона"
+  description: "Кухня собирает армейские пайки. Собери коробку рациона: три приготовленные консервы и фляга кипячёной воды."
+  icon: N14FoodRationPackaged
+  repeatable: true
+  targets:
+  - prototype: N14FoodRationPackaged
+    count: 3
+  reward:
+  - type: Currency
+    currency: Caps
+    count: 300
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyRation
+  name: "Упаковка рациона"
+  description: "Кухня собирает армейские пайки. Собери коробку рациона: три приготовленные консервы и фляга кипячёной воды."
+  icon: N14FoodRationPackaged
+  repeatable: true
+  targets:
+  - prototype: N14FoodRationPackaged
+    count: 5
+  reward:
+  - type: Currency
+    currency: Caps
+    count: 500
+
+# ----------------------------
+# Временные контракты на блюда
+# ----------------------------
+- type: ncSupplyContract
+  id: N14KitchenSupplyBrahminSteak
+  name: "Жареный стейк брамина"
+  description: "Постояльцы требуют мяса. Принесите жареный стейк брамина, пока котёл не остыл."
+  icon: N14FoodMeatBrahminCooked
+  repeatable: true
+  targets:
+  - prototype: N14FoodMeatBrahminCooked
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 60, max: 100 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyRadscorpionMeat
+  name: "Жареное мясо радскорпиона"
+  description: "Кто-то в поселении считает радскорпионов деликатесом. Кухня готова платить за правильно приготовленное мясо."
+  icon: N14FoodMeatRadscorpionCooked
+  repeatable: true
+  targets:
+  - prototype: N14FoodMeatRadscorpionCooked
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 70, max: 120 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyMirelurkClaw
+  name: "Варёная клешня миларийца"
+  description: "Крепкая клешня после варки — сытный обед. Принесите готовую клешню для кухни."
+  icon: N14FoodMeatMirelurkClawCooked
+  repeatable: true
+  targets:
+  - prototype: N14FoodMeatMirelurkClawCooked
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 90, max: 150 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyStew
+  name: "Тушёное мясо"
+  description: "Горячее тушёное мясо разбирают быстрее всего. Сварите порцию для столовой."
+  icon: N14CookedFoodSoupStew
+  repeatable: true
+  targets:
+  - prototype: N14CookedFoodSoupStew
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 60, max: 100 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyVegetableSoup
+  name: "Овощной суп"
+  description: "Лёгкий суп из овощей — редкость в пустоши. Принесите порцию для тех, кому надоело мясо."
+  icon: N14CookedFoodSoupVegetable
+  repeatable: true
+  targets:
+  - prototype: N14CookedFoodSoupVegetable
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 50, max: 90 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyMushroomSoup
+  name: "Грибной суп"
+  description: "Ароматный грибной суп согревает лучше костра. Кухня просит свежую порцию."
+  icon: N14CookedFoodSoupMushroom
+  repeatable: true
+  targets:
+  - prototype: N14CookedFoodSoupMushroom
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 55, max: 95 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyNettleSoup
+  name: "Суп из крапивы"
+  description: "Простой суп из крапивы кормит бедняков. Принесите порцию для раздачи у ворот."
+  icon: N14CookedFoodSoupNettle
+  repeatable: true
+  targets:
+  - prototype: N14CookedFoodSoupNettle
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 40, max: 70 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyCheeseBurger
+  name: "Чизбургер"
+  description: "Довоенный фастфуд всё ещё в цене. Соберите чизбургер для голодного караванщика."
+  icon: N14CookedFoodBurgerCheese
+  repeatable: true
+  targets:
+  - prototype: N14CookedFoodBurgerCheese
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 70, max: 120 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyMeatPizza
+  name: "Пицца с мясом"
+  description: "Пицца — праздник в пустоши. Кухня готова заплатить за мясную пиццу."
+  icon: N14CookedFoodPizzaMeat
+  repeatable: true
+  targets:
+  - prototype: N14CookedFoodPizzaMeat
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 90, max: 150 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyRiceGumbo
+  name: "Рисовый гамбо"
+  description: "Сытное рагу из риса и мяса. Принесите порцию для общей кухни."
+  icon: N14CookedFoodRiceGumbo
+  repeatable: true
+  targets:
+  - prototype: N14CookedFoodRiceGumbo
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 65, max: 110 }
+
+- type: ncSupplyContract
+  id: N14KitchenSupplyRiceGumbo
+  name: "Рисовый гамбо"
+  description: "Довоенное комбо одному старому гулю. Принесите блюда."
+  icon: N14CookedFoodRiceGumbo
+  repeatable: true
+  targets:
+  - prototype: N14CookedFoodBurgerCheese
+    count: 1
+  - prototype: N14CookedFoodMealFries
+    count: 1
+  - prototype: N14DrinkNukaCola
+    count: 1
+  reward:
+  - type: Currency
+    currency: Caps
+    count: { min: 265, max: 510 }

@@ -1,0 +1,69 @@
+- type: guideEntry
+  id: N14CookingMeat
+  name: guide-entry-cooking-meat
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Meat/index.xml"
+
+- type: guideEntry
+  id: N14CookingBurgers
+  name: guide-entry-cooking-burgers
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Burgers/index.xml"
+
+- type: guideEntry
+  id: N14CookingBread
+  name: guide-entry-cooking-bread
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Bread/index.xml"
+
+- type: guideEntry
+  id: N14CookingPizza
+  name: guide-entry-cooking-pizza
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Pizza/index.xml"
+
+- type: guideEntry
+  id: N14CookingPasta
+  name: guide-entry-cooking-pasta
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Pasta/index.xml"
+
+- type: guideEntry
+  id: N14CookingRice
+  name: guide-entry-cooking-rice
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Rice/index.xml"
+
+- type: guideEntry
+  id: N14CookingSoups
+  name: guide-entry-cooking-soups
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Soups/index.xml"
+
+- type: guideEntry
+  id: N14CookingPies
+  name: guide-entry-cooking-pies
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Pies/index.xml"
+
+- type: guideEntry
+  id: N14CookingCakes
+  name: guide-entry-cooking-cakes
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Cakes/index.xml"
+
+- type: guideEntry
+  id: N14CookingSweets
+  name: guide-entry-cooking-sweets
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Sweets/index.xml"
+
+- type: guideEntry
+  id: N14CookingSnacks
+  name: guide-entry-cooking-snacks
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Snacks/index.xml"
+
+- type: guideEntry
+  id: N14CookingSalads
+  name: guide-entry-cooking-salads
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Salads/index.xml"
+
+- type: guideEntry
+  id: N14CookingMexican
+  name: guide-entry-cooking-mexican
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Mexican/index.xml"
+
+- type: guideEntry
+  id: N14CookingMisc
+  name: guide-entry-cooking-misc
+  text: "/ServerInfo/_Nuclear14/Guidebooks/Crafting/Cooking/Misc/index.xml"

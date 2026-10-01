@@ -1,6 +1,71 @@
 <Document>
 # Готовка
+Человеку нужно есть, и работа повара — следить, чтобы у людей было чем перекусить, кроме всякого мусора.
 
-Заглушка
+В первую очередь вам нужно освоиться на кухне и изучить доступные инструменты.
 
+<Box>
+<GuideEntityEmbed Entity="KitchenKnife"/>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="FoodContainerEgg" Caption="Упаковка яиц"/>
+<GuideEntityEmbed Entity="N14MobBrahmin"/>
+</Box>
+<Box>
+<GuideEntityEmbed Entity="TrademachineKitchen" Caption="Автомат повара"/>
+<GuideEntityEmbed Entity="KitchenMicrowave"/>
+<GuideEntityEmbed Entity="KitchenSpike"/>
+<GuideEntityEmbed Entity="N14CookingStove"/>
+</Box>
+
+## Подготовка на кухне:
+
+Сложно описать словами, как играть за повара, не превращая это в список приказов, но вот основы.
+
+- Проверьте, какие ингредиенты у вас есть. На большинстве кухонь найдётся мука, рис, яйца, мясо и ещё кое-что для начала.
+- Попробуйте замесить тесто: смешайте чистую воду и муку в мензурке. (Пользуйтесь раковинами!)
+- Загляните в руководство раскройте вкладку "Готовка", чтобы узнать, что можно приготовить, и положите все указанные ингредиенты в микроволновку, чтобы получить блюдо.
+
+Когда вы немного освоитесь и узнаете, что умеете готовить, будет полезно составить меню или шпаргалку, чтобы давать список ингредиентов фермерам.
+
+## Замес теста:
+Смешайте муку и воду в мензурке. (Воду используйте только чистую!)
+<Box>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull" Caption="вода"/>
+<GuideEntityEmbed Entity="FoodDough"/>
+</Box>
+## Изготовление муки:
+Положите бритвозак в ступку (предварительно вставив внутрь мензурку) и перемалывайте!
+<Box>
+<GuideEntityEmbed Entity="N14MortarpestleGrinder"/>
+<GuideEntityEmbed Entity="LargeBeaker"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildRazorgrain"/>
+<GuideEntityEmbed Entity="ReagentContainerFlour"/>
+</Box>
+## Добыча растений:
+Просите нужные растения у фермеров; если фермера нет, возможно, придётся выращивать их самостоятельно.
+<Box>
+<GuideEntityEmbed Entity="N14MobHumanFarmer" Caption="Фермер"/>
+<GuideEntityEmbed Entity="N14HydroponicsPlanter"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildRazorgrain"/>
+</Box>
+## Добыча молока:
+Зажмите Alt и кликните по брамина, держа в руке ёмкость. (Мензурки, ведра, бидоны с молоком и т.п.)
+<Box>
+<GuideEntityEmbed Entity="Bucket"/>
+<GuideEntityEmbed Entity="N14MobBrahmin"/>
+<GuideEntityEmbed Entity="N14DrinkMilkBrahmin"/>
+</Box>
+## Как разделывать туши:
+В большинстве случаев ножом можно воспользоваться прямо на мёртвом существе. Лучше делать это в морозильнике, так как результат... грязный.
+
+Людей же нужно перетащить на мясной крюк, а потом разделать весящее тело с помощью ножа. (Гибать игроков плохо!)
+<Box>
+<GuideEntityEmbed Entity="KitchenSpike"/>
+<GuideEntityEmbed Entity="KitchenKnife"/>
+<GuideEntityEmbed Entity="N14MobHumanFarmer" Caption="Погоди, стой"/>
+<GuideEntityEmbed Entity="FoodMeatHuman" Caption="ААААААААААААААААААААА"/>
+</Box>
 </Document>

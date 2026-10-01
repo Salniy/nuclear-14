@@ -1,0 +1,250 @@
+<Document>
+# Мясо и стейки
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Облучённое мясо
+Рецепт приготовления:
+- сырое рад-мясо
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadRaw"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatCooked"/>
+</Box>
+
+## Стейк из брамина
+Рецепт приготовления:
+- мясо брамина
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatBrahmin"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatBrahminCooked"/>
+</Box>
+
+## Котлета из брамина
+Рецепт приготовления:
+- котлета из брамина
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatBrahminCutlet"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatBrahminCutletCooked"/>
+</Box>
+
+## Стейк из бигорнера
+Рецепт приготовления:
+- мясо бигорнера
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatBighorner"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatBighornerCooked"/>
+</Box>
+
+## Котлета из бигорнера
+Рецепт приготовления:
+- котлета из бигорнера
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatBighornerCutlet"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatBighornerCutletCooked"/>
+</Box>
+
+## Стейк из радстага
+Рецепт приготовления:
+- мясо радстага
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadstag"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadstagCooked"/>
+</Box>
+
+## Котлета из радстага
+Рецепт приготовления:
+- котлета из радстага
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadstagCutlet"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadstagCutletCooked"/>
+</Box>
+
+## Стейк из гекко
+Рецепт приготовления:
+- мясо гекко
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatGecko"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatGeckoCooked"/>
+</Box>
+
+## Стейк из яо-гая
+Рецепт приготовления:
+- мясо яо-гая
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatYaoguai"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatYaoguaiCooked"/>
+</Box>
+
+## Котлета из яо-гая
+Рецепт приготовления:
+- котлета из яо-гая
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatYaoguaiCutlet"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatYaoguaiCutletCooked"/>
+</Box>
+
+## Стейк из радскорпиона
+Рецепт приготовления:
+- мясо радскорпиона
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadscorpion"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadscorpionCooked"/>
+</Box>
+
+## Котлета из радскорпиона
+Рецепт приготовления:
+- котлета из радскорпиона
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadscorpionCutlet"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 5 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadscorpionCutletCooked"/>
+</Box>
+
+## Варёная лапа радскорпиона
+Рецепт приготовления:
+- лапа радскорпиона
+- вода 15u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadscorpionLeg"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 20 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadscorpionLegBoiled"/>
+</Box>
+
+## Клешня миларийца
+Рецепт приготовления:
+- клешня миларийца
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatMirelurkClaw"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatMirelurkClawCooked"/>
+</Box>
+
+## Клешня радларка
+Рецепт приготовления:
+- клешня радларка
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadlurkClaw"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadlurkClawCooked"/>
+</Box>
+
+## Филе радтаракана
+Рецепт приготовления:
+- филе радтаракана
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadroachFillet"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatRadroachFilletCooked"/>
+</Box>
+
+## Рёбрышки барбекю
+Рецепт приготовления:
+- мясо бигорнера x2
+- шампур
+- соус барбекю 5u
+
+<Box>
+<GuideEntityEmbed Entity="N14FoodMeatBighorner"/>
+<GuideEntityEmbed Entity="FoodKebabSkewer"/>
+<GuideEntityEmbed Entity="N14FoodCondimentPacketBbq"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodMealRibs"/>
+</Box>
+
+</Document>

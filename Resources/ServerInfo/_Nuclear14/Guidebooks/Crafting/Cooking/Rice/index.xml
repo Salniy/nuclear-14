@@ -1,0 +1,114 @@
+<Document>
+# Рис и каши
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Овсянка
+Рецепт приготовления:
+- большая миска
+- овёс 15u
+- вода 10u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14OatBushel"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodOatmeal"/>
+</Box>
+
+## Варёный рис
+Рецепт приготовления:
+- большая миска
+- рис 15u
+- вода 10u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14ReagentContainerRice"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodRiceBoiled"/>
+</Box>
+
+## Рисовый пудинг
+Рецепт приготовления:
+- большая миска
+- рис 15u
+- молоко брамина 10u
+- сахар 5u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14ReagentContainerRice"/>
+<GuideEntityEmbed Entity="N14DrinkMilkBrahmin"/>
+<GuideEntityEmbed Entity="N14ReagentContainerSugar"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodRicePudding"/>
+</Box>
+
+## Рис с дорожной добычей
+Рецепт приготовления:
+- варёный рис
+- сырая рад-котлета x3
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodRiceBoiled"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadCutlet"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodRiceRoadkill"/>
+</Box>
+
+## Гамбо «Чёрный глаз»
+Рецепт приготовления:
+- варёный рис
+- сырая рад-котлета x3
+- светоперец x2
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodRiceBoiled"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadCutlet"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildGlowpepper"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodRiceGumbo"/>
+</Box>
+
+## Рис с яйцом
+Рецепт приготовления:
+- варёный рис
+- куриное яйцо
+- морковь
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodRiceBoiled"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCarrot"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 15 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodRiceEgg"/>
+</Box>
+
+</Document>

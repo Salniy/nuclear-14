@@ -1,0 +1,26 @@
+- type: constructionGraph
+  id: N14RationPackaging
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: packed
+          steps:
+            - tag: N14CookedTin
+              name: приготовленная консерва
+              icon: { sprite: _Forge/Objects/Consumable/Food/cooked_tins.rsi, state: c_ration_1 }
+              doAfter: 1
+            - tag: N14CookedTin
+              name: приготовленная консерва
+              icon: { sprite: _Forge/Objects/Consumable/Food/cooked_tins.rsi, state: c_ration_1 }
+              doAfter: 1
+            - tag: N14CookedTin
+              name: приготовленная консерва
+              icon: { sprite: _Forge/Objects/Consumable/Food/cooked_tins.rsi, state: c_ration_1 }
+              doAfter: 1
+            - tag: N14BoiledWaterFlask
+              name: фляга с кипячёной водой
+              icon: { sprite: Objects/Consumable/Drinks/mreflask.rsi, state: icon }
+              doAfter: 1
+    - node: packed
+      entity: N14FoodRationPackaged

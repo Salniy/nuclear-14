@@ -4,3 +4,10 @@
   toolName: tool-quality-n14-gun-maintenance-tool-name
   spawn: N14ToolboxWeaponMaintenance
   icon: { sprite: Objects/Tools/Toolboxes/toolbox_blue.rsi, state: icon }
+
+- type: tool
+  id: N14Sealing
+  name: tool-quality-n14-sealing-name
+  toolName: tool-quality-n14-sealing-tool-name
+  spawn: N14JunkDuctTape
+  icon: { sprite: _Nuclear14/Objects/Misc/crafting_junk.rsi, state: duct_tape }

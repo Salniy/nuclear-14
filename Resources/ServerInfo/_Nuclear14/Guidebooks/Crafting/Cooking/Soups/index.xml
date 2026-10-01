@@ -1,0 +1,214 @@
+<Document>
+# Супы и похлёбки
+
+Список ингредиентов с количеством: u — юниты реагента, x — количество предметов. Ниже показан их вид, справа — готовое блюдо.
+
+## Суп из крапивы
+Рецепт приготовления:
+- большая миска
+- крапива
+- тато
+- вода 10u
+- сырое яйцо 6u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14Nettle"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+<GuideEntityEmbed Entity="N14FoodEggChicken"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupNettle"/>
+</Box>
+
+## Суп с глазными яблоками
+Рецепт приготовления:
+- большая миска
+- глаза
+- морковь
+- тато
+- вода 10u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="OrganHumanEyes"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCarrot"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupEyeball"/>
+</Box>
+
+## Луковый суп
+Рецепт приготовления:
+- большая миска
+- ломтик красного лука x5
+- ломтик сыра
+- вода 10u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FoodOnionRedSlice"/>
+<GuideEntityEmbed Entity="N14FoodCheeseSlice"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupOnion"/>
+</Box>
+
+## Грибной суп
+Рецепт приготовления:
+- большая миска
+- пещерный гриб x2
+- вода 5u
+- молоко брамина 5u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCaveFungus"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+<GuideEntityEmbed Entity="N14DrinkMilkBrahmin"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupMushroom"/>
+</Box>
+
+## Тушёное мясо
+Рецепт приготовления:
+- большая миска
+- сырая рад-котлета x3
+- тато
+- лук
+- пещерный гриб
+- вода 10u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadCutlet"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildOnion"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCaveFungus"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupStew"/>
+</Box>
+
+## Суп из тато
+Рецепт приготовления:
+- большая миска
+- тато x2
+- вода 10u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupTato"/>
+</Box>
+
+## Суп из кровавого тато
+Рецепт приготовления:
+- большая миска
+- тато x2
+- кровь 50u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="Bloodpack"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupBloodtato"/>
+</Box>
+
+## Суп из мутанта
+Рецепт приготовления:
+- большая миска
+- лапа радскорпиона x2
+- соевый соус 5u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadscorpionLeg"/>
+<GuideEntityEmbed Entity="N14FoodCondimentPacketSoy"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupMutie"/>
+</Box>
+
+## Овощной суп
+Рецепт приготовления:
+- большая миска
+- кукуруза
+- морковь
+- тато
+- лук
+- вода 5u
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildMaize"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildCarrot"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildOnion"/>
+<GuideEntityEmbed Entity="DrinkWaterBottleFull"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 10 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupVegetable"/>
+</Box>
+
+## Острый чили
+Рецепт приготовления:
+- большая миска
+- светоперец
+- сырая рад-котлета
+- ломтик красного лука
+- тато
+
+<Box>
+<GuideEntityEmbed Entity="FoodBowlBig"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildGlowpepper"/>
+<GuideEntityEmbed Entity="N14FoodMeatRadCutlet"/>
+<GuideEntityEmbed Entity="N14FoodOnionRedSlice"/>
+<GuideEntityEmbed Entity="N14FloraProduceWildTato"/>
+</Box>
+
+Ингредиенты положите в микроволновку на 20 секунд.
+
+<Box>
+<GuideEntityEmbed Entity="N14CookedFoodSoupChiliHot"/>
+</Box>
+
+</Document>
